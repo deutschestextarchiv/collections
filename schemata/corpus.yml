@@ -21,10 +21,10 @@
           type: string
     genre:
       type: array
-      description: xxx
+      description: Text genre based on DWDS classification. 
       items:
         type: object
-        description: xxx
+        description: DWDS-main (obligatory) and DWDS-sub (optional). 
         properties:
           main:
             type: string
@@ -33,58 +33,55 @@
             type: string
       properties:
         main:
-          description: xxx
+          description: Main-genre. 
           type: string
         sub:
-          description: xxx
+          description: Sub-genre. 
           type: string
     description:
       type: string
-      description: xxx
+      description: Corpus description. 
     format:
       type: object
-      description: xxx
+      description: Format and derivates for data and metadata. 
       properties:
         data:
-          description: xxx
+          description: Data format and derivates. 
           type: array
           items:
             type: string
             enum: [ TEI/DTABf, TCF ]
         metadata:
-          description: xxx
+          description: Metadata format and derivates.
           type: array
           items:
             type: string
             enum: [ CMDI, DC, TEI/DTABf ]
-        schema:
-          description: xxx
-          type: string
-          format: uri
     keywords:
       type: array
-      description: Keywords describing the collection
-    links:
+      description: Keywords describing the collection.
+    urls:
       type: object
       properties:
-        LandingPage:
-          description: xxx
+        landingPage:
+          description: Corpus landing-page within DWDS-infrastructure. 
           type: string
           format: uri
-        SearchPage:
-          description: xxx
+        searchPage:
+          description: Corpus search-page.
           type: string
           format: uri
-        Repository:
-          description: xxx
+        repository:
+          description: Github-repository of corpus data. 
           type: string
           format: uri
-        Text+:
-          description: xxx
+        text+:
+          description: URL of text+ user-story. 
           type: string
+          format: uri
     size: # xxx ungünstig, weil das eigentlich berechnet werden kann/muss
       type: object
-      description: xxx
+      description: Corpus size. 
       properties:
         objects:
           description: Number of objects.
@@ -97,116 +94,101 @@
           type: integer
     association:
       type: object
-      description: xxx
+      description: Organizational and infrastructural information. 
       properties:
         organization:
-          description: xxx
+          description: Information about the organization.  
           type: object
           additionalProperties: false
           properties:
             name:
-              description: xxx
+              description: Name of organization.
               type: string
             url:
-              description: xxx
+              description: URL of organization.
               type: string
               format: uri
         infrastructure:
-          description: xxx
+          description: Information about the infrastructure.
           type: object
           additionalProperties: false
           properties:
             name:
-              description: xxx
+              description: Name of infrastructure. 
               type: string
             url:
-              description: xxx
+              description: URL of infrastructure.
               type: string
               format: uri
-        metacorpus:
-          description: xxx
-          type: string # sollte der dstar-Korpusname sein?
     licence:
       type: object
-      description: xxx
+      description: Corpus licence.
       additionalProperties: false
       properties:
         name:
-          description: xxx
+          description: Name of licence. 
           type: string
         url:
-          description: xxx
+          description: URL of licence. 
           type: string
           format: uri
     project:
       type: object
-      description: xxx
+      description: Project information. 
       properties:
         funding:
-          description: xxx
+          description: Project funding. 
           type: object
           additionalProperties: false
           properties:
             name:
-              description: xxx
+              description: Name of funder. 
               type: string
             url:
-              description: xxx
+              description: URL of funder. 
               type: string
               format: uri
             start:
-              description: xxx
+              description: Funding-start. 
               type: [ integer, "null" ]
             end:
-              description: xxx
+              description: Funding-end. 
               type: [ integer, "null" ]
-        cname:
-          description: xxx
-          type: string
-        cemail:
-          description: xxx
-          type: string
-          format: email
-        creationstart:
-          description: xxx
-          type: [ integer, "null" ]
-        creationend:
-          description: xxx
-          type: [ integer, "null" ]
+        authors:
+          type: object 
+          description: Corpus author(s). 
+          additionalProperties: false
+          properties:
+              name:
+                  description: Author name. 
+                  type: string
+              email:
+                  description: Author email. 
+                  type: string
+                  format: email
     timecoverage:
-      description: xxx
+      description: Time period covered by corpus data. 
       type: object
       additionalProperties: false
       properties:
         start:
-          description: xxx
+          description: Oldest publication date. 
           type: integer
         end:
-          description: xxx
+          description: Newest publication date. 
           type: integer
     languages:
-      description: xxx
+      description: Languages within corpus data. 
       type: array
       items:
         type: string
     facsimile:
-      description: xxx
+      description: Facsimiles available (true/false). 
       type: boolean
     transcription:
-      description: xxx
+      description: Transcription rules. 
       type: string
     annotationlevel:
-      description: xxx
+      description: Level of annotation 
       type: string
-    urls:
-      description: xxx
-      type: object
-      properties:
-        repository:
-          description: xxx
-          type: string
-          format: uri
-        text+:
-          description: xxx
-          type: string
-          format: uri
+
