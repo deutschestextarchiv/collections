@@ -20,9 +20,17 @@
           description: Name of dstar corpus instance.
           type: string
     genre:
-      type: object
+      type: array
       description: xxx
-      additionalProperties: false
+      items:
+        type: object
+        description: xxx
+        properties:
+          main:
+            type: string
+            enum: [ Belletristik, Gebrauchsliteratur, Wissenschaft, Zeitung ]
+          sub:
+            type: string
       properties:
         main:
           description: xxx
@@ -31,15 +39,8 @@
           description: xxx
           type: string
     description:
-      type: object
+      type: string
       description: xxx
-      properties:
-        deu:
-          description: xxx
-          type: string
-        eng:
-          description: xxx
-          type: string
     format:
       type: object
       description: xxx
@@ -49,18 +50,13 @@
           type: array
           items:
             type: string
-            enum:
-              - TEI/DTABf
-              - TCF
+            enum: [ TEI/DTABf, TCF ]
         metadata:
           description: xxx
           type: array
           items:
             type: string
-            enum:
-              - CMDI
-              - DC
-              - TEI/DTABf
+            enum: [ CMDI, DC, TEI/DTABf ]
         schema:
           description: xxx
           type: string
@@ -103,25 +99,67 @@
       type: object
       description: xxx
       properties:
-        funding:
-          description: xxx
-          type: string # besser "type: object" mit name: und url:
         organization:
           description: xxx
-          type: string # besser "type: object" mit name: und url:
+          type: object
+          additionalProperties: false
+          properties:
+            name:
+              description: xxx
+              type: string
+            url:
+              description: xxx
+              type: string
+              format: uri
         infrastructure:
           description: xxx
-          type: string # besser "type: object" mit name: und url:
+          type: object
+          additionalProperties: false
+          properties:
+            name:
+              description: xxx
+              type: string
+            url:
+              description: xxx
+              type: string
+              format: uri
         metacorpus:
           description: xxx
           type: string # sollte der dstar-Korpusname sein?
     licence:
-      type: string # "object" wäre hier besser, mit name: und url:
+      type: object
       description: xxx
+      additionalProperties: false
+      properties:
+        name:
+          description: xxx
+          type: string
+        url:
+          description: xxx
+          type: string
+          format: uri
     project:
       type: object
       description: xxx
       properties:
+        funding:
+          description: xxx
+          type: object
+          additionalProperties: false
+          properties:
+            name:
+              description: xxx
+              type: string
+            url:
+              description: xxx
+              type: string
+              format: uri
+            start:
+              description: xxx
+              type: [ integer, "null" ]
+            end:
+              description: xxx
+              type: [ integer, "null" ]
         cname:
           description: xxx
           type: string
@@ -131,20 +169,26 @@
           format: email
         creationstart:
           description: xxx
-          type:
-            - integer
-            - "null"
+          type: [ integer, "null" ]
         creationend:
           description: xxx
-          type:
-            - integer
-            - "null"
+          type: [ integer, "null" ]
     timecoverage:
       description: xxx
-      type: string # xxx hier wäre ein object mit from: und to: evtl. besser?
-    language: # besser "languages" und dann "type: array"? die sollten dann wieder ISO 639-3-codes sein
+      type: object
+      additionalProperties: false
+      properties:
+        start:
+          description: xxx
+          type: integer
+        end:
+          description: xxx
+          type: integer
+    languages:
       description: xxx
-      type: string
+      type: array
+      items:
+        type: string
     facsimile:
       description: xxx
       type: boolean
@@ -154,3 +198,15 @@
     annotationlevel:
       description: xxx
       type: string
+    urls:
+      description: xxx
+      type: object
+      properties:
+        repository:
+          description: xxx
+          type: string
+          format: uri
+        text+:
+          description: xxx
+          type: string
+          format: uri
