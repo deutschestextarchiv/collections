@@ -1,0 +1,112 @@
+---
+  $schema: http://json-schema.org/draft-07/schema#
+  title: "Text+ collections registry-description "
+  description: Registry description for Text+ collections.
+  type: object
+  additionalProperties: false
+  properties:
+    collection:
+      description: Collection title.
+      type: object
+      additionalProperties: false
+      properties:
+        fullname:
+          description: Collection full-title.
+          type: string
+        shortname:
+          description: Collection short-title.
+          type: string
+    genre:
+      type: array
+      description: Text genre based on some classification.
+      items:
+        type: object
+        description: DWDS-main (obligatory) and DWDS-sub (optional).
+        properties:
+          main:
+            type: string
+            enum: [ Belletristik, Gebrauchsliteratur, Wissenschaft, Zeitung ]
+          sub:
+            type: string
+      properties:
+        main:
+          description: Main-genre.
+          type: string
+        sub:
+          description: Sub-genre.
+          type: string
+    size:
+      type: object
+      description: Corpus size.
+      properties:
+        objects:
+          description: Number of objects.
+          type: integer
+        tokens:
+          description: Number of tokens.
+          type: integer
+    availability:
+      type: object
+      description: Corpus licence.
+      additionalProperties: false
+      properties:
+        name:
+          description: Name of licence.
+          type: string
+        url:
+          description: URL of licence.
+          type: string
+          format: uri
+    timeCoverage:
+      description: Time period covered by corpus data.
+      type: object
+      additionalProperties: false
+      properties:
+        start:
+          description: Oldest publication date.
+          type: integer
+        end:
+          description: Newest publication date.
+          type: integer
+    languages:
+      description: Languages within collection data.
+      type: array
+      additionalProperties: false
+      properties:
+          full:
+            description: Languages.
+            type: string
+          iso:
+            description: Languages as ISO value.
+            type: string
+    transcription:
+      description: Transcription rules.
+      type: string
+    institution:
+      description: Institution titles.
+      type: object
+      additionalProperties: false
+      properties:
+        fullname:
+          description: Institution full-title (English).
+          type: string
+        shortname:
+          description: Institution short-title.
+          type: string
+    format:
+      description: Languages within collection data.
+      type: array
+      additionalProperties: false
+      properties:
+          data:
+            description: Data.
+            type: string
+          metadata:
+            description: Metadata.
+            type: string
+          mimetype:
+            description: MIME type.
+            type: string
+    modality:
+      description: Modality.
+      type: string
