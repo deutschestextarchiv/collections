@@ -20,33 +20,37 @@
           description: Name of dstar corpus instance.
           type: string
     genre:
-      type: array
-      description: Text genre based on DWDS classification. 
+      type: [ array, "null" ]
+      description: Text genre based on DWDS classification.
       items:
         type: object
-        description: DWDS-main (obligatory) and DWDS-sub (optional). 
+        description: DWDS-main (obligatory) and DWDS-sub (optional).
         properties:
           main:
-            type: string
-            enum: [ Belletristik, Gebrauchsliteratur, Wissenschaft, Zeitung ]
+            anyOf:
+              -
+                type: [ string ]
+                enum: [ Belletristik, Gebrauchsliteratur, Wissenschaft, Zeitung ]
+              -
+                type: "null"
           sub:
-            type: string
+            type: [ string, "null" ]
       properties:
         main:
-          description: Main-genre. 
+          description: Main-genre.
           type: string
         sub:
-          description: Sub-genre. 
+          description: Sub-genre.
           type: string
     description:
       type: string
-      description: Corpus description. 
+      description: Corpus description.
     format:
       type: object
-      description: Format and derivates for data and metadata. 
+      description: Format and derivates for data and metadata.
       properties:
         data:
-          description: Data format and derivates. 
+          description: Data format and derivates.
           type: array
           items:
             type: string
@@ -64,24 +68,24 @@
       type: object
       properties:
         landingPage:
-          description: Corpus landing-page within DWDS-infrastructure. 
-          type: string
+          description: Corpus landing-page within DWDS-infrastructure.
+          type: [ string, "null" ]
           format: uri
         searchPage:
           description: Corpus search-page.
-          type: string
+          type: [ string, "null" ]
           format: uri
         repository:
-          description: Github-repository of corpus data. 
-          type: string
+          description: Github-repository of corpus data.
+          type: [ string, "null" ]
           format: uri
         text+:
-          description: URL of text+ user-story. 
-          type: string
+          description: URL of text+ user-story.
+          type: [ string, "null" ]
           format: uri
     size: # xxx ungünstig, weil das eigentlich berechnet werden kann/muss
       type: object
-      description: Corpus size. 
+      description: Corpus size.
       properties:
         objects:
           description: Number of objects.
@@ -94,10 +98,10 @@
           type: integer
     association:
       type: object
-      description: Organizational and infrastructural information. 
+      description: Organizational and infrastructural information.
       properties:
         organization:
-          description: Information about the organization.  
+          description: Information about the organization.
           type: object
           additionalProperties: false
           properties:
@@ -114,7 +118,7 @@
           additionalProperties: false
           properties:
             name:
-              description: Name of infrastructure. 
+              description: Name of infrastructure.
               type: string
             url:
               description: URL of infrastructure.
@@ -126,69 +130,68 @@
       additionalProperties: false
       properties:
         name:
-          description: Name of licence. 
+          description: Name of licence.
           type: string
         url:
-          description: URL of licence. 
+          description: URL of licence.
           type: string
           format: uri
     project:
       type: object
-      description: Project information. 
+      description: Project information.
       properties:
         funding:
-          description: Project funding. 
+          description: Project funding.
           type: object
           additionalProperties: false
           properties:
             name:
-              description: Name of funder. 
+              description: Name of funder.
               type: string
             url:
-              description: URL of funder. 
+              description: URL of funder.
               type: string
               format: uri
             start:
-              description: Funding-start. 
+              description: Funding-start.
               type: [ integer, "null" ]
             end:
-              description: Funding-end. 
+              description: Funding-end.
               type: [ integer, "null" ]
         authors:
-          type: object 
-          description: Corpus author(s). 
+          type: array
+          description: Corpus author(s).
           additionalProperties: false
           properties:
               name:
-                  description: Author name. 
+                  description: Author name.
                   type: string
               email:
-                  description: Author email. 
+                  description: Author email.
                   type: string
                   format: email
-    timecoverage:
-      description: Time period covered by corpus data. 
+    timeCoverage:
+      description: Time period covered by corpus data.
       type: object
       additionalProperties: false
       properties:
         start:
-          description: Oldest publication date. 
+          description: Oldest publication date.
           type: integer
         end:
-          description: Newest publication date. 
+          description: Newest publication date.
           type: integer
     languages:
-      description: Languages within corpus data. 
+      description: Languages within corpus data.
       type: array
       items:
         type: string
     facsimile:
-      description: Facsimiles available (true/false). 
+      description: Facsimile availability.
       type: boolean
     transcription:
-      description: Transcription rules. 
-      type: string
-    annotationlevel:
-      description: Level of annotation 
-      type: string
-
+      description: Transcription rules.
+      type: [ string, "null" ]
+    annotationLevel:
+      description: Level of annotation.
+      type: [ string, "null" ]
