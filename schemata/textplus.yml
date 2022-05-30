@@ -1,6 +1,6 @@
 ---
   $schema: http://json-schema.org/draft-07/schema#
-  title: "Text+ collections registry-description "
+  title: "Text+ collections registry-description"
   description: Registry description for Text+ collections.
   type: object
   additionalProperties: false
@@ -94,19 +94,19 @@
           description: Institution short-title.
           type: string
     format:
-      description: Languages within collection data.
-      type: array
+      description: Format and derivates for data and metadata.
+      type: object
       additionalProperties: false
       properties:
-          data:
-            description: Data.
-            type: string
-          metadata:
-            description: Metadata.
-            type: string
-          mimetype:
-            description: MIME type.
-            type: string
+        data:
+          description: Data.
+          type: array
+        metadata:
+          description: Metadata.
+          type: array
+        mimetype:
+          description: MIME type.
+          type: array
     modality:
       description: Modality.
       type: string
