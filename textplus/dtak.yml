@@ -1,0 +1,29 @@
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+format:
+  data:
+    - DTABf
+  metadata:
+    - CMDI
+  mimetype:
+    - application/xml
+genres: [ Belletristik, Gebrauchsliteratur, Wissenschaft, Zeitung ]
+institution:
+  name: Berlin-Brandenburg Academy of Sciences and Humanities
+  shortname: BBAW
+languages:
+  -
+    full: German
+    iso: deu
+modality: printed text
+timeCoverage:
+  start: 1540
+  end: 1920
+title:
+  name: Deutsches Textarchiv Kernkorpus
+  shortname: DTA-Kernkorpus
+transcription: [ double-keying ]
+size:
+  objects: 1468
+  tokens: 150000000

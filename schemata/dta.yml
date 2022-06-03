@@ -1,0 +1,263 @@
+---
+  $schema: http://json-schema.org/draft-07/schema#
+  title: "Text+ Collections, corpus-description"
+  description: Corpus description for Text+ collections.
+  type: object
+  additionalProperties: false
+  required: [ association, availability, description, format, genre, languages, project, status, timeCoverage, title, transcription, urls ]
+  properties:
+    annotationLevel:
+      description: Level of annotation.
+      type: [ string, "null" ]
+    association:
+      description: Institutional and infrastructural information.
+      type: object
+      additionalProperties: false
+      properties:
+        editors:
+          description: Information about editors' involvement. 
+          type: array
+          items:
+            type: object
+            additionalProperties: false
+            properties:
+              name:
+                description: Name of the editor. 
+                type: string
+              roles:
+                description: Role of the editor. 
+                type: array
+                items:
+                  type: string
+                  enum: [ annotator, curator, quality-control, IT, support ]
+        institution:
+          description: Information about the institution.
+          type: object
+          additionalProperties: false
+          properties:
+            name:
+              description: Institution full-title.
+              type: string
+            shortname:
+              description: Institution short-title.
+              type: string
+            url:
+              description: URL of organization.
+              type: string
+              format: uri
+        infrastructure:
+          description: Information about the infrastructure.
+          type: object
+          additionalProperties: false
+          properties:
+            name:
+              description: Name of infrastructure.
+              type: string
+            url:
+              description: URL of infrastructure.
+              type: string
+              format: uri
+    availability:
+      description: Corpus availability.
+      type: object
+      additionalProperties: false
+      properties:
+        name:
+          description: Description of availability, or name of licence.
+          type: string
+        url:
+          description: URL of availability documentation or licence.
+          type: string
+          format: uri
+    description:
+      description: Corpus description.
+      type: string
+    facsimile:
+      description: Facsimile availability.
+      type: boolean
+    format:
+      description: Format and derivates for data and metadata.
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          description: Data format and derivates.
+          type: array
+          items:
+            type: string
+            enum: [ DTABf, TCF ]
+        metadata:
+          description: Metadata format and derivates.
+          type: array
+          items:
+            type: string
+            enum: [ CMDI, DC, DTABf ]
+        mimetype:
+          description: Mimetype type.
+          type: array
+          items:
+            type: string
+    genre:
+      description: Text genre based on DWDS classification.
+      type: [ array, "null" ]
+      items:
+        type: object
+        additionalProperties: false
+        description: DWDS-main (obligatory) and DWDS-sub (optional).
+        properties:
+          main:
+            description: Main-genre.
+            anyOf:
+              -
+                type: [ string ]
+                enum: [ Belletristik, Gebrauchsliteratur, Wissenschaft, Zeitung ]
+              -
+                type: "null"
+          sub:
+            description: Sub-genre.
+            type: [ string, "null" ]
+    keywords:
+      description: Keywords describing the collection.
+      type: array
+    languages:
+      description: Languages within collection data.
+      type: array
+      items:
+        type: object
+        additionalProperties: false
+        properties:
+          full:
+            description: Languages (English).
+            type: string
+          iso:
+            description: Languages as ISO 639-3 value.
+            type: string
+    modality:
+      description: Modality.
+      type: string
+      enum: [ 'printed text', hand-written, speech, unspecified ]
+    project:
+      description: Project information.
+      type: object
+      additionalProperties: false
+      properties:
+        authors:
+          description: Corpus author(s).
+          type: array
+          items:
+            type: object
+            additionalProperties: false
+            properties:
+              name:
+                description: Author name.
+                type: string
+              email:
+                description: Author email.
+                type: string
+                format: email
+              roles:
+                description: Author role.
+                type: string
+                enum: [ transcriber , editor ]
+        funding:
+          description: Project funding.
+          type: object
+          additionalProperties: false
+          properties:
+            name:
+              description: Name of funder.
+              type: string
+            url:
+              description: URL of funder.
+              type: string
+              format: uri
+            start:
+              description: Funding-start.
+              type: [ integer, "null" ]
+            end:
+              description: Funding-end.
+              type: [ integer, "null" ]
+        name:
+          description: Name of the project. 
+          type: [ string, "null" ]
+        url:
+          description: URL of the project. 
+          type: [ string, "null" ]
+          format: uri
+    size: # xxx ungünstig, weil das eigentlich berechnet werden kann/muss
+      description: Corpus size.
+      type: object
+      additionalProperties: false
+      properties:
+        objects:
+          description: Number of objects.
+          type: integer
+        sentences:
+          description: Number of sentences.
+          type: integer
+        tokens:
+          description: Number of tokens.
+          type: integer
+    status:
+      description: Status information.
+      type: string
+      enum: [ internal, public, wip ]
+    timeCoverage:
+      description: Time period covered by collection data.
+      type: object
+      additionalProperties: false
+      properties:
+        start:
+          description: Oldest publication date.
+          type: integer
+        end:
+          description: Newest publication date.
+          type: integer
+    title:
+      description: Collection title.
+      type: object
+      additionalProperties: false
+      properties:
+        name:
+          description: Collection full-title.
+          type: string
+        shortname:
+          description: Collection short-title.
+          type: string
+        dstarname:
+          description: Name of dstar corpus instance.
+          type: string
+    transcription:
+      description: Transcription rules.
+      oneOf:
+        -
+          type: "null"
+        -
+          type: array
+          items:
+            type: string
+            enum: [ ocr, corrected ocr, manually, double-keying ]
+    urls:
+      type: object
+      additionalProperties: false
+      properties:
+        landingPage:
+          description: Corpus landing-page within DWDS-infrastructure.
+          type: [ string, "null" ]
+          format: uri
+        searchPage:
+          description: Corpus search-page.
+          type: [ string, "null" ]
+          format: uri
+        images:
+          description: Images.
+          type: [ string, "null" ]
+          format: uri
+        repository:
+          description: Github-repository of collection data.
+          type: [ string, "null" ]
+          format: uri
+        text+:
+          description: URL of text+ user-story.
+          type: [ string, "null" ]
+          format: uri
