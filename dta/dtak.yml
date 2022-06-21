@@ -9,6 +9,9 @@ genre:
     main: Gebrauchsliteratur
   -
     main: Wissenschaft
+authority_control:
+  data: [ GND ]
+  metadata: [ GND ]
 description:
   Mit dem Kernkorpus stellt das Deutsche Textarchiv (DTA) einen
   disziplinen- und gattungsübergreifenden Grundbestand

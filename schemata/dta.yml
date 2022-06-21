@@ -57,6 +57,19 @@
               description: URL of infrastructure.
               type: string
               format: uri
+    authority_control:
+      description: Information about the usage of authority data.
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          description: Authority files considered within data.
+          type: array
+          enum: [ GND, LCCN, NDL, VIAF ]
+        metadata:
+          description: Authority files considered within metadata.
+          type: array
+          enum: [ GND, LCCN, NDL, VIAF ]
     availability:
       description: Corpus availability.
       type: object
