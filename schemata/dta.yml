@@ -65,11 +65,15 @@
         data:
           description: Authority files considered within data.
           type: array
-          enum: [ GND, LCCN, NDL, VIAF ]
+          items:
+            type: string
+            enum: [ GND, LCCN, NDL, VIAF ]
         metadata:
           description: Authority files considered within metadata.
           type: array
-          enum: [ GND, LCCN, NDL, VIAF ]
+          items:
+            type: string
+            enum: [ GND, LCCN, NDL, VIAF ]
     availability:
       description: Corpus availability.
       type: object
