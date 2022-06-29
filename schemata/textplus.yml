@@ -18,6 +18,23 @@
           description: URL of availability documentation or licence.
           type: string
           format: uri
+    authority_control:
+      description: Information about the usage of authority data.
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          description: Authority files considered within data.
+          type: array
+          items:
+            type: string
+            enum: [ GND, LCCN, NDL, VIAF ]
+        metadata:
+          description: Authority files considered within metadata.
+          type: array
+          items:
+            type: string
+            enum: [ GND, LCCN, NDL, VIAF ]
     format:
       description: Format and derivates for data and metadata.
       type: object
