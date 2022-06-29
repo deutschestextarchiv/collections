@@ -94,15 +94,21 @@
         type:
           description: Information about the data type.
           type: array
-          enum: [ "text corpus", edition, edition_digital, edition_hybrid, encyclopedia, dictionary ]
+          items:
+            type: string
+            enum: [ "text corpus", edition, edition_digital, edition_hybrid, encyclopedia, dictionary ]
         text_plusCluster:
           description: Cluster specific information about the data.
           type: array
-          enum: [ "contemporary language", "structured, historical texts", "unstructured texts", "ancient and medieval texts", "early modern, modern, and contemporary texts", "german dictionaries in a european context", "born-digital lexical resources", "non-latin scripts" ]
+          items:
+            type: string
+            enum: [ "contemporary language", "structured, historical texts", "unstructured texts", "ancient and medieval texts", "early modern, modern, and contemporary texts", "german dictionaries in an european context", "born-digital lexical resources", "non-latin scripts" ]
         text_plusDomain:
           description: Information about the NFDI data domain within text+.
           type: array
-          enum: [ collections, editions, lexical resources ] 
+          items:
+            type: string
+            enum: [ collections, editions, lexical resources ] 
     description:
       description: Corpus description.
       type: string

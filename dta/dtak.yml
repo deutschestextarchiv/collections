@@ -3,9 +3,9 @@ title:
   shortname: DTA-Kernkorpus
   dstarname: dtak
 data:
-    type: [ "text corpus" ]
-    text_plusCluster: [ "structured, historical texts" ]
-    text_plusDomain: [ collections ]
+  type: [ "text corpus" ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
 genre:
   -
     main: Belletristik
