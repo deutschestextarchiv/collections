@@ -2,6 +2,10 @@ title:
   name: Deutsches Textarchiv Kernkorpus
   shortname: DTA-Kernkorpus
   dstarname: dtak
+data:
+  type: [ "text corpus" ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
 genre:
   -
     main: Belletristik
