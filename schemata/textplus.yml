@@ -35,6 +35,29 @@
           items:
             type: string
             enum: [ GND, LCCN, NDL, VIAF ]
+    data:
+      description: Information about the data type.
+      type: object
+      additionalProperties: false
+      properties:
+        type:
+          description: Information about the data type.
+          type: array
+          items:
+            type: string
+            enum: [ "text corpus", edition, edition_digital, edition_hybrid, encyclopedia, dictionary ]
+        text_plusCluster:
+          description: Cluster specific information about the data.
+          type: array
+          items:
+            type: string
+            enum: [ "contemporary language", "structured, historical texts", "unstructured texts", "ancient and medieval texts", "early modern, modern, and contemporary texts", "german dictionaries in an european context", "born-digital lexical resources", "non-latin scripts" ]
+        text_plusDomain:
+          description: Information about the NFDI data domain within text+.
+          type: array
+          items:
+            type: string
+            enum: [ collections, editions, lexical resources ] 
     format:
       description: Format and derivates for data and metadata.
       type: object

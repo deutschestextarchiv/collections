@@ -4,6 +4,10 @@ availability:
 authority_control:
   data: [ GND ]
   metadata: [ GND ]
+data:
+  type: [ "text corpus" ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
 format:
   data:
     - DTABf
