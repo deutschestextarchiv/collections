@@ -10,7 +10,7 @@ genre:
 description: |
   Das Korpus „Briefe von Jean Paul“ umfasst 5004 Briefe, die der
   Schriftsteller Jean Paul (Jean Paul Friedrich Richter, 1763–1825)
-  zwischen 1781 und 1825 verfasste. Die Briefe richten sich an
+  zwischen 1780 und 1825 verfasste. Die Briefe richten sich an
   insgesamt 627 verschiedene Empfänger/innen und dokumentieren die
   Korrespondenz des Autors mit bekannten Persönlichkeiten wie Heinrich
   Jacobi, Caroline und Johann Gottfried Herder, Charlotte von Kalb und
@@ -83,7 +83,7 @@ project:
       name: Deutsches Textarchiv (DTA)
       email: redaktion@deutschestextarchiv.de
 timeCoverage:
-  start: 1781
+  start: 1780
   end: 1825
 languages:
   - 
