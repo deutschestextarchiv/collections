@@ -1,7 +1,8 @@
 title:
   name: Deutsches Textarchiv Kernkorpus
   shortname: DTA-Kernkorpus
-  dstarname: dtak
+dstar:
+  corpus: dtak
 data:
   type: [ "text corpus" ]
   text_plusCluster: [ "structured, historical texts" ]

@@ -1,0 +1,102 @@
+title:
+  name: Die Grenzboten (1841–1922)
+  shortname: Grenzboten
+dstar:
+  corpus: grenzboten
+genre:
+  -
+    main: Gebrauchsliteratur
+    sub: Zeitschrift
+description: |
+  Das „Grenzboten“-Korpus umfasst 270 Bände der nationalliberalen
+  Zeitschrift „Die Grenzboten“ (ca. 180.000 Einzelseiten), die
+  zwischen 1841 und 1922 wöchentlich, zeitweise zweiwöchentlich
+  erschien.
+
+  Im Rahmen des von der DFG geförderten Kooperationsprojekts „Die
+  Grenzboten – Digitalisierung, Erschließung und Volltexterkennung
+  einer der herausragenden deutschen Zeitschriften des 19. und 20.
+  Jahrhunderts“ unter Beteiligung der Staats- und
+  Universitätsbibliothek Bremen (SuUB) und des Zentrums Sprache der
+  BBAW (Deutsches Textarchiv, DTA) erfolgte die TEI-XML-Strukturierung
+  des bereits vorhandenen OCR-Volltextes mit semiautomatischen
+  Methoden und Werkzeugen des DTA sowie die automatische Korrektur von
+  OCR-Fehlern in den Volltexten auf der Grundlage des DTA als
+  Referenzkorpus. Alle Bände wurden nach XML/TEI P5 gemäß dem
+  DTA-Basisformat annotiert und sodann sukzessive über die
+  Qualitätssicherungsplattform DTAQ veröffentlicht sowie schließlich
+  an verschiedene CLARIN-D-Plattformen (VLO, FCS) angebunden.
+
+  Das „Grenzboten“-Korpus stellt ein eigenständiges historisches
+  Korpus des Zentrums Sprache dar. Es kann über die
+  [DTA-Schnittstelle](https://kaskade.dwds.de/dstar/grenzboten/)
+  recherchiert werden. Dabei sind ebenso komplexe Suchanfragen auf
+  Grundlage linguistischer Voranalysen (Lemmatisierung, POS-Tagging,
+  orthographische Normierung) möglich wie Korpusanalyse mit 
+  [Wortverlaufskurven](https://kaskade.dwds.de/dstar/grenzboten/hist.perl)
+  oder nach [Kollokationen](https://kaskade.dwds.de/dstar/grenzboten/diacollo/)
+  (DiaCollo).
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Die Grenzboten
+  - Zeitschrift
+  - nationalliberal
+  - SuUB
+  - Text+
+urls:
+  landingPage: https://www.deutschestextarchiv.de/grenzboten/
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=grenzboten
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Die Grenzboten – Digitalisierung, Erschließung und Volltexterkennung einer der herausragenden deutschen Zeitschriften des 19. und 20. Jahrhunderts
+  url: https://www.suub.uni-bremen.de/ueber-uns/projekte/grenzboten2/
+  authors:
+    -
+      name: Dr. Manfred Nölte (SuUB)
+      email: noelte@suub.uni-bremen.de
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+  funding:
+    name: Deutsche Forschungsgemeinschaft
+    url: https://www.dfg.de/
+timeCoverage:
+  start: 1841
+  end: 1922
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: true
+transcription: [ ocr ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

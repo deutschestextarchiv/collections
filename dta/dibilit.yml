@@ -1,0 +1,96 @@
+title:
+  name: DiBiLit-Korpus
+  shortname: DiBiLit
+dstar:
+  corpus: dibilit
+genre:
+  -
+    main: Belletristik
+  -
+    main: Gebrauchsliteratur
+  -
+    main: Wissenschaft
+description:
+  Das DiBiLit-Korpus besteht aus Texten und Metadaten der „Digitalen
+  Bibliothek bei Textgrid“ (TextGrid) und aus Daten des German Drama
+  Corpus (GerDraCor), des i5-Korpus des Leibniz-Instituts für Deutsche
+  Sprache (IDS-Mannheim) und der Online-Bibliothek von Zeno.org, die
+  von TextGrid erworben wurde. Das im Rahmen des Projekts CLARIAH-DE
+  entstandene DiBiLit-Korpus stellt ein eigenständiges Korpus im
+  Deutschen Textarchiv des Zentrums Sprache dar. Es enthält
+  digitalisierte Publikationen und ermöglicht computerbasierte
+  Analysemöglichkeiten. Der Publikationszeitraum der digitalen
+  Ausgaben erstreckt sich vom 16. bis zur ersten Hälfte des 20.
+  Jahrhunderts. Es finden sich darin vor allem literarische Werke
+  (Lyrik, Drama, Prosa), aber auch geistes- und
+  sozialwissenschaftliche Texte.
+
+  Die Korpusbereitstellung ermöglicht komplexe Suchanfragen
+  auf Grundlage linguistischer Voranalysen
+  (Lemmatisierung, POS-Tagging, orthographische Normierung),
+  Korpusanalysen mit Wortverlaufskurven und Kollokationsanalysen im
+  zeitlichen Verlauf mit DiaCollo.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - DiBiLit
+  - Digitale Bibliothek
+  - Textgrid
+  - GerDraCor
+  - Zeno.org
+  - 16.–20. Jh.
+  - Text+
+urls:
+  landingPage: https://www.deutschestextarchiv.de/dibilit/
+  searchPage: https://kaskade.dwds.de/dstar/dibilit/
+  repository: https://github.com/deutschestextarchiv/DiBiLit-Korpus
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: CLARIAH-DE
+  url: https://www.clariah.de/
+  funding:
+    name: BMBF
+    url: https://www.bmbf.de/
+  authors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1210
+  end: 1977
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: false
+transcription: [ corrected ocr ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

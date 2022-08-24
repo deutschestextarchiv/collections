@@ -1,0 +1,103 @@
+title:
+  name: Briefedition Jean Paul
+  shortname: Briefedition Jean Paul
+dstar:
+  corpus: jean_paul
+genre:
+  -
+    main: Belletristik
+    sub: Brief
+description: |
+  Das Korpus „Briefe von Jean Paul“ umfasst 5004 Briefe, die der
+  Schriftsteller Jean Paul (Jean Paul Friedrich Richter, 1763–1825)
+  zwischen 1781 und 1825 verfasste. Die Briefe richten sich an
+  insgesamt 627 verschiedene Empfänger/innen und dokumentieren die
+  Korrespondenz des Autors mit bekannten Persönlichkeiten wie Heinrich
+  Jacobi, Caroline und Johann Gottfried Herder, Charlotte von Kalb und
+  Johann Wilhelm Ludwig Gleim, der preußischen Königin Luise und Rahel
+  Levin Varnhagen sowie mit Familie und Freund/innen.
+
+  Das Korpus entstammt der Edition „Jean Paul – Sämtliche Briefe
+  digital“ und entstand 2017–2018 im DFG-geförderten Projekt
+  Digitalisierung von Jean Pauls sämtlichen Briefen in
+  Historisch-kritischer Ausgabe an der Berlin-Brandenburgischen
+  Akademie der Wissenschaften. Ziel des Projekts war die bereits durch
+  Eduard Berend (1883–1973) edierten und von 1952–1964 als III.
+  Abteilung der Historisch-kritischen Ausgabe im Druck erschienenen
+  Briefe als digitale Edition neu herauszugeben. Dafür wurden die neun
+  Bände der Druckedition unter Betreuung des Deutschen Textarchivs
+  (DTA) zunächst per Double-Keying-Verfahren retrodigitalisiert und im
+  Basisformat des Deutschen Textarchivs in XML/TEI kodiert. Die dabei
+  entstehende buchzentrierte Fassung der Briefe ist im DTA verfügbar.
+  Für die digitale Edition wurden die digitalisierten Editionsbände
+  von der Digital-Humanities-Arbeitsgruppe TELOTA zu einer
+  briefzentrierten Ausgabe weiterverarbeitet, mit Metadaten und
+  Normdaten tiefer annotiert und strukturiert sowie mit dem ebenfalls
+  digitalisierten Register der IV. Abteilung der Historisch-kritischen
+  Ausgabe (Briefe an Jean Paul) angereichert und verknüpft. Die
+  Briefe, die ein Teilkorpus auf „Jean Paul – Sämtliche Briefe
+  digital“ bilden (und die eine Datierungsangabe beinhalten), sind die
+  Datengrundlage des DWDS-Korpus.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Jean Paul
+  - Briefe
+  - Jean Pauls Sämtliche Werke Abt. III
+  - Eduard Berend Ausgabe
+  - Text+
+urls:
+  landingPage: https://www.dwds.de/d/korpora/jean_paul 
+  searchPage: https://kaskade.dwds.de/dstar/jean_paul
+  repository:
+  text+:
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Jean Paul – Sämtliche Briefe digital
+  url: https://www.jeanpaul-edition.de/
+  authors:
+    - 
+      name: Markus Bernauer
+      email: bernauer@bbaw.de
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1781
+  end: 1825
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: true
+transcription: [ double-keying ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

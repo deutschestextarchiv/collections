@@ -1,0 +1,92 @@
+title:
+  name: SBB-Funeralschriften
+  shortname: SBB-Funeralschriften
+dstar:
+  corpus: dtae
+  flags: sbb_funeralschriften
+genre:
+  -
+    main: Gebrauchsliteratur
+    sub: "Gelegenheitsschrift:Tod"
+description:
+  Das Korpus „SBB-Funeralschriften“ umfasst 112 Werke (1643–1659) von
+  Simon Dach aus dem historischen Druckschriftenbestand der
+  Staatsbibliothek zu Berlin. Die Funeralschriften sind Bestandteil
+  der Sammlung von ca. 20.000 Personalschriften, darunter auch
+  Hochzeitspredigten, Glückwunschgedichte und andere sogenannte
+  Gelegenheitsschriften. Die chronologische Struktur des
+  Personalschriftenbestandes der Staatsbibliothek spiegelt deutlich
+  die Blütezeit der Leichenpredigten wider. Rund 700 Drucke des 16.
+  Jahrhunderts stehen ca. 13.000 Drucken des 17. Jahrhunderts
+  gegenüber; aus dem 18. Jahrhundert stammen noch ca. 3.000 Schriften,
+  aus der Zeit von 1800 bis 1927 nur noch etwa 220 meist säkulare
+  Grabreden. Mit dem mitteldeutschen Raum, Niedersachsen und
+  Brandenburg-Preußen entspricht auch die regionale Verteilung den
+  Schwerpunkten der protestantischen Leichenpredigten.
+
+  Die Qualität der OCR-Daten wurde hinsichtlich der Struktur- und
+  Zeichengenauigkeit (semi)automatisch verbessert, die Volltexte
+  wurden nach XML/TEI P5 gemäß dem DTA-Basisformat konvertiert und
+  innerhalb der DTA-Infrastruktur veröffentlicht.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Staatsbibliothek zu Berlin
+  - SBB
+  - Leichenpredigten
+  - Funeralschriften
+  - Grabreden
+  - 17. Jh.
+  - Text+
+urls:
+  landingPage: https://deutschestextarchiv.de/doku/textquellen#sbb_funeralschriften
+  searchPage: https://www.dwds.de/r/?corpus=dtae&collection=sbb_funeralschriften
+  repository:
+  text+:
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Pilotprojekt zum OCR-Einsatz bei der Digitalisierung der Funeralschriften der Staatsbibliothek zu Berlin
+  url: https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/handschriften-und-historische-drucke/historische-drucke-ab-1501/projekte/funeralschriften
+  authors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1643
+  end: 1659
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: true
+transcription: [ ocr ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

@@ -1,0 +1,90 @@
+title:
+  name: Deutscher Novellenschatz
+  shortname: Novellenschatz
+dstar:
+  corpus: dtae
+  flags: novellenschatz
+genre:
+  -
+    main: Belletristik
+    sub: Novelle
+description:
+  Das Korpus „Deutscher Novellenschatz“ enthält neben 86 teils kanonischen,
+  teils unbekannten Novellen von 82 AutorInnen kurze Einführungen zu
+  jedem Text sowie einen als Einleitung in die Sammlung dienenden
+  gattungspoetischen Essay zur Novellenform, der durch seine so
+  genannte Falkentheorie bekannt geworden ist.
+
+  Der Deutsche Novellenschatz (24 Bände, 1871–1876) wurde in Vorarbeit
+  für das von der VolkswagenStiftung geförderte Projekt „Reading at
+  Scale. Mixing Methods in Literary Corpus Analysis“ von der Digital
+  Humanities Cooperation der Technischen Universität Darmstadt und der
+  Universität Konstanz unter Leitung von Prof. Dr. Thomas Weitin in
+  einem corrected OCR-Verfahren digitalisiert, im XML/TEI-Format
+  kodiert und mit Metadaten angereichert. Das hier innerhalb der
+  DTA-Infrastruktur unter der Lizenz CC BY-SA 4.0 bereitgestellte
+  Korpus wurde im Rahmen des Projekts CLARIN-D in das Basisformat des
+  Deutschen Textarchivs konvertiert.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Deutscher Novellenschatz
+  - Deutsche Novellen
+  - Novellen
+  - 19. Jh.
+  - Text+
+urls:
+  landingPage: https://www.deutschestextarchiv.de/novellenschatz/
+  searchPage: https://www.dwds.de/r/?corpus=dtae&collection=novellenschatz
+  repository:
+  text+:
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Reading at Scale. Mixing Methods in Literary Corpus Analysis
+  url: https://www.digitalhumanitiescooperation.de/projects/reading-at-scale/
+  authors:
+    -
+      name: Thomas Weitin
+      email: thomas.weitin@tu-darmstadt.de
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1871
+  end: 1910
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: true
+transcription: [ corrected ocr ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

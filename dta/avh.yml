@@ -1,0 +1,86 @@
+title:
+  name: Alexander von Humboldts unselbstständige Schriften
+  shortname: AvH unselbstständige Schriften
+dstar:
+  corpus: dtae
+  flags: avh
+genre:
+  -
+    main: Wissenschaft
+description:
+  Das AvH-Korpus enthält 164 unselbstständige Schriften Alexander von
+  Humboldts, die im Rahmen des Projekts „Digitalisierung ausgewählter
+  unselbstständiger Schriften Alexander von Humboldts“ erfasst wurden.
+  Im Kooperationsprojekt unter Beteiligung des Akademienvorhabens
+  „Alexander von Humboldt auf Reisen – Wissenschaft aus der Bewegung“,
+  der Universität Potsdam (Professur für Romanische
+  Literaturwissenschaft) und des Deutschen Textarchivs wurden die
+  Texte gemäß den DTA-Transkriptionsrichtlinien im
+  Double-Keying-Verfahren von Muttersprachlern erfasst, im TEI
+  P5-Subset DTA-Basisformat kodiert und sukzessive über das DTA bzw.
+  das DTAQ, die Plattform zur Qualitätssicherung, veröffentlicht. Die
+  digitalisierten Volltexte wurden zudem mit den entsprechenden
+  Einträgen in der von der Alexander-von-Humboldt-Forschungsstelle der
+  BBAW (bis 2014) erarbeiteten Bibliographie seiner unselbstständigen
+  Schriften verknüpft.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - AvH
+  - Alexander von Humboldt
+  - Humboldt
+  - unselbstständige Schriften
+  - 18.–20. Jh.
+  - Text+
+urls:
+  landingPage: https://deutschestextarchiv.de/doku/textquellen#avh
+  searchPage: https://www.dwds.de/r/?corpus=dtae&collection=avh 
+  repository:
+  text+:
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Digitalisierung ausgewählter unselbstständiger Schriften Alexander von Humboldts
+  url: http://telota.bbaw.de/avh/uns/about.php
+  authors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1790
+  end: 1913
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: true
+transcription: [ double-keying ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

@@ -1,0 +1,96 @@
+title:
+  name: Digitale Sammlung Deutscher Kolonialismus
+  shortname: DSDK
+dstar:
+  corpus: dsdk
+genre:
+  -
+    main: Belletristik
+  -
+    main: Gebrauchsliteratur
+  -
+    main: Wissenschaft
+  -
+    main: Zeitung
+description:
+  Das Korpus „Digitale Sammlung Deutscher Kolonialismus“ (DSDK) bietet
+  ca. 1.000 im Volltext digitalisierte Publikationen zum Kolonialismus
+  aus der Zeit des deutschen Kaiserreichs an.
+
+  Im Rahmen des von der Deutschen Forschungsgemeinschaft (DFG)
+  geförderten Projekts DSDK wurden aus den Beständen der Staats- und
+  Universitätsbibliothek Bremen sowie der Universitätsbibliothek
+  Johann Christian Senckenberg in Frankfurt/Main über 1.000 Titel
+  unterschiedlicher Gattungen und Disziplinen zum Thema Kolonialismus
+  digitalisiert und per OCR vervolltextet. Anschließend wurden die
+  Volltexte via DTAE in die Forschungsinfrastruktur CLARIN-D
+  integriert.
+
+  Das DSDK-Korpus stellt ein eigenständiges historisches Korpus des
+  Zentrums Sprache dar. Es kann über die dstar-Schnittstelle
+  recherchiert werden. Dabei sind ebenso komplexe Suchanfragen auf
+  Grundlage linguistischer Voranalysen (Lemmatisierung, POS- Tagging,
+  orthographische Normierung) möglich wie Korpusanalysen mit
+  Wortverlaufskurven oder Kollokationen (DiaCollo).
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Digitale Sammlung Deutscher Kolonialismus
+  - DSDK
+  - Kolonialismus
+  - deutsches Kaiserreich
+  - 19.–20. Jh.
+  - Text+
+urls:
+  landingPage: https://www.deutschestextarchiv.de/dsdk/
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=dsdk
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Digitale Sammlung Deutscher Kolonialismus (DSDK)
+  url: https://www.suub.uni-bremen.de/ueber-uns/projekte/dsdk/
+  funding: 
+    name: DFG
+    url: https://www.dfg.de/
+  authors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1884
+  end: 1920
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: true
+transcription: [ ocr ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

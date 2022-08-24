@@ -1,0 +1,75 @@
+title:
+  name: Referenzkorpus Mittelhochdeutsch (1050–1350)
+  shortname: Referenzkorpus Mittelhochdeutsch
+dstar:
+  corpus: rem
+genre:
+  -
+    main: Belletristik
+  -
+    main: Gebrauchsliteratur
+  -
+    main: Wissenschaft
+description:
+  Das „Referenzkorpus Mittelhochdeutsch“ (ReM) ist ein Korpus
+  diplomatisch transkribierter und annotierter Texte des
+  Mittelhochdeutschen (1050–1350) mit einem Umfang von ca. 2 Mio.
+  Wortformen. Es ist aus den Forschungsprojekten „Referenzkorpus
+  Mittelhochdeutsch“ und „Mittelhochdeutsche Grammatik“
+  hervorgegangen.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Referenzkorpus
+  - mittelhochdeutsch
+  - Text+
+urls:
+  landingPage: https://www.deutschestextarchiv.de/rem/
+  searchPage: https://kaskade.dwds.de/dstar/rem/
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Referenzkorpus Mittelhochdeutsch (ReM)
+  url: https://www.linguistics.rub.de/rem/index.html
+  authors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1050
+  end: 1350
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: false
+transcription: [ manually ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

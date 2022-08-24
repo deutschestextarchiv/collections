@@ -1,0 +1,90 @@
+title:
+  name: Briefwechsel Daniel Sanders
+  shortname: Sanders Briefwechsel
+dstar:
+  corpus: dtae
+  flags: sanders-briefe
+genre:
+  -
+    main: Gebrauchsliteratur
+    sub: Brief
+description:
+  Das Korpus „Sanders Briefwechsel“ umfasst mehrere hundert Briefe aus
+  Archiven im In- und Ausland, darunter vor allem Briefe von und an
+  Wilhelm Scherer, Berthold Auerbach, Karl Gutzkow, Adolf Glaßbrenner,
+  Emil Du Bois-Reymond, Heinrich Schliemann, Ernst Ziel und vielen
+  weiteren bedeutende Persönlichkeiten.
+
+  Der Briefwechsel des Lexikografen Daniel Sanders (1819–1897) zeugt
+  von einem intensiven Austausch mit der fachverwandten Gelehrtenwelt
+  des 19. Jahrhunderts, der neben lexikografischem, philologischem und
+  schriftstellerischem Inhalt vor allem politische und
+  gesellschaftliche Themen, insbesondere die Situation der Juden in
+  Deutschland und die Märzrevolution thematisiert.
+
+  Alle Briefe wurden von Sebastian Göttel transkribiert, nach XML/TEI
+  P5 gemäß dem DTA-Basisformat kodiert und innerhalb der
+  DTA-Infrastruktur bereitgestellt.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Briefe
+  - Briefwechsel
+  - Daniel Sanders
+  - 19. Jh.
+  - Text+
+urls:
+  landingPage: https://sanders.bbaw.de/briefwechsel
+  searchPage: https://www.dwds.de/r/?corpus=dtae&collection=sanders-briefe
+  repository:
+  text+:
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Forschung Daniel Sanders – digitale Gesamtedition
+  url: https://sanders.bbaw.de
+  authors:
+    -
+      name: Sebastian Göttel
+      email: sebastian.goettel@bbaw.de
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1845
+  end: 1894
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: true
+transcription: [ manually ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

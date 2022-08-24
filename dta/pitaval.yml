@@ -1,0 +1,94 @@
+title:
+  name: Der Neue Pitaval (1842-1890)
+  shortname: Pitaval 
+dstar:
+  corpus: pitaval
+genre:
+  -
+    main: Gebrauchsliteratur 
+    sub: Kriminalistik
+description: |
+  Das Korpus „Der Neue Pitaval“ umfasst 570 Texte aus der „Sammlung
+  der interessantesten Kriminalgeschichten aller Länder aus älterer
+  und neuerer Zeit“ aus den zwischen 1842 und 1890 erschienenen 60
+  Textbänden. Zunächst von Julius Eduard Hitzig und Wilhelm Häring (=
+  Willibald Alexis) herausgegeben, führte Anton Vollert die Reihe im
+  Jahre 1861 fort. Enthalten sind Schilderungen von Kriminalfällen in
+  dokumentarischer Form, die anhand von Justizakten oder anderen
+  Dokumenten für ein breiteres Publikum als Sachverhaltsdarstellung in
+  Verbindung mit moderner, realistischer Erzählstruktur aufbereitet
+  wurden.
+
+  Das Korpus entstand im Rahmen von Vorarbeiten für das DFG-geförderte
+  Projekt *Zwischen Recht und Literatur. Die Kriminalfallsammlung des
+  „Neuen Pitaval“ in der literaturwissenschaftlichen Korpusanalyse* und
+  wurde mit automatischen Methoden der Texterkennung (OCR) erfasst und
+  nachkorrigiert. Für die Aufnahme als Korpus in die Sammlungen des
+  Deutschen Textarchivs und des DWDS wurden die vorliegenden Textdaten
+  nach XML/TEI P5 konvertiert und sind nun – historische Schreibungen
+  entsprechend berücksichtigend – im Volltext frei durchsuchbar.
+
+  Wir danken Thomas Weitin und Katharina Herget von der TU Darmstadt für
+  die Bereitstellung der Korpusdaten unter [Creative Commons Attribution 4.0
+  International](https://creativecommons.org/licenses/by/4.0/legalcode).
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Kriminalfälle
+  - Kriminalgeschichten
+  - Text+
+urls:
+  landingPage: https://www.dwds.de/d/korpora/pitaval
+  searchPage: https://www.dwds.de/r/?corpus=pitaval
+size:
+  objects: 570
+  sentences: 288991
+  tokens: 7177519
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: „Zwischen Recht und Literatur. Die Kriminalfallsammlung des Neuen Pitaval in der literaturwissenschaftlichen Korpusanalyse“  
+  url: https://www.digitalhumanitiescooperation.de/zwischen-recht-und-literatur/
+  authors:
+    -
+      name: Thomas Weitin
+    -
+      name: Katharina Herget
+timeCoverage:
+  start: 1842
+  end: 1890
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: false
+transcription: [ corrected ocr ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

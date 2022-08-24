@@ -1,0 +1,67 @@
+title:
+  name: Augsburger Allgemeine Zeitung
+  shortname: Augsburger Allgemeine Zeitung
+dstar:
+  corpus: dtae
+  flags: augsburgerallgemeine
+genre:
+  -
+    main: Gebrauchsliteratur 
+    sub: Zeitungen 
+description: |
+  Das Korpus der Augsburger Allgemeinen Zeitung wurde von der Berliner
+  Arbeitsstelle des Deutschen Wörterbuches an der
+  Berlin-Brandenburgischen Akademie der Wissenschaften zu Berlin
+  digitalisiert. Die ursprünglichen Text-Dateien wurden am Deutschen
+  Textarchiv automatisch in das DTA-Basisformat konvertiert und
+  hinsichtlich der Annotation semiautomatisch nachbearbeitet.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Text+
+urls:
+  landingPage: https://www.deutschestextarchiv.de/doku/textquellen#augsburgerallgemeine
+  searchPage: https://www.dwds.de/r/?corpus=dtae&collection=augsburgerallgemeine
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Digitales Wörterbuch der deutschen Sprache
+  url: https://www.dwds.de/
+timeCoverage:
+  start: 1840
+  end: 1840
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: false
+transcription: [ ocr ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

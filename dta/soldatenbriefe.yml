@@ -1,0 +1,97 @@
+title:
+  name: Soldatenbriefe des 18. und 19. Jahrhunderts
+  shortname: Soldatenbriefe
+dstar:
+  corpus: soldatenbriefe
+genre:
+  -
+    main: Gebrauchsliteratur
+    sub: Brief
+description:
+  Das Korpus „Soldatenbriefe“ umfasst 170 Briefe von
+  Offizieren, Unteroffizieren und einfachen Soldaten,
+  adressiert an die Familien in der Heimat. Die Briefe
+  wurden im Zeitraum von 1745 bis 1872 auf Deutsch verfasst;
+  ein deutlicher Schwerpunkt liegt auf Briefen aus den
+  Koalitions- und Befreiungskriegen (1792−1815), dem
+  Deutschen Krieg (1866) und dem Deutsch-Französischen Krieg
+  (1870/71). Stimmen die Schreibanlässe auch weitgehend
+  überein, so ist die Schreiberfahrung der drei
+  Dienstgradgruppen (Offizier, Unteroffizier, Mannschaften
+  bzw. einfacher Soldat) doch sehr verschieden. Das
+  Korpus bietet somit die Möglichkeit, die ganze Breite
+  historischer Alltagsschriftlichkeit an einer einzelnen
+  Briefsorte in den Blick zu nehmen.
+
+  Das Korpus ist im Rahmen einer sprachhistorischen Untersuchung
+  (Neumann 2019) entstanden und wird dort eingehend beschrieben
+  (vgl. S. 59−67). Die handschriftlichen Brieforiginale stammen aus
+  unterschiedlichen Archiven des gesamten deutschsprachigen Raums.
+  Die Texte wurden buchstabengetreu transkribiert (vgl. S. 72−75).
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Briefe
+  - Soldatenbriefe
+  - Befreiungskriege
+  - Koalitionskriege
+  - Alltagsschriftlichkeit
+  - 18.–19. Jh.
+  - Text+
+urls:
+  landingPage: https://www.dwds.de/d/korpora/soldatenbriefe
+  searchPage: https://www.dwds.de/r/?corpus=soldatenbriefe
+  repository: https://github.com/deutschestextarchiv/soldatenbriefe
+  text+: https://www.text-plus.org/en/research-data/user-story-508/
+size:
+  objects: 170
+  sentences: 3319
+  tokens: 96023
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Soldatenbriefe des 18. und 19. Jahrhunderts
+  url: https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/
+  authors:
+    -
+      name: Dr. Marko Neumann
+      email: Marko.Neumann@germanistik.uni-giessen.de
+      roles: transcriber
+timeCoverage:
+  start: 1745
+  end: 1872
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: false
+transcription: [ manually ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

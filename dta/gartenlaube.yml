@@ -1,0 +1,84 @@
+title:
+  name: Die Gartenlaube
+  shortname: Gartenlaube
+dstar:
+  corpus: gartenlaube
+genre:
+  -
+    main: Gebrauchsliteratur
+    sub: Zeitschrift
+description:
+  Das Gartenlaube-Korpus umfasst 15 Ausgaben des illustrierten
+  Familienblatts „Die Gartenlaube“ aus den Jahren 1853 bis 1867. Die
+  von 1853 bis 1944 erschienene Zeitschrift war ein Vorläufer moderner
+  Illustrierter und das erste große erfolgreiche deutsche Massenblatt.
+  1876 wurde unter dem Verleger Ernst Keil eine Auflagenhöhe von
+  382.000 Exemplaren erreicht. Die Gartenlaube stellt eine umfassende
+  und für viele historische Untersuchungsfelder wichtige Quelle zur
+  deutschen Kulturgeschichte dar.
+
+  Die auf Wikisource bereitgestellten Daten wurden von Benjamin
+  Fiechter nach DTABf konvertiert, angereichert und über die
+  DTA-Infrastruktur zur Nachnutzung bereitgestellt.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Die Gartenlaube
+  - Gartenlaube
+  - Illustriertes Familienblatt
+  - Fortsetzungsromane
+  - 19. Jh.
+  - Text+
+urls:
+  landingPage:
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=gartenlaube
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name:
+  url:
+  authors:
+    -
+      name: Benjamin Fiechter
+      email: fiechtbe@hu-berlin.de
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1853
+  end: 1867
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: false
+transcription: [ corrected ocr ]
+annotationLevel:
+status: wip
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

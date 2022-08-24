@@ -1,0 +1,89 @@
+title:
+  name: AEDit Frühe Neuzeit
+  shortname: AEDit
+dstar:
+  corpus: dtae
+  flags: aedit
+genre:
+  -
+    main: Gebrauchsliteratur
+    sub: Leichenpredigt
+description:
+  Das AEDit-Korpus umfasst vor allem deutschsprachige Funeralschriften
+  aus der Mitte des 16. bis Mitte des 18. Jahrhunderts. Die Auswahl
+  der Schriften entspricht dem Katalog ausgewählter Leichenpredigten
+  der ehemaligen Stadtbibliothek Breslau, der von Rudolf Lenz
+  (bearbeitet von Ralf Berg, Eva-Maria Dickhaut, Sigrid Hubert und
+  Martin Kügler) 1986 herausgegeben wurde. Zwar konzentrieren sich die
+  Provenienzen der Schriften auf den schlesischen Raum, eine
+  bedeutende Anzahl von Schriften ist jedoch auch in weiten Teilen
+  Mitteldeutschlands veröffentlicht worden.
+
+  Die Texte wurden im DFG-Projekt „AEDit Frühe Neuzeit“ unter
+  Beteiligung des Deutschen Textarchivs gemäß den
+  DTA-Transkriptionsrichtlinien im Double-Keying-Verfahren von
+  Nicht-Muttersprachlern erfasst und im TEI-P5-Subset DTA-Basisformat
+  (DTABf) kodiert.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - AEDit
+  - Frühe Neuzeit
+  - 16.–18. Jh.
+  - Funeralschriften
+  - Leichenpredigten
+  - Stadtbibliothek Breslau
+  - Text+
+urls:
+  landingPage: https://deutschestextarchiv.de/doku/textquellen#aedit
+  searchPage: https://www.dwds.de/r/?corpus=dtae&collection=aedit 
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: AEDit Frühe Neuzeit
+  url: https://www.hab.de/aedit-fruehe-neuzeit-archiv-editions-und-distributionsplattform-fuer-werke-der-fruehen-neuzeit/
+  authors:
+    -
+      name: Anne Dickel
+      email: dickel@hab.de
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1562
+  end: 1742
+languages:
+  -
+    full: German
+    iso: deu
+facsimile: true
+transcription: [ double-keying ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data: 
+  metadata:
+modality:

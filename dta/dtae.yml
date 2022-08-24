@@ -1,0 +1,85 @@
+title:
+  name: DTAE-Einzeltexte – Erweiterungen des Deutschen Textarchivs
+  shortname: DTAE-Einzeltitel
+dstar:
+  corpus: dtae
+  flags: dtae
+genre:
+  -
+    main: Belletristik
+  -
+    main: Gebrauchsliteratur
+  -
+    main: Wissenschaft
+  -
+    main: Zeitung
+description:
+  Das DTAE-Korpus enthält Einzeltexte und kleinere Sammlungen
+  unterschiedlicher Provenienz, die über das DTA-Erweiterungsmodul DTAE in
+  die DTA-Infrastruktur eingespielt wurden. Innerhalb des DTAE besteht
+  wiederum die Möglichkeit, einzelne Texte als Subkorpus zu clustern.
+
+  Die Primärtexte aus dem späten 16. bis frühen 20. Jahrhundert
+  stammen aus verschiedenen Projektkontexten, ergänzen das
+  DTA-Kernkorpus und erhöhen die Vielfalt des DTA. Darüber hinaus
+  können diese angelagerten Texte als Spezialkorpora mit dem
+  DTA-Kernkorpus auf ihre sprachlichen Spezifika hin verglichen
+  werden.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - DTAE
+  - DTAE_Einzeltitel
+  - DTAE-Einzeltexte
+  - Erweiterungen des Deutschen Textarchivs
+  - Text+
+urls:
+  landingPage: https://www.deutschestextarchiv.de/dtae
+  searchPage: https://www.dwds.de/r/?corpus=dtae&collection=dtae
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: DTA-Erweiterungsmodul (DTAE)
+  url: https://www.deutschestextarchiv.de/dtae
+  authors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1465
+  end: 1987
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: true
+transcription:
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

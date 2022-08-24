@@ -1,0 +1,86 @@
+title:
+  name: Novellenschatz des Auslandes (1877–1884)
+  shortname: Novellenschatz des Auslandes
+dstar:
+  corpus: dtae
+  flags: nsda
+genre:
+  -
+    main: Belletristik
+    sub: Novelle
+description:
+  Das Korpus „Novellenschatz des Auslandes“ enthält eine von Paul
+  Heyse gemeinsam mit Hermann Kurz herausgegebene Novellensammlung mit
+  57 Texten von 46 Autor*innen. Enthalten sind Übersetzungen aus dem
+  Französischen, Englischen, Russischen, Dänischen, Italienischen,
+  Spanischen, Ungarischen, Böhmischen, Niederländischen, Norwegischen,
+  Polnischen und Schwedischen.
+  
+  Der „Novellenschatz des Auslandes“ (14 Bände, 1872-1876)  wurde von
+  der Digital Humanities Cooperation unter Leitung von Prof. Dr.
+  Thomas Weitin in einem Corrected-OCR-Verfahren im Rahmen des von der
+  VolkswagenStiftung geförderte Projekts Reading at Scale. Mixing
+  Methods in Literary Analysis digitalisiert.
+
+  Das hier unter der Lizenz CC BY-SA 4.0 bereitgestellte Korpus wurde
+  im Rahmen von Text+ in die DTA-Infrastruktur integriert.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Deutsche Novellen
+  - Novellen
+  - 19. Jh.
+  - Text+
+urls:
+  landingPage: https://www.dwds.de/d/korpora/nsda
+  searchPage: 
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Reading at Scale. Mixing Methods in Literary Corpus Analysis
+  url: https://www.digitalhumanitiescooperation.de/projects/reading-at-scale/
+  authors:
+    -
+      name: Thomas Weitin
+      email: thomas.weitin@tu-darmstadt.de
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1884
+  end: 1887
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: true
+transcription: [ corrected ocr ]
+annotationLevel:
+status: wip
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

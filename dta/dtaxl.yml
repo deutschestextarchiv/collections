@@ -1,0 +1,65 @@
+title:
+  name: Historische Korpora – DTAXL  
+  shortname: DTAXL
+dstar:
+  corpus: dtaxl
+subcorpora: [ avh-bern, bruedergemeine, dibilit, dingler, dsdk, dtae, dtak, gartenlaube, gei_digital, grenzboten, jean_paul, pitaval, reichstag, soldatenbriefe, textberg_hist ]
+genre:
+  -
+    main: Belletristik
+  -
+    main: Gebrauchsliteratur
+  -
+    main: Wissenschaft
+  -
+    main: Zeitung
+description:
+  DTAXL ist ein Metakorpus, das eine Vielzahl von historischen Korpora des DTA enthält.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - DTAXL
+  - Metakorpus 
+  - Text+
+urls:
+  landingPage: https://www.dwds.de/d/korpora/dtaxl 
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl 
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: 
+  url: 
+  authors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1465
+  end: 1969
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: false 
+transcription: [ ocr, "corrected ocr", manually, double-keying ]
+annotationLevel:
+status: public

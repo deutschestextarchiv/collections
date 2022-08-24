@@ -1,0 +1,79 @@
+title:
+  name: GEI-Digital-2020
+  shortname: GEI-Digital
+dstar:
+  corpus: gei_digital
+genre:
+  -
+    main: Gebrauchsliteratur
+    sub: Schulbuch
+description:
+  Das Korpus GEI-Digital besteht aus 5.036 überwiegend
+  deutschsprachigen historischen Schulbüchern die zwischen 1648 und
+  1921 publiziert wurden.
+
+  Die Textsammlung wurde im Projekt „DiaCollo für GEI-Digital“
+  (2020–2021) am Georg-Eckert-Institut – Leibniz-Institut für
+  internationale Schulbuchforschung in Braunschweig auf Grundlage der
+  im Dezember 2020 mit digitalem Volltext vorliegenden Werke der
+  digitalen Schulbuchbibliothek GEI-Digital zusammengefasst und als
+  Spezialkorpus am GEI, sowie am Zentrum Sprache der BBAW online zur
+  Verfügung gestellt.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - GEI-Digital
+  - GEI-Digital-2020
+  - historische Schulbücher
+  - 17.–20. Jh.
+  - Text+
+urls:
+  landingPage: https://www.dwds.de/d/gei_digital
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=gei_digital
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: DiaCollo für GEI-Digital
+  url: https://diacollo.gei.de/
+  authors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1648
+  end: 1921
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: true
+transcription: [ ocr ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

@@ -64,15 +64,15 @@
       properties:
         data:
           description: Authority files considered within data.
-          type: array
+          type: [ array, "null" ]
           items:
-            type: string
+            type: [ string, "null" ]
             enum: [ GND, LCCN, NDL, VIAF ]
         metadata:
           description: Authority files considered within metadata.
-          type: array
+          type: [ array, "null" ]
           items:
-            type: string
+            type: [ string, "null" ]
             enum: [ GND, LCCN, NDL, VIAF ]
     availability:
       description: Corpus availability.
@@ -174,8 +174,14 @@
             type: string
     modality:
       description: Modality.
-      type: string
-      enum: [ 'printed text', hand-written, speech, unspecified ]
+      oneOf:
+        -
+          type: "null"
+        -
+          type: array
+          items:
+            type: string
+            enum: [ 'printed text', hand-written, speech, unspecified ]
     project:
       description: Project information.
       type: object
@@ -234,14 +240,21 @@
           type: integer
         sentences:
           description: Number of sentences.
-          type: integer
+          type: [ integer, "null" ]
         tokens:
           description: Number of tokens.
-          type: integer
+          type: [ integer, "null" ]
     status:
       description: Status information.
       type: string
       enum: [ internal, public, wip ]
+    subcorpora:
+      description: Meta-corpus Information.
+      type: array
+      additionalProperties: false
+      items:
+        type: string
+        enum: [ aedit, augsburgerallgemeine, avh-bern, avhkv, avh, blumenbach, boersenblatt, bruedergemeine, correspondent, dibilit, dingler, dsdk, dtae, dtak, epoetics, gartenlaube, gei_digital, grenzboten, gutenberg_org, hab, jean_paul, lefevre, mkhz1, mkhz2, ndns, novellenschatz, nrhz, nsda, pitaval, reichstag, rem, sanders-briefe, sbb_funeralschriften, soldatenbriefe, stimmlos, tdef, tevo, textberg_hist, wikisource ]
     timeCoverage:
       description: Time period covered by collection data.
       type: object
@@ -264,8 +277,17 @@
         shortname:
           description: Collection short-title.
           type: string
-        dstarname:
+    dstar:
+      description: Information about dstar access probabilities.
+      type: object
+      additionalProperties: false
+      required: [ corpus ]
+      properties:
+        corpus:
           description: Name of dstar corpus instance.
+          type: string
+        flags:
+          description: Flag value, which is a substring of flag metadata value, this value is parsed as a (PCRE compatible) regular expression.
           type: string
     transcription:
       description: Transcription rules.

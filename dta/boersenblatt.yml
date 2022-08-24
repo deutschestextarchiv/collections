@@ -1,0 +1,93 @@
+title:
+  name: Börsenblatt für den deutschen Buchhandel (1834–1945)
+  shortname: Börsenblatt
+dstar:
+  corpus: boersenblatt
+genre:
+  -
+    main: Gebrauchsliteratur
+    sub: Zeitschrift
+description:
+  Das Börsenblatt-Korpus enthält die Jahrgänge 1834–1945 des
+  „Börsenblatts für den Deutschen Buchhandel“. Diese wurden von der
+  Sächsischen Landesbibliothek – Staats- und Universitätsbibliothek
+  Dresden (SLUB) im Rahmen des Sächsischen
+  Landesdigitalisierungsprogramms für Wissenschaft und Kultur in
+  Kooperation mit der Historischen Kommission des Börsenvereins für
+  den Deutschen Buchhandel digitalisiert. Wissenschaftlich begleitet
+  wurde das Vorhaben von Prof. Dr. Christine Haug (LMU München).
+
+  Mit Hilfe der quelloffenen Workflowmanagementsoftware
+  Kitodo.Production wurden ca. eine Million Digitalisate produziert,
+  langzeitarchiviert und mittels OCR mit einem digitalen Volltext
+  versehen. Die in der DWDS-Infrastruktur zugänglichen Textdaten
+  wurden analog zum DTABf annotiert und mit entsprechenden Metadaten
+  angereichert.
+
+  Die digitale Edition des Börsenblatts für den Deutschen Buchhandel
+  (1834–1945) bietet außergewöhnlich reiches Quellenmaterial für 111
+  Jahre Druck-, Verlags-, Buch- und Literaturgeschichte.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Börsenblatt für den deutschen Buchhandel
+  - Börsenverein
+  - Amtliches Blatt
+  - Leipzig
+  - Zeitschrift
+  - 19.–20. Jh.
+  - Text+
+urls:
+  landingPage:
+  searchPage: https://kaskade.dwds.de/dstar/boersenblatt/
+  images: https://digital.slub-dresden.de/id39946221X
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Börsenblatt digital
+  url: https://www.boersenblatt-digital.de/
+  authors:
+    -
+      name: Börsenblatt digital 
+      email: kontakt@boersenblatt-digital.de
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1834
+  end: 1945
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: false
+transcription: [ ocr ]
+annotationLevel:
+status: wip
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

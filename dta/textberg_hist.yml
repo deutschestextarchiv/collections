@@ -1,0 +1,83 @@
+title:
+  name: Text+Berg (1864–1900)
+  shortname: Text+Berg
+dstar:
+  corpus: dtae
+  flags: textberg_hist
+genre:
+  -
+    main: Gebrauchsliteratur
+    sub: Zeitschrift
+description:
+  Das Korpus umfasst die (historischen) deutsch- und mehrsprachigen Ausgaben des
+  „Jahrbuchs des Schweizer-Alpenclubs“ (1864–1900). Die digitale
+  Ausgabe der Bände wurde von Noah Bubenhofer im Rahmen des Projekts
+  „Text+Berg digital“ an der Universität Zürich erarbeitet.
+
+  Dieses Korpus ist auch Teil des Metakorpus Historische Korpora.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Jahrbuch des Schweizer-Alpenclubs
+  - Schweizer-Alpenclub
+  - Jahrbuch
+  - SAC
+  - 19. Jh.
+  - Text+Berg
+  - Text+
+urls:
+  landingPage: https://www.dwds.de/d/korpora/textberg
+  searchPage: https://www.dwds.de/r/?corpus=text+berg
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Text+Berg digital
+  url: https://textberg.ch/
+  authors:
+    -
+      name: Noah Bubenhofer
+      email: noah.bubenhofer@ds.uzh.ch
+    -
+      name: Martin Volk
+      email: volk@cl.uzh.ch
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1864
+  end: 1900
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: true
+transcription: [ corrected ocr ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

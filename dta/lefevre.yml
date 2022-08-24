@@ -1,0 +1,95 @@
+title:
+  name: Lefèvre-Korpus von Zeitungen aus dem späten 17. Jahrhundert 
+  shortname: Lefèvre-Korpus
+dstar:
+  corpus: dtae
+  flags: lefevre
+genre:
+  -
+    main: Gebrauchsliteratur 
+    sub: Zeitungen 
+description: |
+  Das „Lefèvre-Korpus“ umfasst ausgewählte deutschsprachige Zeitungen
+  aus dem letzten Drittel des 17. Jahrhunderts; der Großteil davon
+  stammt aus dessen letztem Jahrzehnt. Diese Zeitungen erschienen in
+  der Regel periodisch ein- oder zweimal wöchentlich. Nur ein Teil der
+  Ausgaben ist überliefert (zum Bestand vgl. Else Bogel/Elger Blühm: Die
+  deutschen Zeitungen des 17. Jahrhunderts: Ein Bestandsverzeichnis mit
+  historischen und bibliographischen Angaben, Bremen: Schünemann, 1971).
+
+  Die Ausgaben umfassten meist vier oder acht Seiten und setzten sich
+  im Wesentlichen aus Korrespondenzen aus europäischen Städten
+  zusammen.  Diese wurden über die an bestimmten Wochentagen
+  bestehenden regulären Postverbindungen versandt, was Zeitungstitel
+  wie Dingstags bzw.  Freytags Ordinari Post-Zeitungen motiviert.
+  (Näheres vgl. Margot Lindemann: Deutsche Presse bis 1815, Berlin:
+  Colloquium-Verlag, 1988, sowie Michel Lefèvre, Textgestaltung,
+  Äußerungsstruktur und Syntax in deutschen Zeitungen des 17.
+  Jahrhunderts: Zwischen barocker Polyphonie und solistischem
+  Journalismus, Berliner Sprachwissenschaftliche Studien 29, Berlin:
+  Weidler, 2013.)
+
+  Auf der Basis von Mikrofilmen erstellte elektronische Transkripte
+  wurden dem DTA von Prof. Dr. Michel Lefèvre (Université Paul Valéry
+  Montpellier 3) zur Verfügung gestellt und an der BBAW ins
+  DTA-Basisformat konvertiert. Die Bilddigitalisate stammen von der
+  Staats- und Universitätsbibliothek Bremen sowie von der Bayerischen
+  Staatsbibliothek.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Text+
+urls:
+  landingPage: https://www.deutschestextarchiv.de/doku/textquellen#lefevre
+  searchPage: https://www.dwds.de/r/?corpus=dtae&collection=lefevre
+size:
+  objects: 319
+  sentences:
+  tokens:
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name:  
+  url: 
+  authors:
+    -
+      name: Prof. Dr. Michel Lefèvre
+      roles: transcriber
+timeCoverage:
+  start: 1668
+  end: 1699
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: false
+transcription: [ manually ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

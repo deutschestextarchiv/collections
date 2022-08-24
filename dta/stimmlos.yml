@@ -1,0 +1,84 @@
+title:
+  name: stimm-los. Wiedergefundene Perlen der Literatur
+  shortname: stimm-los
+dstar:
+  corpus: dtae
+  flags: stimmlos
+genre:
+  -
+    main: Belletristik
+    sub: Novelle
+description:
+  Das Korpus stimm-los enthält Literatur, vornehmlich Novellen, aus
+  dem Zeitraum 1750–1920. Durch die Transkription dieser Texte
+  verfolgt stimm-los das Ziel, in Fraktur gesetzte Klassiker der
+  Weltliteratur verschiedener Sprachen einer breiten Leserschaft
+  zugänglich zu machen. Im Rahmen von Text+ werden die Transkriptionen
+  sowie zugehörige Metadaten dem Deutschen Textarchiv (DTA) als
+  Repositorium für historische Texte zur Verfügung gestellt. Das DTA
+  übernimmt die Konvertierung der Werke in das DTA-Standardformat
+  DTABf sowie die Integration und langfristige Bereitstellung der
+  Resource in der DTA-Infrastruktur.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Literatur
+  - Novelle
+  - Klassiker
+  - 1750–1920
+  - Text+
+urls:
+  landingPage:
+  searchPage:
+  repository:
+  text+:
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: stimm-los
+  url: https://www.stimm-los.de/
+  authors:
+    -
+      name: Andreas Hungeling
+      email: info@stimmlos.de
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1750
+  end: 1920
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: false
+transcription: [ manually ]
+annotationLevel:
+status: wip
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

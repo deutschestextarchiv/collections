@@ -1,0 +1,90 @@
+title:
+  name: Neue Rheinische Zeitung
+  shortname: NRhZ
+dstar:
+  corpus: dtae
+  flags: nrhz
+genre:
+  -
+    main: Zeitung
+description:
+  Das NRhZ-Korpus enthält 301 Ausgaben der „Neuen Rheinische Zeitung.
+  Organ der Demokratie“, die in Köln vom 1. Juni 1848 bis zum 19. Mai
+  1849 täglich unter der Chefredaktion von Karl Marx und Mitarbeit von
+  Friedrich Engels erschien und die somit den Zeitraum der
+  europäischen Revolution von 1848/49 umfasst.
+
+  Ergänzend zu der an der BBAW erarbeiteten Edition der Artikel von
+  Karl Marx und Friedrich Engels in den Bänden I/7 (erschienen 2016),
+  I/8 und I/9 (beide in Bearbeitung) der Marx-Engels-Gesamtausgabe
+  entstand die digitale Fassung der vollständigen Neuen Rheinischen
+  Zeitung, also auch derjenigen Beiträge und Artikel, die nicht von
+  Marx oder Engels verfasst wurden. Hierbei konnten sowohl
+  Verknüpfungen zwischen Artikelteilen innerhalb einer Ausgabe als
+  auch über Ausgaben hinweg hergestellt werden, sodass sowohl eine
+  zeitungsidentische Ansicht als auch eine Leseansicht möglich ist.
+
+  Die ursprünglichen Daten wurden in Zusammenarbeit mit dem Deutschen
+  Textarchiv in das DTA-Basisformat überführt. Die in der
+  Marx-Engels-Gesamtausgabe (MEGA) edierten und kommentierten Artikel
+  von Marx und Engels sind auszugsweise einsehbar; es wird jeweils auf
+  ihre Wiedergabe in den entsprechenden Bänden der MEGA verwiesen.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - NRhZ
+  - Neue Rheinische Zeitung. Organ der Demokratie
+  - Karl Marx
+  - Friedrich Engels
+  - 19. Jh.
+  - Text+
+urls:
+  landingPage: https://deutschestextarchiv.de/doku/textquellen#nrhz
+  searchPage: https://www.dwds.de/r/?corpus=dtae&collection=nrhz
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Digitalisierung ‚Neue Rheinische Zeitung’
+  url: https://www.deutschestextarchiv.de/nrhz/
+  authors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1848
+  end: 1849
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: true
+transcription: [ double-keying ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

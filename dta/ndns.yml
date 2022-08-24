@@ -1,0 +1,86 @@
+title:
+  name: Neuer Deutscher Novellenschatz (1884–1887)
+  shortname: Neuer Deutscher Novellenschatz
+dstar:
+  corpus: dtae
+  flags: ndns
+genre:
+  -
+    main: Belletristik
+    sub: Novelle
+description:
+  Das Korpus „Neuer Deutscher Novellenschatz“ enthält eine von Paul
+  Heyse und Ludwig Laistner herausgegebene Novellensammlung mit 70
+  Texten von 66 Autor*innen. Die Sammlung hat einen
+  zeitgenössisch-realistischen Schwerpunkt. Mit wenigen Ausnahmen
+  stammen die Texte aus der zweiten Hälfte des 19. Jahrhunderts, ein
+  Großteil der aufgenommenen Novellen ist heute dekanonisiert.
+  
+  Der „Neue Deutsche Novellenschatz“ (24 Bände, 1884-1887) wurde von
+  der Digital Humanities Cooperation unter Leitung von Prof. Dr.
+  Thomas Weitin in einem Corrected-OCR-Verfahren im Rahmen des von der
+  VolkswagenStiftung geförderten Projekts Reading at Scale. Mixing
+  Methods in Literary Analysis digitalisiert. 
+
+  Das hier unter der Lizenz CC BY-SA 4.0 bereitgestellte Korpus wurde
+  im Rahmen von Text+ in die DTA-Infrastruktur integriert.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Deutsche Novellen
+  - Novellen
+  - 19. Jh.
+  - Text+
+urls:
+  landingPage: https://www.dwds.de/d/korpora/ndns  
+  searchPage: 
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Reading at Scale. Mixing Methods in Literary Corpus Analysis
+  url: https://www.digitalhumanitiescooperation.de/projects/reading-at-scale/
+  authors:
+    -
+      name: Thomas Weitin
+      email: thomas.weitin@tu-darmstadt.de
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1884
+  end: 1887
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: true
+transcription: [ corrected ocr ]
+annotationLevel:
+status: wip
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

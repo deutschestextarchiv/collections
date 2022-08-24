@@ -1,0 +1,81 @@
+title:
+  name: MKHZ – Mannheimer Korpus Historischer Zeitungen 2
+  shortname: MKHZ2
+dstar:
+  corpus: dtae
+  flags: mkhz2
+genre:
+  -
+    main: Zeitung
+description:
+  Das Korpus MKHZ2 (Mannheimer Korpus Historischer Zeitungen und
+  Zeitschriften) wurde am Leibniz-Institut für Deutsche Sprache in
+  Mannheim (IDS) digitalisiert. Die ursprünglichen TUSTEP-Dateien der
+  enthaltenen historischen Zeitschriften und Zeitungen wurden am IDS
+  automatisch in das DTA-Basisformat konvertiert und hinsichtlich der
+  Annotation durch das DTA semiautomatisch nachbearbeitet.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Mannheimer Korpus Historischer Zeitungen
+  - MKHZ2
+  - Badener Zeitung
+  - Czernowitzer Allgemeine Zeitung
+  - Mährisches Tagblatt
+  - Marburger Zeitung
+  - Reichspost
+  - St. Galler Volksblatt
+  - 19.–20. Jh.
+  - Text+
+urls:
+  landingPage: https://www.deutschestextarchiv.de/doku/textquellen#mkhz
+  searchPage: https://www.dwds.de/r/?corpus=dtae&collection=mkhz2
+  repository:
+  text+:
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Historisches Textkorpus
+  url: https://www.ids-mannheim.de/lexik/abgeschlosseneprojekte/historischeskorpus/
+  authors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1883
+  end: 1918
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: true
+transcription:
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

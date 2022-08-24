@@ -1,0 +1,76 @@
+#!/usr/bin/perl
+
+use 5.012;
+use warnings;
+
+use File::Basename 'basename';
+use Getopt::Long;
+use JSON::PP;
+use LWP::UserAgent;
+use URI::Escape 'uri_escape_utf8';
+use YAML::PP;
+
+my $ypp = YAML::PP->new(
+    schema  => [qw(Core Merge)],
+    boolean => 'JSON::PP',
+);
+
+my $ua = LWP::UserAgent->new;
+my %stat_files = (
+    tokens    => 'ddc.tokens.all.txt',
+    sentences => 'ddc.sentences.all.txt',
+    documents => 'ddc.files.all.txt',
+);
+my $dstar_base = 'https://kaskade.dwds.de/dstar/';
+
+my %stat_queries = (
+    tokens    => 'COUNT(* #SEP #HAS[flags,/\b%s\b/])',
+    sentences => 'COUNT(* #JOIN #HAS[flags,/\b%s\b/])',
+    documents => 'COUNT(* #WITHIN file #HAS[flags,/\b%s\b/])',
+);
+
+my %out;
+my $i = 0;
+foreach my $file ( @ARGV ) {
+    my $base = basename $file, '.yml';
+    my $yaml = $ypp->load_file( $file );
+
+    next unless exists $yaml->{dstar};
+    my $corpus = $yaml->{dstar}{corpus};
+    next unless $corpus;
+
+    my $flags = $yaml->{dstar}{flags};
+    if ( $flags ) {
+        # DDC queries
+        while ( my ($k, $v) = each %stat_queries ) {
+            my $url = sprintf '%s%s/dstar.perl?q=%s&fmt=text', $dstar_base, uri_escape_utf8($corpus), uri_escape_utf8(sprintf($v, $flags));
+            say STDERR "fetching $url ...";
+            my $res = $ua->get($url);
+            if ( !$res->is_success ) {
+                die "$url: ".$res->status_line;
+            }
+            my ($number) = split /\s+/ => $res->content;
+            $yaml->{numbers}{$k} = $number;
+        }
+    }
+    else {
+        # grab stat files directly, should be much faster
+        while ( my ($k, $v) = each %stat_files ) {
+            my $url = sprintf '%s%s/stats/%s', $dstar_base, $corpus, $v;
+            say STDERR "fetching $url ...";
+            my $res = $ua->get($url);
+            if ( !$res->is_success ) {
+                die "$url: ".$res->status_line;
+            }
+            my ($number) = split /\s+/ => $res->content;
+            $yaml->{numbers}{$k} = $number;
+        }
+    }
+
+    $out{ $base } = $yaml;
+    $i++;
+}
+
+say encode_json(\%out);
+
+__END__

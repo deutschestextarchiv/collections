@@ -1,0 +1,89 @@
+title:
+  name: Texte der ersten Frauenbewegung
+  shortname: TdeF
+dstar:
+  corpus: dtae
+  flags: tdef
+genre:
+  -
+    main: Gebrauchsliteratur
+    sub: Gesellschaft
+description:
+  Das Korpus „Texte der ersten Frauenbewegung“ (TdeF) besteht aus
+  deutschsprachigen Quellentexten, die in der Frauenbewegung um 1900
+  entstanden sind. Im Vordergrund steht das Thema des
+  Frauenwahlrechts, aber in der kontroversen Diskussion, die es
+  zwischen den verschiedenen Lagern der Frauenbewegung, einzelnen
+  Vertreterinnen und den Parteien im Parlament gab, wurden auch viele
+  andere zeitgenössische Themen angeschnitten. Da die ersten Texte zur
+  Frauenwahlrechtsfrage um 1870 erschienen und die Frauen 1918 das
+  Frauenwahlrecht erhielten, ist der historische Zeitraum klar
+  bemessen. Bei den Texten handelt es sich sowohl um eigenständige
+  Werke in Form von Büchlein oder Broschüren als auch um
+  Zeitschriftenaufsätze, die in den Presseorganen der Frauenbewegung
+  publiziert wurden. Die Sammlung wird von Anna Pfundt und Thomas
+  Gloning (Justus-Liebig-Universität Gießen) betreut. Die Volltexte
+  werden nach XML/TEI P5 gemäß dem DTA-Basisformat erfasst und
+  innerhalb der DTA-Infrastruktur veröffentlicht.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Texte der ersten Frauenbewegung
+  - Frauenbewegung
+  - Frauenwahlrecht
+  - TdeF
+  - 19.–20. Jh.
+  - Text+
+urls:
+  landingPage: https://deutschestextarchiv.de/doku/textquellen#tdef
+  searchPage: https://www.dwds.de/r/?corpus=dtae&collection=tdef
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Texte der ersten Frauenbewegung
+  url:
+  authors:
+    -
+      name: Anna Pfundt
+      email: Anna.Pfundt@germanistik.uni-giessen.de
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1870
+  end: 1919
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: true
+transcription: [ manually ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

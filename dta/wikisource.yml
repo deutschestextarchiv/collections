@@ -1,0 +1,81 @@
+title:
+  name: Wikisource
+  shortname: Wikisource
+dstar:
+  corpus: dtae
+  flags: wikisource
+genre:
+  -
+    main: Belletristik
+  -
+    main: Gebrauchsliteratur
+  -
+    main: Wissenschaft
+  -
+    main: Zeitung
+description:
+  Das Wikisource-Korpus enthält 168 Werke, die im Rahmen des CLARIN-D
+  Kurationsprojekts „Integration und Aufwertung historischer Textressourcen des 15.–19.
+  Jahrhunderts in einer nachhaltigen CLARIN-Infrastruktur“ aus dem Projekt Wikisource
+  ausgewählt wurden. Die Volltexttranskription wurde semiautomatisch in das DTA-
+  Basisformat überführt. Die korrespondierenden Bilddigitalisate des jeweiligen Werks
+  stammen aus der in den Metadaten ausgewiesenen Quelle (i. d. R. Wikimedia Commons).
+  Alle Texte des Korpus werden innerhalb der DTA-Infrastruktur bereitgestellt.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Wikisource
+  - Wikisource historische Texte
+  - Wikisource Texte
+  - 15.–20. Jh.
+  - Text+
+urls:
+  landingPage: https://deutschestextarchiv.de/doku/textquellen#wikisource
+  searchPage: https://www.dwds.de/r/?corpus=dtae&collection=wikisource
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Integration und Aufwertung historischer Textressourcen des 15.–19. Jahrhunderts in einer nachhaltigen CLARIN-D-Infrastruktur
+  url: https://www.deutschestextarchiv.de/doku/clarin_kupro_liste?g=wikisource
+  authors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1497
+  end: 1926
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: true
+transcription:
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

@@ -1,0 +1,88 @@
+title:
+  name: Nachrichten aus der Brüdergemeine (1819–1894)
+  shortname: Brüdergemeine
+dstar:
+  corpus: bruedergemeine
+genre:
+  -
+    main: Gebrauchsliteratur
+    sub: Zeitschrift
+description:
+  Das Korpus „Nachrichten aus der Brüdergemeine“ stellt eines der
+  zentralen Periodika der Brüderunität dar und enthält
+  Missionsberichte, Lebensbeschreibungen, Überblicke über
+  Missionsstationen, Briefe und Reden aus den Jahren 1819 bis 1894.
+
+  Die Dokumente liegen als Digitalisat mit automatischer OCR im
+  Digitalen Archiv der Memorial University of Newfoundland (MUN)
+  (Kanada) vor und sind für die interessierte Öffentlichkeit
+  zugänglich sowie rudimentär durchsuchbar. Die SLUB Dresden hat die
+  ursprünglichen Scans mit Unterstützung des Archivs der MUN einer
+  optimierten OCR unterzogen und automatisch in XML/TEI-Dateien
+  transformiert. Für die hier innerhalb der DWDS-Infrastruktur
+  veröffentlichen Dokumente wird eine Normalisierung der historischen
+  Schreibweise bereitgestellt, was für die Durchsuchbarkeit und
+  Analyse der Daten einen zusätzlichen Mehrwert darstellt.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Nachrichten aus der Brüdergemeine
+  - Herrnhuter Brüdergemeine
+  - Evangelische Brüder-Unität
+  - Unitas Fratrum
+  - Zeitschrift
+  - 19. Jh.
+  - Text+
+urls:
+  landingPage: https://www.dwds.de/d/korpora/bruedergemeine
+  searchPage: https://www.dwds.de/r/?corpus=bruedergemeine
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Nachrichten aus der Brüdergemeine
+  url: https://collections.mun.ca/digital/collection/nachrichten
+  authors:
+    - 
+      name: SLUB – Digitale Sammlungen
+      email: digital@slub-dresden.de
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1819
+  end: 1894
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: false
+transcription: [ ocr ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:

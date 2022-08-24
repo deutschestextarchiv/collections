@@ -1,0 +1,86 @@
+title:
+  name: Reichstagsprotokoll-Korpus
+  shortname: Reichstagsprotokoll
+dstar:
+  corpus: reichstag
+genre:
+  -
+    main: Gebrauchsliteratur
+description:
+  Das Reichstagsprotokoll-Korpus umfasst die publizierten Protokolle,
+  Stenographischen Berichte, Anlagen sowie Handbücher des Deutschen
+  Reichstages und seiner Vorläufer von 1867–1942. Die
+  Bilddigitalisierung und anschließende automatische
+  Volltextdigitalisierung (OCR) wurde von der Bayerischen
+  Staatsbibliothek im Rahmen eines DFG-Projektes von 1997 bis 2009
+  durchgeführt.
+
+  Die Kuration, Konvertierung sowie Bereitstellung im DTA-Basisformat
+  wurde vom Arbeitsbereich „Historische Korpora“ des Zentrums für
+  digitale Lexikographie der deutschen Sprache (ZDL) vorgenommen.
+
+  Die Korpusbereitstellung ermöglicht komplexe Suchanfragen
+  (dstar-Schnittstelle) auf Grundlage linguistischer Voranalysen
+  (Lemmatisierung, POS- Tagging, orthographische Normierung),
+  Korpusanalysen mit Wortverlaufskurven und Kollokationsanalysen im
+  zeitlichen Verlauf mit DiaCollo.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Reichstagsprotokolle
+  - stenographische Berichte
+  - Anlagen
+  - Handbücher
+  - Deutscher Reichstag
+  - 19.–20. Jh.
+  - Text+
+urls:
+  landingPage: https://www.deutschestextarchiv.de/reichstag/
+  searchPage: https://kaskade.dwds.de/dstar/reichstag/
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Verhandlungen des Deutschen Reichstags
+  url: https://www.reichstagsprotokolle.de/projekt.html
+  authors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start: 1867
+  end: 1942
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: true
+transcription: [ ocr ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:
