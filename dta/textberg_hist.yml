@@ -2,7 +2,8 @@ title:
   name: Text+Berg (1864–1900)
   shortname: Text+Berg
 dstar:
-  corpus: textberg_hist
+  corpus: dtae
+  flags: textberg_hist
 genre:
   -
     main: Gebrauchsliteratur
