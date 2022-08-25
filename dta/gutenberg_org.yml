@@ -11,7 +11,7 @@ genre:
     main: Gebrauchsliteratur
   -
     main: Wissenschaft
-description:
+description: |
   Das Korpus „Gutenberg.org“ enthält Texte aus dem Projekt Gutenberg,
   die im Rahmen des CLARIN-D Kurationsprojekts „Integration und
   Aufwertung historischer Textressourcen des 15.–19. Jahrhunderts in

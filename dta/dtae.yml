@@ -13,7 +13,7 @@ genre:
     main: Wissenschaft
   -
     main: Zeitung
-description:
+description: |
   Das DTAE-Korpus enthält Einzeltexte und kleinere Sammlungen
   unterschiedlicher Provenienz, die über das DTA-Erweiterungsmodul DTAE in
   die DTA-Infrastruktur eingespielt wurden. Innerhalb des DTAE besteht

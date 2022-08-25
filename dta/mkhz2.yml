@@ -7,7 +7,7 @@ dstar:
 genre:
   -
     main: Zeitung
-description:
+description: |
   Das Korpus MKHZ2 (Mannheimer Korpus Historischer Zeitungen und
   Zeitschriften) wurde am Leibniz-Institut für Deutsche Sprache in
   Mannheim (IDS) digitalisiert. Die ursprünglichen TUSTEP-Dateien der

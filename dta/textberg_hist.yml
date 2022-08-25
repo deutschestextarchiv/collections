@@ -3,12 +3,12 @@ title:
   shortname: Text+Berg
 dstar:
   corpus: dtae
-  flags: textberg_hist
+  flags: textberg
 genre:
   -
     main: Gebrauchsliteratur
     sub: Zeitschrift
-description:
+description: |
   Das Korpus umfasst die (historischen) deutsch- und mehrsprachigen Ausgaben des
   „Jahrbuchs des Schweizer-Alpenclubs“ (1864–1900). Die digitale
   Ausgabe der Bände wurde von Noah Bubenhofer im Rahmen des Projekts

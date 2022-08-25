@@ -10,7 +10,7 @@ genre:
     main: Gebrauchsliteratur
   -
     main: Wissenschaft
-description:
+description: |
   Das DiBiLit-Korpus besteht aus Texten und Metadaten der „Digitalen
   Bibliothek bei Textgrid“ (TextGrid) und aus Daten des German Drama
   Corpus (GerDraCor), des i5-Korpus des Leibniz-Instituts für Deutsche

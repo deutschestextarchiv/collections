@@ -31,13 +31,18 @@ my %stat_queries = (
 
 my %out;
 my $i = 0;
-foreach my $file ( @ARGV ) {
+
+FILE:
+  foreach my $file ( @ARGV ) {
     my $base = basename $file, '.yml';
+    say STDERR "$base: processing ...";
     my $yaml = $ypp->load_file( $file );
 
     next unless exists $yaml->{dstar};
     my $corpus = $yaml->{dstar}{corpus};
     next unless $corpus;
+
+    next if exists $yaml->{status} and $yaml->{status} eq 'wip';
 
     my $flags = $yaml->{dstar}{flags};
     if ( $flags ) {
@@ -48,6 +53,10 @@ foreach my $file ( @ARGV ) {
             my $res = $ua->get($url);
             if ( !$res->is_success ) {
                 die "$url: ".$res->status_line;
+            }
+            if ( $res->content =~ /no hits/ ) {
+                say STDERR "$base: no token numbers, skipping ...";
+                next FILE;
             }
             my ($number) = split /\s+/ => $res->content;
             $yaml->{numbers}{$k} = $number;

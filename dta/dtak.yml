@@ -17,7 +17,7 @@ genre:
 authority_control:
   data: [ GND ]
   metadata: [ GND ]
-description:
+description: |
   Mit dem Kernkorpus stellt das Deutsche Textarchiv (DTA) einen
   disziplinen- und gattungsübergreifenden Grundbestand
   deutschsprachiger Texte mit einem Schwerpunkt ab dem frühen 16. bis

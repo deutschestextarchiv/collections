@@ -13,7 +13,7 @@ genre:
     main: Wissenschaft
   -
     main: Zeitung
-description:
+description: |
   DTAXL ist ein Metakorpus, das eine Vielzahl von historischen Korpora des DTA enthält.
 format:
   data:
