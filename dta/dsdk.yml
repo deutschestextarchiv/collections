@@ -14,24 +14,23 @@ genre:
     main: Zeitung
 description:
   Das Korpus „Digitale Sammlung Deutscher Kolonialismus“ (DSDK) bietet
-  ca. 1.000 im Volltext digitalisierte Publikationen zum Kolonialismus
-  aus der Zeit des deutschen Kaiserreichs an.
-
-  Im Rahmen des von der Deutschen Forschungsgemeinschaft (DFG)
-  geförderten Projekts DSDK wurden aus den Beständen der Staats- und
+  ca. 1.000 im Volltext digitalisierte Publikationen zum Thema
+  Kolonialismus aus der Zeit des deutschen Kaiserreichs an. Die Titel
+  entstammen unterschiedlichen Gattungen und Disziplinen und wurden im
+  Rahmen des von der Deutschen Forschungsgemeinschaft (DFG)
+  geförderten Projekts DSDK aus den Beständen der Staats- und
   Universitätsbibliothek Bremen sowie der Universitätsbibliothek
-  Johann Christian Senckenberg in Frankfurt/Main über 1.000 Titel
-  unterschiedlicher Gattungen und Disziplinen zum Thema Kolonialismus
-  digitalisiert und per OCR vervolltextet. Anschließend wurden die
-  Volltexte via DTAE in die Forschungsinfrastruktur CLARIN-D
-  integriert.
+  Johann Christian Senckenberg in Frankfurt/Main digitalisiert und per
+  OCR vervolltextet.
 
-  Das DSDK-Korpus stellt ein eigenständiges historisches Korpus des
-  Zentrums Sprache dar. Es kann über die dstar-Schnittstelle
-  recherchiert werden. Dabei sind ebenso komplexe Suchanfragen auf
-  Grundlage linguistischer Voranalysen (Lemmatisierung, POS- Tagging,
-  orthographische Normierung) möglich wie Korpusanalysen mit
-  Wortverlaufskurven oder Kollokationen (DiaCollo).
+  Alle Volltexte wurden via DTAE in die Forschungsinfrastruktur
+  CLARIN-D integriert. Das DSDK-Korpus stellt ein eigenständiges
+  historisches Korpus des Zentrums Sprache dar. Es kann über die
+  dstar-Schnittstelle recherchiert werden. Dabei sind ebenso komplexe
+  Suchanfragen auf Grundlage linguistischer Voranalysen
+  (Lemmatisierung, POS- Tagging, orthographische Normierung) möglich
+  wie Korpusanalysen mit Wortverlaufskurven oder Kollokationen
+  (DiaCollo).
 format:
   data:
     - DTABf

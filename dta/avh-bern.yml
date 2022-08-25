@@ -7,29 +7,29 @@ genre:
   -
     main: Wissenschaft
 description:
-  Die Digitalausgabe von Alexander von Humboldts „Sämtlichen Schriften“
-  ist die erweiterte Open-Access-Version der 10-bändigen Druckausgabe
-  (2019 herausgegeben von Oliver Lubrich und Thomas Nehrlich). Sie
-  macht Humboldts gesamte Publizistik frei zugänglich, das heißt die
-  rund 750 Aufsätze, Artikel und Essays, die zu Humboldts Lebzeiten in
-  insgesamt 15 Sprachen an über 420 Orten weltweit in 3.600 Drucken und
-  über 1.200 Publikationsorganen erschienen sind (von Humboldts erster
-  Veröffentlichung 1789 bis zu seinem Tod 1859). Von allen Textzeugen
-  stehen XML-Transkriptionen (TEI-P5) und Lesefassungen sowie
-  umfassende bibliographische Metadaten in einer Web-Ansicht und zum
-  Download zur Verfügung (unter der Lizenz CC BY-SA 4.0). Die Texte
-  und Metadaten sind mit einer intelligenten Volltextsuche vollständig
-  erfasst.
+  Das Korpus „A. v. Humboldts Publizistik“ enthält die Digitalausgabe
+  von Alexander von Humboldts „Sämtlichen Schriften“ und entspricht
+  der erweiterten Open-Access-Version der 10-bändigen Druckausgabe
+  (2019 herausgegeben von Oliver Lubrich und Thomas Nehrlich). Damit
+  wird die gesamte Publizistik Humboldts frei zugänglich gemacht, das
+  heißt die rund 750 Aufsätze, Artikel und Essays, die zu Humboldts
+  Lebzeiten in insgesamt 15 Sprachen an über 420 Orten weltweit in
+  3.600 Drucken und über 1.200 Publikationsorganen erschienen sind
+  (von Humboldts erster Veröffentlichung 1789 bis zu seinem Tod 1859).
 
-  Darüber hinaus bietet die Digitalausgabe umfassende Werkzeuge zur
-  Erschließung und Erläuterung von Humboldts Schriften; eine thematische
-  Einführung, einen Editorischen Bericht, Glossare (zu Maßen,
-  Instrumenten und Medien, Humboldts Quellen und Publikationsorganen),
-  Transversalkommentare zu übergreifenden Fragestellungen und Themen
-  sowie rund 130 Übersetzungen aller nie auf Deutsch erschienen Texte.
-  Eine Übersicht über die Digitaledition bietet die Dokumentation.
-
-  Im DWDS sind die rund 1340 deutschsprachigen Texte des Korpus recherchierbar.
+  Von allen Textzeugen stehen XML-Transkriptionen (TEI-P5) und
+  Lesefassungen sowie umfassende bibliographische Metadaten in einer
+  Web-Ansicht und zum Download zur Verfügung (unter der Lizenz CC
+  BY-SA 4.0). Die Texte und Metadaten sind mit einer intelligenten
+  Volltextsuche vollständig erfasst. Darüber hinaus bietet die
+  Digitalausgabe umfassende Werkzeuge zur Erschließung und Erläuterung
+  von Humboldts Schriften; eine thematische Einführung, einen
+  Editorischen Bericht, Glossare (zu Maßen, Instrumenten und Medien,
+  Humboldts Quellen und Publikationsorganen), Transversalkommentare zu
+  übergreifenden Fragestellungen und Themen sowie rund 130
+  Übersetzungen aller nie auf Deutsch erschienen Texte. Eine Übersicht
+  über die Digitaledition bietet die Dokumentation. Im DWDS sind die
+  rund 1340 deutschsprachigen Texte des Korpus recherchierbar.
 format:
   data:
     - DTABf

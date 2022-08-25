@@ -14,20 +14,21 @@ description:
   Staatsbibliothek zu Berlin. Die Funeralschriften sind Bestandteil
   der Sammlung von ca. 20.000 Personalschriften, darunter auch
   Hochzeitspredigten, Glückwunschgedichte und andere sogenannte
-  Gelegenheitsschriften. Die chronologische Struktur des
-  Personalschriftenbestandes der Staatsbibliothek spiegelt deutlich
-  die Blütezeit der Leichenpredigten wider. Rund 700 Drucke des 16.
-  Jahrhunderts stehen ca. 13.000 Drucken des 17. Jahrhunderts
-  gegenüber; aus dem 18. Jahrhundert stammen noch ca. 3.000 Schriften,
-  aus der Zeit von 1800 bis 1927 nur noch etwa 220 meist säkulare
-  Grabreden. Mit dem mitteldeutschen Raum, Niedersachsen und
-  Brandenburg-Preußen entspricht auch die regionale Verteilung den
-  Schwerpunkten der protestantischen Leichenpredigten.
+  Gelegenheitsschriften. 
 
-  Die Qualität der OCR-Daten wurde hinsichtlich der Struktur- und
-  Zeichengenauigkeit (semi)automatisch verbessert, die Volltexte
-  wurden nach XML/TEI P5 gemäß dem DTA-Basisformat konvertiert und
-  innerhalb der DTA-Infrastruktur veröffentlicht.
+  Die chronologische Struktur des Personalschriftenbestandes der
+  Staatsbibliothek spiegelt deutlich die Blütezeit der
+  Leichenpredigten wider. Rund 700 Drucke des 16. Jahrhunderts stehen
+  ca. 13.000 Drucken des 17. Jahrhunderts gegenüber; aus dem 18.
+  Jahrhundert stammen noch ca. 3.000 Schriften, aus der Zeit von 1800
+  bis 1927 nur noch etwa 220 meist säkulare Grabreden. Mit dem
+  mitteldeutschen Raum, Niedersachsen und Brandenburg-Preußen
+  entspricht auch die regionale Verteilung den Schwerpunkten der
+  protestantischen Leichenpredigten. Die Qualität der OCR-Daten wurde
+  hinsichtlich der Struktur- und Zeichengenauigkeit (semi)automatisch
+  verbessert, die Volltexte wurden nach XML/TEI P5 gemäß dem
+  DTA-Basisformat konvertiert und innerhalb der DTA-Infrastruktur
+  veröffentlicht.
 format:
   data:
     - DTABf

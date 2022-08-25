@@ -17,18 +17,18 @@ description:
   Ergänzend zu der an der BBAW erarbeiteten Edition der Artikel von
   Karl Marx und Friedrich Engels in den Bänden I/7 (erschienen 2016),
   I/8 und I/9 (beide in Bearbeitung) der Marx-Engels-Gesamtausgabe
-  entstand die digitale Fassung der vollständigen Neuen Rheinischen
-  Zeitung, also auch derjenigen Beiträge und Artikel, die nicht von
-  Marx oder Engels verfasst wurden. Hierbei konnten sowohl
-  Verknüpfungen zwischen Artikelteilen innerhalb einer Ausgabe als
-  auch über Ausgaben hinweg hergestellt werden, sodass sowohl eine
-  zeitungsidentische Ansicht als auch eine Leseansicht möglich ist.
+  (MEGA) entstand die digitale Fassung der vollständigen Neuen
+  Rheinischen Zeitung, also auch derjenigen Beiträge und Artikel, die
+  nicht von Marx oder Engels verfasst wurden. 
 
-  Die ursprünglichen Daten wurden in Zusammenarbeit mit dem Deutschen
-  Textarchiv in das DTA-Basisformat überführt. Die in der
-  Marx-Engels-Gesamtausgabe (MEGA) edierten und kommentierten Artikel
-  von Marx und Engels sind auszugsweise einsehbar; es wird jeweils auf
-  ihre Wiedergabe in den entsprechenden Bänden der MEGA verwiesen.
+  Verknüpfungen zwischen Artikelteilen innerhalb einer Ausgabe als
+  auch über Ausgaben hinweg ermöglichen sowohl eine zeitungsidentische
+  Ansicht als auch eine Leseansicht. Die ursprünglichen Daten wurden
+  in Zusammenarbeit mit dem Deutschen Textarchiv in das
+  DTA-Basisformat überführt. Die in der MEGA edierten und
+  kommentierten Artikel von Marx und Engels sind auszugsweise
+  einsehbar; es wird jeweils auf ihre Wiedergabe in den entsprechenden
+  Bänden verwiesen.
 format:
   data:
     - DTABf

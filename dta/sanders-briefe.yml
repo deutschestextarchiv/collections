@@ -9,21 +9,21 @@ genre:
     main: Gebrauchsliteratur
     sub: Brief
 description:
-  Das Korpus „Sanders Briefwechsel“ umfasst mehrere hundert Briefe aus
-  Archiven im In- und Ausland, darunter vor allem Briefe von und an
-  Wilhelm Scherer, Berthold Auerbach, Karl Gutzkow, Adolf Glaßbrenner,
-  Emil Du Bois-Reymond, Heinrich Schliemann, Ernst Ziel und vielen
-  weiteren bedeutende Persönlichkeiten.
+  Das Korpus „Sanders Briefwechsel“ umfasst mehrere hundert Briefe von
+  und an den Lexikografen Daniel Sanders (1819–1897). Die Dokumente
+  stammen aus Archiven im In- und Ausland. Es handelt sich dabei vor
+  allem Briefe von und an Wilhelm Scherer, Berthold Auerbach, Karl
+  Gutzkow, Adolf Glaßbrenner, Emil Du Bois-Reymond, Heinrich
+  Schliemann, Ernst Ziel und vielen weiteren bedeutenden
+  Persönlichkeiten.
 
-  Der Briefwechsel des Lexikografen Daniel Sanders (1819–1897) zeugt
-  von einem intensiven Austausch mit der fachverwandten Gelehrtenwelt
-  des 19. Jahrhunderts, der neben lexikografischem, philologischem und
-  schriftstellerischem Inhalt vor allem politische und
-  gesellschaftliche Themen, insbesondere die Situation der Juden in
-  Deutschland und die Märzrevolution thematisiert.
-
-  Alle Briefe wurden von Sebastian Göttel transkribiert, nach XML/TEI
-  P5 gemäß dem DTA-Basisformat kodiert und innerhalb der
+  Der Briefwechsel zeugt von einem intensiven Austausch mit der
+  fachverwandten Gelehrtenwelt des 19. Jahrhunderts, der neben
+  lexikografischem, philologischem und schriftstellerischem Inhalt vor
+  allem politische und gesellschaftliche Themen, insbesondere die
+  Situation der Juden in Deutschland und die Märzrevolution
+  thematisiert. Alle Briefe wurden von Sebastian Göttel transkribiert,
+  nach XML/TEI P5 gemäß dem DTA-Basisformat kodiert und innerhalb der
   DTA-Infrastruktur bereitgestellt.
 format:
   data:

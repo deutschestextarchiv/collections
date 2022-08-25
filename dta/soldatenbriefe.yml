@@ -8,26 +8,24 @@ genre:
     main: Gebrauchsliteratur
     sub: Brief
 description:
-  Das Korpus „Soldatenbriefe“ umfasst 170 Briefe von
-  Offizieren, Unteroffizieren und einfachen Soldaten,
-  adressiert an die Familien in der Heimat. Die Briefe
-  wurden im Zeitraum von 1745 bis 1872 auf Deutsch verfasst;
-  ein deutlicher Schwerpunkt liegt auf Briefen aus den
-  Koalitions- und Befreiungskriegen (1792−1815), dem
-  Deutschen Krieg (1866) und dem Deutsch-Französischen Krieg
-  (1870/71). Stimmen die Schreibanlässe auch weitgehend
-  überein, so ist die Schreiberfahrung der drei
-  Dienstgradgruppen (Offizier, Unteroffizier, Mannschaften
-  bzw. einfacher Soldat) doch sehr verschieden. Das
-  Korpus bietet somit die Möglichkeit, die ganze Breite
-  historischer Alltagsschriftlichkeit an einer einzelnen
-  Briefsorte in den Blick zu nehmen.
+  Das Korpus „Soldatenbriefe“ umfasst 170 Briefe von Offizieren,
+  Unteroffizieren und einfachen Soldaten, adressiert an die Familien
+  in der Heimat. Die Briefe wurden im Zeitraum von 1745 bis 1872 auf
+  Deutsch verfasst; ein deutlicher Schwerpunkt liegt auf Briefen aus
+  den Koalitions- und Befreiungskriegen (1792−1815), dem Deutschen
+  Krieg (1866) und dem Deutsch-Französischen Krieg (1870/71).
 
-  Das Korpus ist im Rahmen einer sprachhistorischen Untersuchung
-  (Neumann 2019) entstanden und wird dort eingehend beschrieben
-  (vgl. S. 59−67). Die handschriftlichen Brieforiginale stammen aus
-  unterschiedlichen Archiven des gesamten deutschsprachigen Raums.
-  Die Texte wurden buchstabengetreu transkribiert (vgl. S. 72−75).
+  Stimmen die Schreibanlässe auch weitgehend überein, so ist die
+  Schreiberfahrung der drei Dienstgradgruppen (Offizier,
+  Unteroffizier, Mannschaften bzw. einfacher Soldat) doch sehr
+  verschieden. Das Korpus bietet somit die Möglichkeit, die ganze
+  Breite historischer Alltagsschriftlichkeit an einer einzelnen
+  Briefsorte in den Blick zu nehmen. Das Korpus ist im Rahmen einer
+  sprachhistorischen Untersuchung (Neumann 2019) entstanden und wird
+  dort eingehend beschrieben (vgl. S. 59−67). Die handschriftlichen
+  Brieforiginale stammen aus unterschiedlichen Archiven des gesamten
+  deutschsprachigen Raums. Die Texte wurden buchstabengetreu
+  transkribiert (vgl. S. 72−75).
 format:
   data:
     - DTABf

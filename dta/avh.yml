@@ -11,18 +11,20 @@ description:
   Das AvH-Korpus enthält 164 unselbstständige Schriften Alexander von
   Humboldts, die im Rahmen des Projekts „Digitalisierung ausgewählter
   unselbstständiger Schriften Alexander von Humboldts“ erfasst wurden.
-  Im Kooperationsprojekt unter Beteiligung des Akademienvorhabens
-  „Alexander von Humboldt auf Reisen – Wissenschaft aus der Bewegung“,
-  der Universität Potsdam (Professur für Romanische
-  Literaturwissenschaft) und des Deutschen Textarchivs wurden die
-  Texte gemäß den DTA-Transkriptionsrichtlinien im
-  Double-Keying-Verfahren von Muttersprachlern erfasst, im TEI
-  P5-Subset DTA-Basisformat kodiert und sukzessive über das DTA bzw.
-  das DTAQ, die Plattform zur Qualitätssicherung, veröffentlicht. Die
-  digitalisierten Volltexte wurden zudem mit den entsprechenden
-  Einträgen in der von der Alexander-von-Humboldt-Forschungsstelle der
-  BBAW (bis 2014) erarbeiteten Bibliographie seiner unselbstständigen
-  Schriften verknüpft.
+  Die Texte wurden im Kooperationsprojekt unter Beteiligung des
+  Akademienvorhabens „Alexander von Humboldt auf Reisen – Wissenschaft
+  aus der Bewegung“, der Universität Potsdam (Professur für Romanische
+  Literaturwissenschaft) und des Deutschen Textarchivs gemäß den
+  DTA-Transkriptionsrichtlinien im Double-Keying-Verfahren von
+  Muttersprachlern erfasst.
+
+  Die Dokumente sind im TEI P5-Subset DTA-Basisformat kodiert und
+  wurden sukzessive über das DTA bzw. das DTAQ, die Plattform zur
+  Qualitätssicherung, veröffentlicht. Die digitalisierten Volltexte
+  wurden zudem mit den entsprechenden Einträgen in der von der
+  Alexander-von-Humboldt-Forschungsstelle der BBAW (bis 2014)
+  erarbeiteten Bibliographie seiner unselbstständigen Schriften
+  verknüpft.
 format:
   data:
     - DTABf
