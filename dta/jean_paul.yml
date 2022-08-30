@@ -53,7 +53,7 @@ keywords:
   - Eduard Berend Ausgabe
   - Text+
 urls:
-  landingPage: https://www.dwds.de/d/korpora/jean_paul 
+  landingPage: https://www.dwds.de/d/korpora/jean_paul
   searchPage: https://kaskade.dwds.de/dstar/jean_paul
   repository:
   text+:
@@ -76,9 +76,12 @@ project:
   name: Jean Paul – Sämtliche Briefe digital
   url: https://www.jeanpaul-edition.de/
   authors:
-    - 
+    -
       name: Markus Bernauer
       email: bernauer@bbaw.de
+    -
+      name: Frederike Neuber
+      email: frederike.neuber@bbaw.de
     -
       name: Deutsches Textarchiv (DTA)
       email: redaktion@deutschestextarchiv.de
@@ -86,7 +89,7 @@ timeCoverage:
   start: 1780
   end: 1825
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
