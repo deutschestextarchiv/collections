@@ -24,7 +24,8 @@ format:
     - CMDI
     - DC
 keywords:
-  - Text+
+  - Augsburger Allgemeine 
+  - Zeitung
 urls:
   landingPage: https://www.deutschestextarchiv.de/doku/textquellen#augsburgerallgemeine
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=augsburgerallgemeine

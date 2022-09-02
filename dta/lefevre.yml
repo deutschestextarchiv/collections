@@ -44,7 +44,8 @@ format:
     - CMDI
     - DC
 keywords:
-  - Text+
+  - deutsche Zeitungen
+  - 17. Jahrhundert 
 urls:
   landingPage: https://www.deutschestextarchiv.de/doku/textquellen#lefevre
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=lefevre
