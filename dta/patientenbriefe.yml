@@ -1,0 +1,90 @@
+title:
+  name: Patientenbriefe (17.–19. Jahrhundert)
+  shortname: Patientenbriefe
+dstar:
+  corpus: patientenbriefe
+genre:
+  -
+    main: Gebrauchsliteratur
+    sub: Brief
+description: |
+  Das Korpus „Patientenbriefe“ umfasst ca. 3.000 Briefe von mehreren
+  hundert Schreiber*n. Es handelt sich dabei um diejenigen Briefe, die
+  in psychiatrischen Anstalten verfasst aber zurückgehalten und also
+  nie abgeschickt wurden, (eine damals gängige Praxis). Die Briefe
+  befinden sich bis heute in den damaligen Patientenakten, welche
+  wiederum von den Nachfolgeinstitutionen bzw. staatlichen Archiven
+  aufbewahrt werden.
+  
+  Sie wurden digitalisiert und manuell nach TEI-Standards im
+  XML-Format transkribiert.  Die Faksimiles sind vorhanden und
+  seitengenau mit dem Digitalisat verknüpft.  So entstand ein frei
+  zugängliches Korpus, das unterschiedliche Analysen ermöglicht.  Die
+  Forschungsdaten können bspw. Antworten liefern auf
+  variationslinguistische, patholinguistische, sprachhistorische und
+  ethische Fragestellungen.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Briefe
+  - Patientenbriefe
+  - Alltagsschriftlichkeit
+  - 17.–19. Jh.
+  - Text+
+urls:
+  landingPage: https://www.dwds.de/d/korpora/patientenbriefe
+  searchPage: https://www.dwds.de/r/?corpus=patientenbriefe
+  repository: https://github.com/deutschestextarchiv/patientenbriefe
+size:
+  objects:
+  sentences:
+  tokens:
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: CoPaDocs – Corpus of Patient Documents 
+  url: http://copadocs.de/ 
+  institution:
+    - name: FAU Erlangen
+  authors:
+    -
+      name: Dr. Markus Schiegg
+      email: markus.schiegg@fau.de 
+timeCoverage:
+  start:
+  end:
+languages:
+  - 
+    full: German
+    iso: deu
+facsimile: false
+transcription: [ manually ]
+annotationLevel:
+status: wip
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality:
