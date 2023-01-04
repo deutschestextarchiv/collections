@@ -40,7 +40,6 @@ urls:
   landingPage: https://www.deutschestextarchiv.de/doku/textquellen#hab
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=hab
   repository:
-  text+:
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften

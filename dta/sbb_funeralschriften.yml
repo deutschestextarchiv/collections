@@ -48,7 +48,6 @@ urls:
   landingPage: https://deutschestextarchiv.de/doku/textquellen#sbb_funeralschriften
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=sbb_funeralschriften
   repository:
-  text+:
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften

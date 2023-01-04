@@ -56,7 +56,6 @@ urls:
   landingPage: https://www.dwds.de/d/korpora/jean_paul
   searchPage: https://kaskade.dwds.de/dstar/jean_paul
   repository:
-  text+:
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften

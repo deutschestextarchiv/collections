@@ -42,7 +42,6 @@ urls:
   landingPage: https://sanders.bbaw.de/briefwechsel
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=sanders-briefe
   repository:
-  text+:
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften

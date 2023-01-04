@@ -37,7 +37,7 @@ urls:
   landingPage:
   searchPage:
   repository:
-  text+:
+  text+: https://www.text-plus.org/en/research-data/user-story-348/
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften

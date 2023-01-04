@@ -37,7 +37,6 @@ urls:
   landingPage: https://deutschestextarchiv.de/doku/textquellen#correspondent
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=correspondent
   repository:
-  text+:
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften

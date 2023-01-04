@@ -36,7 +36,6 @@ urls:
   landingPage: https://www.deutschestextarchiv.de/doku/textquellen#mkhz
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=mkhz2
   repository:
-  text+:
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften

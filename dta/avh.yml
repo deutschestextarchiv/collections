@@ -43,7 +43,6 @@ urls:
   landingPage: https://deutschestextarchiv.de/doku/textquellen#avh
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=avh 
   repository:
-  text+:
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften

@@ -46,7 +46,6 @@ urls:
   landingPage: https://www.dwds.de/d/korpora/avh-bern
   searchPage: https://www.dwds.de/r/?corpus=avh-bern
   repository:
-  text+:
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften
