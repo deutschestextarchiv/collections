@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+      <!-- title.shortname -->
+  </title>
+
+  <link href="static/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style type="text/css">
+    /* raleway-regular - latin */
+    @font-face {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      src: url('static/fonts/raleway-v28-latin-regular.eot'); /* IE9 Compat Modes */
+      src: local(''),
+           url('static/fonts/raleway-v28-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+           url('static/fonts/raleway-v28-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+           url('static/fonts/raleway-v28-latin-regular.woff') format('woff'), /* Modern Browsers */
+           url('static/fonts/raleway-v28-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+           url('static/fonts/raleway-v28-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+    }
+    /* raleway-700 - latin */
+    @font-face {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      src: url('static/fonts/raleway-v28-latin-700.eot'); /* IE9 Compat Modes */
+      src: local(''),
+           url('static/fonts/raleway-v28-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+           url('static/fonts/raleway-v28-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+           url('static/fonts/raleway-v28-latin-700.woff') format('woff'), /* Modern Browsers */
+           url('static/fonts/raleway-v28-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+           url('static/fonts/raleway-v28-latin-700.svg#Raleway') format('svg'); /* Legacy iOS */
+    }
+
+    * { font-family:'Raleway',sans-serif }
+    body { margin-top:20px; background:linear-gradient(to bottom, #fff, #fff 50%, #eee 50%, #eee); background-size: 100% 3px }
+    h1 { border-bottom:1px solid #ccc; margin-bottom:30px }
+    h2 { font-weight:bold; font-size:1.5rem; border-bottom:1px solid #ccc; margin:35px 0 15px 0 }
+    #content { background:#fff }
+    .site-footer { margin-top:40px; padding-top:10px; border-top:1px solid #ccc; font-size:9pt }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-10">
+        <div id="content" class="p-5"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="static/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="static/jquery-3.6.3.min.js"></script>
+  <script src="static/showdown.min.js"></script>
+
+  <script>
+    let meta = ""
+
+    let converter = new showdown.Converter()
+
+    let template = `
+<h1>${meta.title.name}</h1>
+
+<table class="table">
+  <tr>
+    <td class="col-md-4">
+      <img title="TimeCoverage" style="border-width:0px;height:15px" src="static/logos/calendar-days-regular.svg"/>
+      ${meta.timeCoverage.start}–${meta.timeCoverage.end}
+    </td>
+    <td class="col-md-4">
+      <img title="Languages" style="border-width:0px;height:20px" src="static/logos/language-solid.svg"/>
+      ${meta.languages.map(v => v.iso).join(', ')}
+    </td>
+    <td class="col-md-4">
+      <img title="Genre" style="border-width:0px;height:20px" src="static/logos/icons-solid.svg"/>
+      ${meta.genre.map(v => v.main + (v.sub ? ('::' + v.sub) : '')).join(', ')}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img title="Transcription" style="border-width:0px;height:15px" src="static/logos/file-lines-regular.svg"/>
+      ${meta.transcription ? meta.transcription.join(', ') : ''}
+    </td>
+    <td>
+      <img title="Facsimile" style="border-width:0px;height:15px" src="static/logos/file-image-regular.svg"/>
+      ${meta.facsimile ? 'mit Faksimiles' : 'ohne Faksimiles'}
+    </td>
+    <td>
+      <img title="Format" style="border-width:0px;height:15px" src="static/logos/file-code-regular.svg"/>
+      ${meta.format.data.join(', ')}
+    </td>
+  </tr>
+  <tr>
+    <td class="col-md-4">
+      <img style="border-width:0px;height:15px" src="static/logos/database-solid.svg"/>
+      ${meta.numbers.documents}
+      <span>Dokumente</span>
+    </td>
+    <td class="col-md-4">
+      <img style="border-width:0px;height:15px" src="static/logos/database-solid.svg"/>
+      ${meta.numbers.sentences}
+      <span>Sätze</span>
+    </td>
+    <td class="col-md-4">
+      <img style="border-width:0px;height:15px" src="static/logos/database-solid.svg"/>
+      ${meta.numbers.tokens}
+      <span>Tokens</span>
+    </td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <td class="col-md-6">
+      <img title="Project" style="border-width:0px;height:15px" src="static/logos/house-user-solid.svg"/>
+      ${meta.project.name}
+    </td>
+    <td class="col-md-6">
+      <img title="Funding" style="border-width:0px;height:15px" src="static/logos/money-check-dollar-solid.svg"/>
+      ${meta.project.funding?.name ?? ''}
+    </td>
+  </tr>
+</table>
+
+<p>${converter.makeHtml(meta.description)}</p>
+
+<h2>Suche</h2>
+<p>
+  Die Korpusbereitstellung ermöglicht komplexe
+  <a href="https://kaskade.dwds.de/dstar/${meta.dstar.corpus}">Suchanfragen (dstar-Schnittstelle)</a>
+  auf Grundlage linguistischer Voranalysen (Lemmatisierung, POS-Tagging,
+  orthographische Normierung), Korpusanalysen mit
+  <a href="https://kaskade.dwds.de/dstar/${meta.dstar.corpus}/hist.perl">Wortverlaufskurven</a>
+  und Kollokationsanalysen im zeitlichen Verlauf mit
+  <a href="https://kaskade.dwds.de/dstar/${meta.dstar.corpus}/diacollo/">DiaCollo</a>.
+</p>
+
+<form class="mb-3 mx-auto" method="get" action="https://kaskade.dwds.de/dstar/${meta.dstar.corpus}/dstar.perl">
+  <div class="col-8">
+    <div class="input-group">
+      <input class="form-control" type="search" name="q" placeholder="DDC-Abfrage">
+      <button type="submit" class="btn btn-primary">suchen</button>
+    </div>
+  </div>
+  <input type="hidden" name="fmt" value="html">
+  <input type="hidden" name="limit" value="100">
+</form>
+
+<h2>Kontakt</h2>
+<ul>`
+
+if ( meta.project.authors ) {
+  template += `
+  <li>
+    ${meta.project.authors.map( k =>
+        '<a href="mailto:' + k.email + '">' + k.name + '</a>'
+      + (k.roles ? (' [' + k.roles.join(', ') + ']') : '' ) ).join(', ')}
+  </li>`
+}
+
+if ( meta.association.editors ) {
+  template += `
+  <li>
+    ${meta.association.editors.map( k =>
+      (
+        k.email ? ('<a href="mailto:' + k.email + '">' + k.name + '</a>')
+                : k.name
+      )
+      + (k.roles ? (' [' + k.roles.join(', ') + ']') : '' ) ).join(', ')}
+  </li>`
+}
+
+template += `
+</ul>
+
+<h2>Lizenz</h2>
+<p>
+  Die Sammlung »${meta.title.name}« steht unter der Lizenz
+  <a href="${meta.availability.url}">${meta.availability.name}</a> zur Verfügung.
+</p>
+
+<div class="container">
+  <footer class="site-footer">
+    <div>
+      <a href="https://www.bbaw.de">
+        <img alt="Berlin-Brandenburgische Akademie der Wissenschaften" align="right" style="border-width:0;height:80px" src="static/logos/bbaw.svg"/>
+      </a>
+    </div>
+    <div align="center">
+      <p>
+        Eine Seite des <a href="https://www.deutschestextarchiv.de/">Deutschen Textarchivs (DTA)</a> am <a href="https://www.bbaw.de/forschung/zentren/zentrum-sprache">Zentrum Sprache</a> der <a href="https://www.bbaw.de/">Berlin-Brandenburgischen Akademie der Wissenschaften</a>. &middot; <a href="https://clarin.bbaw.de/de/imprint/">Impressum</a>
+      </p>
+    </div>
+  </footer>
+</div>`
+
+    $( function() {
+      $(document).attr("title", meta.title.name);
+      $('#content').html(template)
+    })
+  </script>
+</body>
+</html>
+
