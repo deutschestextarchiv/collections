@@ -29,8 +29,8 @@ description: |
   entsprechend berücksichtigend – im Volltext frei durchsuchbar.
 
   Wir danken Thomas Weitin und Katharina Herget von der TU Darmstadt für
-  die Bereitstellung der Korpusdaten unter [Creative Commons Attribution 4.0
-  International](https://creativecommons.org/licenses/by/4.0/legalcode).
+  die Bereitstellung der Korpusdaten unter
+  [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode).
 format:
   data:
     - DTABf
