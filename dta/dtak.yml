@@ -67,6 +67,7 @@ availability:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
   name: Deutsches Textarchiv (DTA)
+  shortname: DTA
   url: https://www.deutschestextarchiv.de
   authors:
     -

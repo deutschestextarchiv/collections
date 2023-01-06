@@ -63,8 +63,8 @@ availability:
   name: CC BY-SA 4.0
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
-  name: Digitalisierung ‚Neue Rheinische Zeitung’
-  shortname: Digitalisierung ‚Neue Rheinische Zeitung’
+  name: Digitalisierung ‚Neue Rheinische Zeitung`
+  shortname: Digitalisierung ‚Neue Rhein. Zeitung`
   url: https://www.deutschestextarchiv.de/nrhz/
   authors:
     -
