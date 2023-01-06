@@ -203,8 +203,10 @@
                 format: email
               roles:
                 description: Author role.
-                type: string
-                enum: [ transcriber , editor ]
+                type: array
+                items:
+                  type: string
+                  enum: [ transcriber , editor ]
         funding:
           description: Project funding.
           type: object
@@ -223,6 +225,23 @@
             end:
               description: Funding-end.
               type: [ integer, "null" ]
+        institution:
+          description: Information about the institution.
+          type: array
+          items:
+            type: object
+            additionalProperties: false
+            properties:
+              name:
+                description: Institution full-title.
+                type: string
+              shortname:
+                description: Institution short-title.
+                type: string
+              url:
+                description: URL of organization.
+                type: string
+                format: uri
         name:
           description: Name of the project. 
           type: [ string, "null" ]
