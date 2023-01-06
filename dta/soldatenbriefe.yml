@@ -47,10 +47,6 @@ urls:
   searchPage: https://www.dwds.de/r/?corpus=soldatenbriefe
   repository: https://github.com/deutschestextarchiv/soldatenbriefe
   text+: https://www.text-plus.org/en/research-data/user-story-508/
-size:
-  objects: 170
-  sentences: 3319
-  tokens: 96023
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften
@@ -73,7 +69,7 @@ project:
     -
       name: Dr. Marko Neumann
       email: Marko.Neumann@germanistik.uni-giessen.de
-      roles: transcriber
+      roles: [ transcriber ]
 timeCoverage:
   start: 1745
   end: 1872

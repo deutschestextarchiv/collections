@@ -46,10 +46,6 @@ keywords:
 urls:
   landingPage: https://www.dwds.de/d/korpora/pitaval
   searchPage: https://www.dwds.de/r/?corpus=pitaval
-size:
-  objects: 570
-  sentences: 288991
-  tokens: 7177519
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften

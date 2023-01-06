@@ -41,10 +41,6 @@ urls:
   landingPage: https://www.dwds.de/d/korpora/patientenbriefe
   searchPage: https://www.dwds.de/r/?corpus=patientenbriefe
   repository: https://github.com/deutschestextarchiv/patientenbriefe
-size:
-  objects:
-  sentences:
-  tokens:
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften
@@ -70,8 +66,8 @@ project:
       name: Dr. Markus Schiegg
       email: markus.schiegg@fau.de 
 timeCoverage:
-  start:
-  end:
+  start: 1845
+  end: 1917
 languages:
   - 
     full: German

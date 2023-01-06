@@ -49,10 +49,6 @@ keywords:
 urls:
   landingPage: https://www.deutschestextarchiv.de/doku/textquellen#lefevre
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=lefevre
-size:
-  objects: 319
-  sentences:
-  tokens:
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften
@@ -74,7 +70,7 @@ project:
   authors:
     -
       name: Prof. Dr. Michel Lefèvre
-      roles: transcriber
+      roles: [ transcriber ]
 timeCoverage:
   start: 1668
   end: 1699
