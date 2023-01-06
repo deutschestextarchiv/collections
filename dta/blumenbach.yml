@@ -40,6 +40,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -50,6 +51,7 @@ availability:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
   name: Johann Friedrich Blumenbach – Online
+  shortname: Blumenbach – Online
   url: https://www.blumenbach-online.de/
   authors:
     - 

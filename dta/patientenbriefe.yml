@@ -48,6 +48,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -58,6 +59,7 @@ availability:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
   name: CoPaDocs – Corpus of Patient Documents 
+  shortname: CoPaDocs
   url: http://copadocs.de/ 
   institution:
     - name: FAU Erlangen

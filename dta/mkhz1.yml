@@ -42,6 +42,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -51,7 +52,8 @@ availability:
   name: CC BY-SA 4.0
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
-  name: Historisches Textkorpus
+  name: Historisches Textkorpus (IDS)
+  shortname: Historisches Textkorpus (IDS)
   url: https://www.ids-mannheim.de/lexik/abgeschlosseneprojekte/historischeskorpus/
   authors:
     -

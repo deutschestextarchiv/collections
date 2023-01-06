@@ -36,6 +36,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -46,6 +47,7 @@ availability:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
   name: Digitales Wörterbuch der deutschen Sprache
+  shortname: DWDS
   url: https://www.dwds.de/
 timeCoverage:
   start: 1840

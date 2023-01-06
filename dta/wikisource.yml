@@ -44,6 +44,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -54,6 +55,7 @@ availability:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
   name: Integration und Aufwertung historischer Textressourcen des 15.–19. Jahrhunderts in einer nachhaltigen CLARIN-D-Infrastruktur
+  shortname: CLARIN-Kuration Wikisource
   url: https://www.deutschestextarchiv.de/doku/clarin_kupro_liste?g=wikisource
   authors:
     -

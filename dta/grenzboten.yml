@@ -59,6 +59,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -69,6 +70,7 @@ availability:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
   name: Die Grenzboten – Digitalisierung, Erschließung und Volltexterkennung einer der herausragenden deutschen Zeitschriften des 19. und 20. Jahrhunderts
+  shortname: Die Grenzboten
   url: https://www.suub.uni-bremen.de/ueber-uns/projekte/grenzboten2/
   authors:
     -

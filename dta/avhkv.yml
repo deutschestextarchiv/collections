@@ -46,6 +46,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -56,6 +57,7 @@ availability:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
   name: Hidden Kosmos. Reconstructing A. v. Humboldt’s »Kosmos-Lectures«
+  shortname: Hidden Kosmos
   url: https://www.culture.hu-berlin.de/de/forschung/projekte/hidden-kosmos
   funding:
     name: Exzellenzinitiative an der Humboldt-Universität (»Freiräume«)

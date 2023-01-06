@@ -48,6 +48,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -58,6 +59,7 @@ availability:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
   name: DTA-Erweiterungsmodul (DTAE)
+  shortname: DTAE
   url: https://www.deutschestextarchiv.de/dtae
   authors:
     -

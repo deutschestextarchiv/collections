@@ -47,6 +47,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -57,6 +58,7 @@ availability:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
   name: Verhandlungen des Deutschen Reichstags
+  shortname: Verhandlungen des Deutschen Reichstags
   url: https://www.reichstagsprotokolle.de/projekt.html
   authors:
     -

@@ -50,6 +50,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -60,6 +61,7 @@ availability:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
   name: Digitalisierung ausgewählter unselbstständiger Schriften Alexander von Humboldts
+  shortname: Digitalisierung von unselbstständigen Schriften A. v. Humboldts
   url: http://telota.bbaw.de/avh/uns/about.php
   authors:
     -

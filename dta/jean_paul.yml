@@ -63,6 +63,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS 
     url: https://www.dwds.de/
   editors:
     -
@@ -73,6 +74,7 @@ availability:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
   name: Jean Paul – Sämtliche Briefe digital
+  shortname: Jean Paul digital
   url: https://www.jeanpaul-edition.de/
   authors:
     -

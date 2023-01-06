@@ -54,6 +54,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -64,6 +65,7 @@ availability:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
   name: Soldatenbriefe des 18. und 19. Jahrhunderts
+  shortname: Soldatenbriefe
   url: https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/
   authors:
     -

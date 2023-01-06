@@ -49,6 +49,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -59,6 +60,7 @@ availability:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
   name: Forschung Daniel Sanders – digitale Gesamtedition
+  shortname: Daniel Sanders digital
   url: https://sanders.bbaw.de
   authors:
     -

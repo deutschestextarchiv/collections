@@ -47,6 +47,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -57,6 +58,7 @@ availability:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
   name: Obrigkeitskritik und Fürstenberatung. Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568–1714
+  shortname: Oberhofprediger
   url: http://www.oberhofprediger.de/
   authors:
     -
