@@ -54,6 +54,7 @@ association:
   editors:
     -
       name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
       roles: [ annotator, curator, quality-control, IT, support ]
 availability:
   name: CC BY-SA 4.0
