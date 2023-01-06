@@ -24,6 +24,10 @@
               name:
                 description: Name of the editor. 
                 type: string
+              email:
+                description: Editor email.
+                type: string
+                format: email
               roles:
                 description: Role of the editor. 
                 type: array
