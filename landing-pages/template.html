@@ -84,15 +84,15 @@
     </td>
   </tr>
   <tr>
-    <td>
+    <td class="col-md-4">
       <img title="Transcription" style="border-width:0px;height:15px" src="static/logos/file-lines-regular.svg"/>
-      ${meta.transcription ? meta.transcription.join(', ') : ''}
+      ${meta.transcription ? meta.transcription.join(', ') : 'N/A'}
     </td>
-    <td>
+    <td class="col-md-4">
       <img title="Facsimile" style="border-width:0px;height:15px" src="static/logos/file-image-regular.svg"/>
       ${meta.facsimile ? 'mit Faksimiles' : 'ohne Faksimiles'}
     </td>
-    <td>
+    <td class="col-md-4">
       <img title="Format" style="border-width:0px;height:15px" src="static/logos/file-code-regular.svg"/>
       ${meta.format.data.join(', ')}
     </td>
@@ -114,16 +114,18 @@
       <span>Tokens</span>
     </td>
   </tr>
-</table>
-<table class="table">
   <tr>
-    <td class="col-md-6">
+    <td class="col-md-4">
       <img title="Project" style="border-width:0px;height:15px" src="static/logos/house-user-solid.svg"/>
-      ${meta.project.name}
+      ${ meta.project.url ? ('<a href="' + meta.project.url + '">' + meta.project.shortname + '</a>') : meta.project.shortname }
     </td>
-    <td class="col-md-6">
+    <td class="col-md-4">
       <img title="Funding" style="border-width:0px;height:15px" src="static/logos/money-check-dollar-solid.svg"/>
-      ${meta.project.funding?.name ?? ''}
+      ${meta.project.funding?.name ?? 'N/A'}
+    </td>
+    <td class="col-md-4">
+      <img title="Licence" style="border-width:0px;height:15px" src="static/logos/closed-captioning-regular.svg"/>
+      ${ meta.availability.url ? ('<a href="' + meta.availability.url + '">' + meta.availability.name + '</a>') : meta.availability.name }
     </td>
   </tr>
 </table>
