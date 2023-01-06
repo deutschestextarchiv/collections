@@ -71,30 +71,16 @@
 <table class="table">
   <tr>
     <td class="col-md-4">
-      <img title="TimeCoverage" style="border-width:0px;height:15px" src="static/logos/calendar-days-regular.svg"/>
-      ${meta.timeCoverage.start}–${meta.timeCoverage.end}
+      <img title="Genre" style="border-width:0px;height:20px" src="static/logos/icons-solid.svg"/>
+      ${meta.genre.map(v => v.main + (v.sub ? ('::' + v.sub) : '')).join(', ')}
     </td>
     <td class="col-md-4">
       <img title="Languages" style="border-width:0px;height:20px" src="static/logos/language-solid.svg"/>
       ${meta.languages.map(v => v.iso).join(', ')}
     </td>
     <td class="col-md-4">
-      <img title="Genre" style="border-width:0px;height:20px" src="static/logos/icons-solid.svg"/>
-      ${meta.genre.map(v => v.main + (v.sub ? ('::' + v.sub) : '')).join(', ')}
-    </td>
-  </tr>
-  <tr>
-    <td class="col-md-4">
-      <img title="Transcription" style="border-width:0px;height:15px" src="static/logos/file-lines-regular.svg"/>
-      ${meta.transcription ? meta.transcription.join(', ') : 'N/A'}
-    </td>
-    <td class="col-md-4">
-      <img title="Facsimile" style="border-width:0px;height:15px" src="static/logos/file-image-regular.svg"/>
-      ${meta.facsimile ? 'mit Faksimiles' : 'ohne Faksimiles'}
-    </td>
-    <td class="col-md-4">
-      <img title="Format" style="border-width:0px;height:15px" src="static/logos/file-code-regular.svg"/>
-      ${meta.format.data.join(', ')}
+      <img title="TimeCoverage" style="border-width:0px;height:15px" src="static/logos/calendar-days-regular.svg"/>
+      ${meta.timeCoverage.start}–${meta.timeCoverage.end}
     </td>
   </tr>
   <tr>
@@ -114,6 +100,21 @@
       <span>Tokens</span>
     </td>
   </tr>
+
+  <tr>
+    <td class="col-md-4">
+      <img title="Format" style="border-width:0px;height:15px" src="static/logos/file-code-regular.svg"/>
+      ${meta.format.data.join(', ')}
+    </td>
+    <td class="col-md-4">
+      <img title="Transcription" style="border-width:0px;height:15px" src="static/logos/file-lines-regular.svg"/>
+      ${meta.transcription ? meta.transcription.join(', ') : 'N/A'}
+    </td>
+    <td class="col-md-4">
+      <img title="Facsimile" style="border-width:0px;height:15px" src="static/logos/file-image-regular.svg"/>
+      ${meta.facsimile ? 'mit Faksimiles' : 'ohne Faksimiles'}
+    </td>
+  </tr>
   <tr>
     <td class="col-md-4">
       <img title="Project" style="border-width:0px;height:15px" src="static/logos/house-user-solid.svg"/>
@@ -123,7 +124,7 @@
       <img title="Funding" style="border-width:0px;height:15px" src="static/logos/money-check-dollar-solid.svg"/>
       ${meta.project.funding?.name ?? 'N/A'}
     </td>
-    <td class="col-md-4">
+   <td class="col-md-4">
       <img title="Licence" style="border-width:0px;height:15px" src="static/logos/closed-captioning-regular.svg"/>
       ${ meta.availability.url ? ('<a href="' + meta.availability.url + '">' + meta.availability.name + '</a>') : meta.availability.name }
     </td>
