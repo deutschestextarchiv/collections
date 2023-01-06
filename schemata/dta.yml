@@ -53,6 +53,9 @@
             name:
               description: Name of infrastructure.
               type: string
+            shortname:
+              description: Name of infrastructure.
+              type: string
             url:
               description: URL of infrastructure.
               type: string
@@ -243,6 +246,9 @@
                 type: string
                 format: uri
         name:
+          description: Name of the project. 
+          type: [ string, "null" ]
+        shortname:
           description: Name of the project. 
           type: [ string, "null" ]
         url:
