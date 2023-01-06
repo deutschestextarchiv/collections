@@ -19,7 +19,7 @@ $(OUTDIR):
 	mkdir -p $(OUTDIR)
 
 $(OUTDIR)/%.html: $(YAML_DIR)/%.yml $(HTML_TEMPLATE)
-	$(MKFILE_DIR)../schemata/compile-catalog.pl $< | perl -pE 'BEGIN { $$j = `$(MKFILE_DIR)../schemata/compile-catalog.pl $< | jq '.$(basename $(notdir $<))'` } s/(let meta = )\"\"/\1 $$j/' $(HTML_TEMPLATE) > $@
+	perl -pE 'BEGIN { $$j = `$(MKFILE_DIR)../schemata/compile-catalog.pl -s $<`; exit if !$$j or $$j =~ /^\{\}/ } s/(let meta = )\"\"/\1 $$j/' $(HTML_TEMPLATE) > $@
 
 .PHONY: clean
 clean:

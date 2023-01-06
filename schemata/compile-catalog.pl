@@ -10,6 +10,11 @@ use LWP::UserAgent;
 use URI::Escape 'uri_escape_utf8';
 use YAML::PP;
 
+my ($single);
+GetOptions(
+    's'  => \$single,
+) or die("Error in command line arguments\n");
+
 my $ypp = YAML::PP->new(
     schema  => [qw(Core Merge)],
     boolean => 'JSON::PP',
@@ -74,6 +79,11 @@ FILE:
             my ($number) = split /\s+/ => $res->content;
             $yaml->{numbers}{$k} = $number;
         }
+    }
+
+    if ( $single ) {
+        say encode_json($yaml);
+        exit;
     }
 
     $out{ $base } = $yaml;
