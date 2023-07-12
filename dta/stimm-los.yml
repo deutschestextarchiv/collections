@@ -2,8 +2,7 @@ title:
   name: stimm-los. Wiedergefundene Perlen der Literatur
   shortname: stimm-los
 dstar:
-  corpus: dtae
-  flags: stimmlos
+  corpus: stimm-los 
 genre:
   -
     main: Belletristik
@@ -34,9 +33,9 @@ keywords:
   - 1750–1920
   - Text+
 urls:
-  landingPage:
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/stimm-los
   searchPage:
-  repository:
+  repository: https://github.com/deutschestextarchiv/stimm-los 
   text+: https://www.text-plus.org/en/research-data/user-story-348/
 association:
   institution:
@@ -76,7 +75,7 @@ languages:
 facsimile: false
 transcription: [ manually ]
 annotationLevel:
-status: wip
+status: public
 data:
   type: [ text corpus ]
   text_plusCluster: [ "structured, historical texts" ]
