@@ -1,36 +1,77 @@
-availability:
+title:
+  name: Deutsches Textarchiv Kernkorpus
+  shortname: DTA-Kernkorpus
+description:
+  Mit dem Kernkorpus stellt das Deutsche Textarchiv (DTA) einen
+  disziplinen- und gattungsübergreifenden Grundbestand
+  deutschsprachiger Texte mit einem Schwerpunkt ab dem frühen 16. bis
+  zum frühen 20. Jahrhundert bereit. Das Korpus wurde im Rahmen des
+  von der Deutschen Forschungsgemeinschaft (DFG) von 2007 bis 2016
+  geförderten Projekts erstellt. Es umfasst etwa 1.500 Titel aus dem
+  Zeitraum von ca. 1600 bis 1900, die aufgrund ihrer herausragenden
+  Bedeutung für die Entwicklung der deutschen Sprache bzw. der
+  jeweiligen Genres und wissenschaftlichen Disziplinen ausgewählt
+  wurden. Unter anderem aufgrund des sprachgeschichtlichen Fokus des
+  DTA und um den historischen Sprachstand möglichst genau abzubilden,
+  wurden dabei als Vorlage für die Digitalisierung in der Regel die
+  historischen Erstausgaben ausgewählt.
+size:
+  objects: 1468
+licence:
   name: CC BY-SA 4.0
   url: https://creativecommons.org/licenses/by-sa/4.0/
-authority_control:
-  data: [ GND ]
-  metadata: [ GND ]
-data:
-  type: [ "text corpus" ]
-  text_plusCluster: [ "structured, historical texts" ]
-  text_plusDomain: [ collections ]
-format:
-  data:
-    - DTABf
-  metadata:
-    - CMDI
-  mimetype:
-    - application/xml
-genres: [ Belletristik, Gebrauchsliteratur, Wissenschaft, Zeitung ]
-institution:
-  name: Berlin-Brandenburg Academy of Sciences and Humanities
-  shortname: BBAW
+modality: [ 'printed text' ]
 languages:
   -
     full: German
     iso: deu
-modality: printed text
+format:
+  mimetype: [ application/xml ]
 timeCoverage:
   start: 1540
   end: 1920
-title:
-  name: Deutsches Textarchiv Kernkorpus
-  shortname: DTA-Kernkorpus
-transcription: [ double-keying ]
-size:
-  objects: 1468
-  tokens: 150000000
+fulltext: true 
+annotationlayer: true 
+annotationlayer_full:
+  -
+    name: text
+    type: auto
+  -
+    name: token 
+    type: auto
+  -
+    name: lemma 
+    type: auto
+  -
+    name: orth 
+    type: auto
+  -
+    name: norm 
+    type: auto
+collection_type: [ Sammlung, Korpus ]
+genres: [ Belletristik, Gebrauchsliteratur, Wissenschaft, Zeitung ]
+disciplines: [ Linguistik, Philologie, Geschichtswissenschaft ]
+keywords:
+  - Deutsches Textarchiv
+  - DTA
+  - Kernkorpus
+  - Sprachgeschichte
+  - Erstausgaben
+  - 16.–20. Jh.
+relations:
+  internal:
+    is_part_of: Metakorpus Historische Texte (dtaxl)
+access:
+  landing_page: https://www.deutschestextarchiv.de/collections/dtak.html 
+  search_page: https://kaskade.dwds.de/dstar/dtak
+  content: https://github.com/deutschestextarchiv/collections/ris/dtak.ris
+  documentation: https://www.deutschestextarchiv.de/collections/dtak.html
+responsibility:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+  project: Deutsches Textarchiv
+  contact: redaktion@deutschestextarchiv.de
+funding:
+    name: Deutsche Forschungsgemeinschaft
+    gnd: https://d-nb.info/gnd/2007744-0

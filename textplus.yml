@@ -1,0 +1,196 @@
+---
+  $schema: http://json-schema.org/draft-07/schema#
+  title: "Text+ Collections, registry-description"
+  description: Registry description for Text+ collections.
+  type: object
+  additionalProperties: false
+  required: [ title, description, size, licence, modality, languages, format, timeCoverage, fulltext, annotationlayer, responsibility, relations, access]
+  properties:
+    licence:
+      description: Collection licence.
+      type: object
+      additionalProperties: false
+      properties:
+        name:
+          description: Name of licence.
+          type: string
+        url:
+          description: URL of licence.
+          type: string
+          format: uri
+    format:
+      description: Format and derivates for data and metadata.
+      type: object
+      additionalProperties: false
+      properties:
+        mimetype:
+          description: Mimetype type.
+          type: array
+          items:
+            type: string
+    genres:
+      description: Text genre based on some standard classification.
+      type: [ array, "null" ]
+      items:
+        description: Name of genre.
+        type: string
+        enum: [ Belletristik, Gebrauchsliteratur, Wissenschaft, Zeitung ]
+    responsibility:     
+      description: Responsibility statement.
+      type: object
+      additionalProperties: false
+      properties:
+        institution:
+          description: Information about Institution.
+          type: object
+          properties:
+            name:
+              description: Institution full-title.
+              type: string
+            shortname:
+              description: Institution short-title.
+              type: string
+        project:
+          description: Name of project.
+          type: string
+        contact:
+          description: Contact (E-Mail).
+          type: string
+    languages:
+      description: Languages within collection data.
+      type: array
+      items:
+        type: object
+        additionalProperties: false
+        properties:
+          full:
+            description: Languages (English).
+            type: string
+          iso:
+            description: Languages as ISO 639-3 value.
+            type: string
+    modality:
+      description: Modality.
+      type: array
+      items:
+        description: Modality.
+        type: string
+        enum: [ 'printed text', hand-written, speech, unspecified ]
+    size:
+      description: Collection size.
+      type: object
+      additionalProperties: false
+      properties:
+        objects:
+          description: Number of objects.
+          type: integer
+    timeCoverage:
+      description: Time period covered by collection data.
+      type: object
+      additionalProperties: false
+      properties:
+        start:
+          description: Oldest publication date.
+          type: integer
+        end:
+          description: Newest publication date.
+          type: integer
+    title:
+      description: Collection names and titles.
+      type: object
+      additionalProperties: false
+      properties:
+        name:
+          description: Collection full-title.
+          type: string
+        shortname:
+          description: Collection short-title.
+          type: string
+    funding: 
+      description: Information about funding.
+      type: object
+      additionalProperties: false
+      properties:
+        name:
+          description: Funders name.
+          type: string
+        gnd:
+          description: Funders gnd.
+          type: string
+    access:
+      description: Information about accessing the collection.
+      type: object
+      additionalProperties: false
+      properties:
+        landing_page:
+          description: Collection landing-page.
+          type: [ string, "null" ]
+          format: uri
+        search_page:
+          description: Collection search-page.
+          type: [ string, "null" ]
+          format: uri
+        content:
+          description: Link to objects within the collection.
+          type: [ string, "null" ]
+          format: uri
+        documentation:
+          description: Link to collection-documentation.
+          type: [ string, "null" ]
+          format: uri
+    relations:
+      description: Information about internal/external relations.
+      type: object
+      additionalProperties: false
+      properties:
+        internal:
+          description: Information about internal relations.
+          type: object
+          additionalProperties: false
+          properties:
+            is_part_of:
+              description: Is_part_of.
+              type: [ string, "null" ]
+            has_part:
+              description: Has_part.
+              type: [ string, "null" ]
+        external:
+          description: Information about external relations.
+          type: [ string, "null" ]
+    keywords:
+      description: Keywords describing the collection.
+      type: array
+    description:
+      description: Collection description.
+      type: string
+    fulltext:
+      description: Fulltext available yes/no.
+      type: boolean 
+    annotationlayer:
+      description: Annotation-layer available yes/no.
+      type: boolean 
+    annotationlayer_full:
+      description: Information about annotation-layer.
+      type: array
+      additionalProperties: false
+      properties:
+          name:
+              description: Name of annotation-layer.
+              type: string 
+              enum: [ token, lemma, pos, orth, norm, phonetic, text ] 
+          type:
+              description: Type of annotation-layer.
+              type: string
+              enum: [ auto, by_hand ]
+    collection_type:
+      description: Information about the collection-type.
+      type: array 
+      items:
+        description: Name of collection-types.
+        type: string
+    disciplines:
+      description: Information about disciplines for which the collection might be interesting.
+      type: [ array, "null" ]
+      items:
+        description: Name of discipline.
+        type: string

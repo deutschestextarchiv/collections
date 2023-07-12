@@ -1,0 +1,49 @@
+title:
+  name: 
+  shortname: 
+description:
+size:
+  objects:
+licence:
+  name: 
+  url: 
+modality: [ ]
+languages:
+  -
+    full: 
+    iso: 
+format:
+  mimetype: [  ]
+timeCoverage:
+  start: 
+  end: 
+fulltext: 
+annotationlayer: 
+annotationlayer_full:
+  -
+    name: 
+    type: 
+collection_type: [  ]
+genres: [  ] 
+disciplines: [  ]
+keywords:
+  - 
+relations:
+  internal:
+    is_part_of: 
+    has_part:
+  external:
+access:
+  landing_page: 
+  search_page: 
+  content: 
+  documentation: 
+responsibility:
+  institution:
+    name: 
+    shortname: 
+  project: 
+  contact: 
+funding:
+    name: 
+    gnd: 
