@@ -3,7 +3,7 @@ title:
   shortname: Neuer Deutscher Novellenschatz
 dstar:
   corpus: dtae
-  flags: ndns
+  flags: nschatz_ndeu
 genre:
   -
     main: Belletristik

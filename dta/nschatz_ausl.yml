@@ -3,7 +3,7 @@ title:
   shortname: Novellenschatz des Auslandes
 dstar:
   corpus: dtae
-  flags: nsda
+  flags: nschatz_ausl
 genre:
   -
     main: Belletristik
