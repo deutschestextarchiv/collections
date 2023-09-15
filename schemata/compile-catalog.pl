@@ -57,7 +57,8 @@ FILE:
             say STDERR "fetching $url ...";
             my $res = $ua->get($url);
             if ( !$res->is_success ) {
-                die "$url: ".$res->status_line;
+                say STDERR "$url: ".$res->status_line;
+                next FILE;
             }
             if ( $res->content =~ /no hits/ ) {
                 say STDERR "$base: no token numbers, skipping ...";
@@ -74,7 +75,8 @@ FILE:
             say STDERR "fetching $url ...";
             my $res = $ua->get($url);
             if ( !$res->is_success ) {
-                die "$url: ".$res->status_line;
+                say STDERR "$url: ".$res->status_line;
+                next FILE;
             }
             my ($number) = split /\s+/ => $res->content;
             $yaml->{numbers}{$k} = $number;
