@@ -38,7 +38,7 @@ keywords:
   - 19. Jh.
   - Text+
 urls:
-  landingPage: https://www.dwds.de/d/korpora/ndns  
+  landingPage: https://www.dwds.de/d/korpora/nschatz_deu
   searchPage: 
 association:
   institution:
@@ -78,7 +78,7 @@ languages:
 facsimile: true
 transcription: [ corrected ocr ]
 annotationLevel:
-status: wip
+status: public 
 data:
   type: [ text corpus ]
   text_plusCluster: [ "structured, historical texts" ]
