@@ -2,8 +2,7 @@ title:
   name: Neuer Deutscher Novellenschatz (1884–1887)
   shortname: Neuer Deutscher Novellenschatz
 dstar:
-  corpus: dtae
-  flags: nschatz_ndeu
+  corpus: nschatz_deu
 genre:
   -
     main: Belletristik
