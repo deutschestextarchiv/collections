@@ -9,7 +9,7 @@ genre:
 description: |
   Das Reichstagsprotokoll-Korpus umfasst die publizierten Protokolle,
   Stenographischen Berichte, Anlagen sowie Handbücher des Deutschen
-  Reichstages und seiner Vorläufer von 1867–1942. 
+  Reichstages und seiner Vorläufer von 1867–1942.
 
   Die Bilddigitalisierung und anschließende automatische
   Volltextdigitalisierung (OCR) wurde von der Bayerischen
@@ -38,8 +38,8 @@ keywords:
   - Deutscher Reichstag
   - 19.–20. Jh.
 urls:
-  landingPage: https://www.deutschestextarchiv.de/reichstag/
-  searchPage: https://kaskade.dwds.de/dstar/reichstag/
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/reichstag
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=reichstag
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften
@@ -61,6 +61,10 @@ project:
   name: Verhandlungen des Deutschen Reichstags
   shortname: Verhandl. d. Dt. Reichstags
   url: https://www.reichstagsprotokolle.de/projekt.html
+  funding:
+    name: DFG
+    url: https://www.dfg.de/
+    gnd: https://d-nb.info/gnd/2007744-0
   authors:
     -
       name: Deutsches Textarchiv (DTA)
@@ -69,7 +73,7 @@ timeCoverage:
   start: 1867
   end: 1942
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -85,3 +89,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

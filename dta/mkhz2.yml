@@ -33,7 +33,7 @@ keywords:
   - St. Galler Volksblatt
   - 19.–20. Jh.
 urls:
-  landingPage: https://www.deutschestextarchiv.de/doku/textquellen#mkhz
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/mkhz2
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=mkhz2
   repository:
 association:
@@ -65,7 +65,7 @@ timeCoverage:
   start: 1883
   end: 1918
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -81,3 +81,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

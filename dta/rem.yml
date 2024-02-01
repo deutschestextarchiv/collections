@@ -29,7 +29,7 @@ keywords:
   - Referenzkorpus
   - mittelhochdeutsch
 urls:
-  landingPage: https://www.deutschestextarchiv.de/rem/
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/rem
   searchPage: https://kaskade.dwds.de/dstar/rem/
 association:
   institution:
@@ -49,18 +49,26 @@ availability:
   name: CC BY-SA 4.0
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
-  name: Referenzkorpus Mittelhochdeutsch (ReM)
+  name: ReM – Referenzkorpus Mittelhochdeutsch (1050–1350)
   shortname: ReM
   url: https://www.linguistics.rub.de/rem/index.html
   authors:
     -
       name: Deutsches Textarchiv (DTA)
       email: redaktion@deutschestextarchiv.de
+    -
+      name: Thomas Klein
+    -
+      name: Klaus-Peter Wegera
+    -
+      name: Stefanie Dipper
+    -
+      name: Claudia Wich-Reif
 timeCoverage:
   start: 1050
   end: 1350
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: false
@@ -76,3 +84,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

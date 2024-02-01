@@ -32,7 +32,7 @@ keywords:
   - Die Bayerische Presse
   - 18.–19. Jh.
 urls:
-  landingPage: https://www.deutschestextarchiv.de/doku/textquellen#mkhz
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/mkhz1
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=mkhz1
   repository:
 association:
@@ -64,7 +64,7 @@ timeCoverage:
   start: 1744
   end: 1877
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -80,3 +80,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

@@ -47,8 +47,8 @@ keywords:
   - Erstausgaben
   - 16.–20. Jh.
 urls:
-  landingPage: https://www.dwds.de/d/korpora/dtak
-  searchPage: https://www.deutschestextarchiv.de/search/metadata?corpus=core
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/dtak
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=dtak
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften
@@ -56,7 +56,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
-    shortname: DWDS 
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -70,6 +70,10 @@ project:
   name: Deutsches Textarchiv (DTA)
   shortname: DTA
   url: https://www.deutschestextarchiv.de
+  funding:
+    name: DFG
+    url: https://www.dfg.de/
+    gnd: https://d-nb.info/gnd/2007744-0
   authors:
     -
       name: Deutsches Textarchiv (DTA)
@@ -87,3 +91,6 @@ annotationLevel:
 status: public
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
 modality: geschrieben
+relations:
+  internal:
+    is_part_of: dtaxl

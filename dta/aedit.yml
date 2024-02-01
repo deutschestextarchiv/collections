@@ -40,8 +40,8 @@ keywords:
   - Leichenpredigten
   - Stadtbibliothek Breslau
 urls:
-  landingPage: https://deutschestextarchiv.de/doku/textquellen#aedit
-  searchPage: https://www.dwds.de/r/?corpus=dtae&collection=aedit 
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/aedit
+  searchPage: https://www.dwds.de/r/?corpus=dtae&collection=aedit
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften
@@ -49,6 +49,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -62,6 +63,10 @@ project:
   name: AEDit Frühe Neuzeit
   shortname: AEDit Frühe Neuzeit
   url: https://www.hab.de/aedit-fruehe-neuzeit-archiv-editions-und-distributionsplattform-fuer-werke-der-fruehen-neuzeit/
+  funding:
+    name: DFG
+    url: https://www.dfg.de/
+    gnd: https://d-nb.info/gnd/2007744-0
   authors:
     -
       name: Anne Dickel
@@ -85,7 +90,10 @@ data:
   text_plusCluster: [ "structured, historical texts" ]
   text_plusDomain: [ collections ]
 authority_control:
-  data: 
+  data:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

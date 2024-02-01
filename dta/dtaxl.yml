@@ -1,9 +1,12 @@
 title:
-  name: Historische Korpora – DTAXL  
+  name: Historische Korpora – DTAXL
   shortname: DTAXL
 dstar:
   corpus: dtaxl
-subcorpora: [ avh-bern, bruedergemeine, dibilit, dingler, dsdk, dtae, dtak, gartenlaube, gei_digital, grenzboten, jean_paul, pitaval, reichstag, soldatenbriefe, textberg_hist ]
+data:
+  type: [ "text corpus" ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
 genre:
   -
     main: Belletristik
@@ -25,10 +28,10 @@ format:
     - DC
 keywords:
   - DTAXL
-  - Metakorpus 
+  - Metakorpus
 urls:
-  landingPage: https://www.dwds.de/d/korpora/dtaxl 
-  searchPage: https://www.dwds.de/r/?corpus=dtaxl 
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/dtaxl
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften
@@ -47,9 +50,9 @@ availability:
   name: CC BY-SA 4.0
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
-  name: 
+  name:
   shortname:
-  url: 
+  url:
   authors:
     -
       name: Deutsches Textarchiv (DTA)
@@ -58,12 +61,15 @@ timeCoverage:
   start: 1465
   end: 1969
 languages:
-  - 
+  -
     full: German
     iso: deu
-facsimile: false 
+facsimile: false
 transcription: [ ocr, "corrected ocr", manually, double-keying ]
 annotationLevel:
 status: public
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
 modality: geschrieben
+relations:
+  internal:
+    contains: [ avh-bern, bruedergemeine, dibilit, dingler, dsdk, dtae, dtak, gartenlaube, gei_digital, grenzboten, jean_paul, pitaval, reichstag, soldatenbriefe, textberg_hist ]

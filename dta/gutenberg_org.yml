@@ -33,7 +33,7 @@ keywords:
   - Auswahl historischer Texte
   - 15.–19. Jh.
 urls:
-  landingPage: https://deutschestextarchiv.de/doku/textquellen#gutenberg_org
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/gutenberg_org
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=gutenberg_org
 association:
   institution:
@@ -64,7 +64,7 @@ timeCoverage:
   start: 1806
   end: 1910
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -80,3 +80,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

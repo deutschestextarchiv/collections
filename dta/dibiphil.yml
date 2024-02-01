@@ -7,20 +7,20 @@ genre:
   - main: Belletristik | Gebrauchsliteratur | Wissenschaft
   - sub: Philosophie
 description:
-  Das DiBiPhil-Korpus besteht aus philosophischen Texten, die in der 
-  „Digitalen Bibliothek“ von Zeno.org enthalten waren, welche von 
+  Das DiBiPhil-Korpus besteht aus philosophischen Texten, die in der
+  „Digitalen Bibliothek“ von Zeno.org enthalten waren, welche von
   TextGrid erworben wurde. Dieses Korpus wurde allerdings nie Teil
-  des TextGrid-Repository und wird daher hier erstmals im TEI-Format 
+  des TextGrid-Repository und wird daher hier erstmals im TEI-Format
   (nach DTABf) zur Verfügung gestellt.
-  Der Entstehungszeitraum der bereitgestellten Texte erstreckt sich vom 
+  Der Entstehungszeitraum der bereitgestellten Texte erstreckt sich vom
   15. bis zur ersten Hälfte des 20. Jahrhunderts mit einem Fokus auf
-  dem 18. bis 20. Jahrhundert. Die zugrundeliegenden Ausgaben stammen 
+  dem 18. bis 20. Jahrhundert. Die zugrundeliegenden Ausgaben stammen
   weitestgehend aus dem 19. und 20. Jahrhundert.
-  
-  Das im Rahmen des Projekts CLARIAH-DE vorbereitete und im Rahmen 
-  des ZDL (AP3) beendete DiBiPhil-Korpus stellt ein eigenständiges Korpus 
-  im Deutschen Textarchiv des Zentrums Sprache dar. Es enthält die 
-  digitalisierten Publikationen und ermöglicht so computerbasierte 
+
+  Das im Rahmen des Projekts CLARIAH-DE vorbereitete und im Rahmen
+  des ZDL (AP3) beendete DiBiPhil-Korpus stellt ein eigenständiges Korpus
+  im Deutschen Textarchiv des Zentrums Sprache dar. Es enthält die
+  digitalisierten Publikationen und ermöglicht so computerbasierte
   Analysemöglichkeiten entsprechend den Möglichkeiten des DTA. Die
   Korpusbereitstellung ermöglicht komplexe Suchanfragen auf Grundlage
   linguistischer Voranalysen (Lemmatisierung, POS-Tagging,
@@ -43,8 +43,8 @@ keywords:
   - CLARIAH-DE
   - ZDL (AP3)
 urls:
-  landingPage: https://www.deutschestextarchiv.de/dibiphil/
-  searchPage: https://kaskade.dwds.de/dstar/dibiphil/
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/dibiphil
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=dibiphil
   repository: https://github.com/deutschestextarchiv/DiBiPhil
 association:
   institution:
@@ -71,6 +71,7 @@ project:
     funding:
       name: BMBF
       url: https://www.bmbf.de/
+      gnd: https://d-nb.info/gnd/5309538-8
   -
     name: Aufbau eines Zentrums für digitale Lexikographie der deutschen Sprache
     shortname: ZDL
@@ -78,25 +79,26 @@ project:
     funding:
       name: BMBF
       url: https://www.bmbf.de/
+      gnd: https://d-nb.info/gnd/5309538-8
     authors:
       -
         name: Deutsches Textarchiv (DTA)
         email: redaktion@deutschestextarchiv.de
-      - 
+      -
         name: Matthias Boenig
         email: boenig@bbaw.de
       -
         name: Susanne Haaf
         email: haaf@bbaw.de
-      - 
+      -
         name: Marius Hug
         email: hug@bbaw.de
 
 timeCoverage:
-  start: 1473 (1797)
-  end: 1983 (2000)
+  start: 1473
+  end: 1983
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: false
@@ -112,3 +114,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften, Philosophie ]
+relations:
+  internal:
+    is_part_of: dtaxl

@@ -19,7 +19,7 @@ description: |
   Ausgaben erstreckt sich vom 16. bis zur ersten Hälfte des 20.
   Jahrhunderts. Es finden sich darin vor allem literarische Werke
   (Lyrik, Drama, Prosa), aber auch geistes- und
-  sozialwissenschaftliche Texte. 
+  sozialwissenschaftliche Texte.
 
   Das im Rahmen des Projekts CLARIAH-DE entstandene DiBiLit-Korpus
   stellt ein eigenständiges Korpus im Deutschen Textarchiv des
@@ -44,10 +44,10 @@ keywords:
   - GerDraCor
   - Zeno.org
   - 16.–20. Jh.
-  - CLARIAH-DE 
+  - CLARIAH-DE
 urls:
-  landingPage: https://www.deutschestextarchiv.de/dibilit/
-  searchPage: https://kaskade.dwds.de/dstar/dibilit/
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/dibilit
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=dibilit
   repository: https://github.com/deutschestextarchiv/DiBiLit-Korpus
 association:
   institution:
@@ -73,6 +73,7 @@ project:
   funding:
     name: BMBF
     url: https://www.bmbf.de/
+    gnd: https://d-nb.info/gnd/5309538-8
   authors:
     -
       name: Deutsches Textarchiv (DTA)
@@ -81,7 +82,7 @@ timeCoverage:
   start: 1210
   end: 1977
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: false
@@ -97,3 +98,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

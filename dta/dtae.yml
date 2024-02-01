@@ -39,7 +39,7 @@ keywords:
   - DTAE-Einzeltexte
   - Erweiterungen des Deutschen Textarchivs
 urls:
-  landingPage: https://www.deutschestextarchiv.de/dtae
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/dtae
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=dtae
 association:
   institution:
@@ -70,7 +70,7 @@ timeCoverage:
   start: 1465
   end: 1987
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -86,3 +86,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

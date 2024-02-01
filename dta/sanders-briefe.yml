@@ -74,7 +74,7 @@ timeCoverage:
   start: 1845
   end: 1894
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -90,3 +90,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

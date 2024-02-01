@@ -53,8 +53,8 @@ keywords:
   - Eduard Berend Ausgabe
   - Text+
 urls:
-  landingPage: https://www.dwds.de/d/korpora/jean_paul
-  searchPage: https://kaskade.dwds.de/dstar/jean_paul
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/jean_paul
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=jean_paul
   repository:
 association:
   institution:
@@ -63,7 +63,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
-    shortname: DWDS 
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -77,6 +77,10 @@ project:
   name: Jean Paul – Sämtliche Briefe digital
   shortname: Jean Paul digital
   url: https://www.jeanpaul-edition.de/
+  funding:
+    name: DFG
+    url: https://www.dfg.de/
+    gnd: https://d-nb.info/gnd/2007744-0
   authors:
     -
       name: Markus Bernauer
@@ -107,3 +111,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

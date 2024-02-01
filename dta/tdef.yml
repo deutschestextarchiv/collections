@@ -15,7 +15,7 @@ description: |
   Frauenwahlrechts, aber in der kontroversen Diskussion, die es
   zwischen den verschiedenen Lagern der Frauenbewegung, einzelnen
   Vertreterinnen und den Parteien im Parlament gab, wurden auch viele
-  andere zeitgenössische Themen angeschnitten. 
+  andere zeitgenössische Themen angeschnitten.
 
   Der historische Zeitraum ist insofern klar bemessen, als die ersten
   Texte zur Frauenwahlrechtsfrage um 1870 erschienen und die Frauen
@@ -41,7 +41,7 @@ keywords:
   - TdeF
   - 19.–20. Jh.
 urls:
-  landingPage: https://deutschestextarchiv.de/doku/textquellen#tdef
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/tdef
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=tdef
 association:
   institution:
@@ -75,7 +75,7 @@ timeCoverage:
   start: 1870
   end: 1919
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -91,3 +91,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

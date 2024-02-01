@@ -35,7 +35,7 @@ keywords:
   - Wikisource Texte
   - 15.–20. Jh.
 urls:
-  landingPage: https://deutschestextarchiv.de/doku/textquellen#wikisource
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/wikisource
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=wikisource
 association:
   institution:
@@ -66,7 +66,7 @@ timeCoverage:
   start: 1497
   end: 1926
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -82,3 +82,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

@@ -19,7 +19,7 @@ description: |
   I/8 und I/9 (beide in Bearbeitung) der Marx-Engels-Gesamtausgabe
   (MEGA) entstand die digitale Fassung der vollständigen Neuen
   Rheinischen Zeitung, also auch derjenigen Beiträge und Artikel, die
-  nicht von Marx oder Engels verfasst wurden. 
+  nicht von Marx oder Engels verfasst wurden.
 
   Verknüpfungen zwischen Artikelteilen innerhalb einer Ausgabe als
   auch über Ausgaben hinweg ermöglichen sowohl eine zeitungsidentische
@@ -44,7 +44,7 @@ keywords:
   - Friedrich Engels
   - 19. Jh.
 urls:
-  landingPage: https://deutschestextarchiv.de/doku/textquellen#nrhz
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/nrhz
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=nrhz
 association:
   institution:
@@ -75,7 +75,7 @@ timeCoverage:
   start: 1848
   end: 1849
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -91,3 +91,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

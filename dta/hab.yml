@@ -37,7 +37,7 @@ keywords:
   - Obrigkeitskritik und Fürstenberatung
   - 16.–18. Jh.
 urls:
-  landingPage: https://www.deutschestextarchiv.de/doku/textquellen#hab
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/hab
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=hab
   repository:
 association:
@@ -69,7 +69,7 @@ timeCoverage:
   start: 1529
   end: 1776
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -85,3 +85,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

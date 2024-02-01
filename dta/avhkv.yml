@@ -37,8 +37,8 @@ keywords:
   - Kosmos Vorträge
   - 19. Jh.
 urls:
-  landingPage: https://deutschestextarchiv.de/doku/textquellen#avhkv
-  searchPage: https://www.dwds.de/r/?corpus=dtae&collection=avhkv 
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/avhkv
+  searchPage: https://www.dwds.de/r/?corpus=dtae&collection=avhkv
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften
@@ -74,7 +74,7 @@ timeCoverage:
   start: 1827
   end: 1829
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -89,3 +89,7 @@ authority_control:
   data:
   metadata:
 modality: geschrieben
+disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

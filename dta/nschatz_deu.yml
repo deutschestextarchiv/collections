@@ -14,12 +14,12 @@ description: |
   zeitgenössisch-realistischen Schwerpunkt. Mit wenigen Ausnahmen
   stammen die Texte aus der zweiten Hälfte des 19. Jahrhunderts, ein
   Großteil der aufgenommenen Novellen ist heute dekanonisiert.
-  
+
   Der „Neue Deutsche Novellenschatz“ (24 Bände, 1884-1887) wurde von
   der Digital Humanities Cooperation unter Leitung von Prof. Dr.
   Thomas Weitin in einem Corrected-OCR-Verfahren im Rahmen des von der
   VolkswagenStiftung geförderten Projekts Reading at Scale. Mixing
-  Methods in Literary Analysis digitalisiert. 
+  Methods in Literary Analysis digitalisiert.
 
   Das hier unter der Lizenz CC BY-SA 4.0 bereitgestellte Korpus wurde
   im Rahmen von Text+ in die DTA-Infrastruktur integriert.
@@ -37,8 +37,8 @@ keywords:
   - 19. Jh.
   - Text+
 urls:
-  landingPage: https://www.dwds.de/d/korpora/nschatz_deu
-  searchPage: 
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/nschatz_deu
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=nschatz_deu
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften
@@ -71,13 +71,13 @@ timeCoverage:
   start: 1884
   end: 1887
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
 transcription: [ corrected ocr ]
 annotationLevel:
-status: public 
+status: public
 data:
   type: [ text corpus ]
   text_plusCluster: [ "structured, historical texts" ]
@@ -87,3 +87,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

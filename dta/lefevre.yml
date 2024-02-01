@@ -1,13 +1,13 @@
 title:
-  name: Lefèvre-Korpus von Zeitungen aus dem späten 17. Jahrhundert 
+  name: Lefèvre-Korpus von Zeitungen aus dem späten 17. Jahrhundert
   shortname: Lefèvre-Korpus
 dstar:
   corpus: dtae
   flags: lefevre
 genre:
   -
-    main: Gebrauchsliteratur 
-    sub: Zeitungen 
+    main: Gebrauchsliteratur
+    sub: Zeitungen
 description: |
   Das „Lefèvre-Korpus“ umfasst ausgewählte deutschsprachige Zeitungen
   aus dem letzten Drittel des 17. Jahrhunderts; der Großteil davon
@@ -45,9 +45,9 @@ format:
     - DC
 keywords:
   - deutsche Zeitungen
-  - 17. Jahrhundert 
+  - 17. Jahrhundert
 urls:
-  landingPage: https://www.deutschestextarchiv.de/doku/textquellen#lefevre
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/lefevre
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=lefevre
 association:
   institution:
@@ -67,9 +67,9 @@ availability:
   name: CC BY-SA 4.0
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
-  name:  
+  name:
   shortname:
-  url: 
+  url:
   authors:
     -
       name: Prof. Dr. Michel Lefèvre
@@ -78,7 +78,7 @@ timeCoverage:
   start: 1668
   end: 1699
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: false
@@ -94,3 +94,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

@@ -43,8 +43,8 @@ keywords:
   - Bern
   - unselbständige Schriften
 urls:
-  landingPage: https://www.dwds.de/d/korpora/avh-bern
-  searchPage: https://www.dwds.de/r/?corpus=avh-bern
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/avh-bern
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=avh-bern
   repository:
 association:
   institution:
@@ -53,7 +53,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
-    shortname: DWDS 
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -75,7 +75,7 @@ timeCoverage:
   start: 1790
   end: 1859
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: false
@@ -91,3 +91,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

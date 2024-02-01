@@ -43,7 +43,7 @@ keywords:
   - Zeitschrift
   - 19.–20. Jh.
 urls:
-  landingPage:
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/boersenblatt
   searchPage: https://kaskade.dwds.de/dstar/boersenblatt/
   images: https://digital.slub-dresden.de/id39946221X
 association:
@@ -67,7 +67,7 @@ project:
   url: https://www.boersenblatt-digital.de/
   authors:
     -
-      name: Börsenblatt digital 
+      name: Börsenblatt digital
       email: kontakt@boersenblatt-digital.de
     -
       name: Deutsches Textarchiv (DTA)
@@ -76,7 +76,7 @@ timeCoverage:
   start: 1834
   end: 1945
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: false
@@ -92,3 +92,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

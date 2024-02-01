@@ -43,8 +43,8 @@ keywords:
   - 18.–19. Jh.
   - Text+
 urls:
-  landingPage: https://www.dwds.de/d/korpora/soldatenbriefe
-  searchPage: https://www.dwds.de/r/?corpus=soldatenbriefe
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/soldatenbriefe
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=soldatenbriefe
   repository: https://github.com/deutschestextarchiv/soldatenbriefe
   text+: https://www.text-plus.org/en/research-data/user-story-508/
 association:
@@ -77,7 +77,7 @@ timeCoverage:
   start: 1745
   end: 1872
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: false
@@ -93,3 +93,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

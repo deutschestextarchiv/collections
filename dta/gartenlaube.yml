@@ -35,7 +35,7 @@ keywords:
   - Fortsetzungsromane
   - 19. Jh.
 urls:
-  landingPage:
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/gartenlaube
   searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=gartenlaube
 association:
   institution:
@@ -68,7 +68,7 @@ timeCoverage:
   start: 1853
   end: 1867
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: false
@@ -84,3 +84,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

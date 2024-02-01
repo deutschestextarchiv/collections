@@ -32,7 +32,7 @@ description: |
   [DTA-Schnittstelle](https://kaskade.dwds.de/dstar/grenzboten/)
   recherchiert werden. Dabei sind ebenso komplexe Suchanfragen auf
   Grundlage linguistischer Voranalysen (Lemmatisierung, POS-Tagging,
-  orthographische Normierung) möglich wie Korpusanalyse mit 
+  orthographische Normierung) möglich wie Korpusanalyse mit
   [Wortverlaufskurven](https://kaskade.dwds.de/dstar/grenzboten/hist.perl)
   oder nach [Kollokationen](https://kaskade.dwds.de/dstar/grenzboten/diacollo/)
   (DiaCollo).
@@ -50,7 +50,7 @@ keywords:
   - nationalliberal
   - SuUB
 urls:
-  landingPage: https://www.deutschestextarchiv.de/grenzboten/
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/grenzboten
   searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=grenzboten
 association:
   institution:
@@ -73,6 +73,10 @@ project:
   name: Die Grenzboten – Digitalisierung, Erschließung und Volltexterkennung einer der herausragenden deutschen Zeitschriften des 19. und 20. Jahrhunderts
   shortname: Die Grenzboten
   url: https://www.suub.uni-bremen.de/ueber-uns/projekte/grenzboten2/
+  funding:
+    name: DFG
+    url: https://www.dfg.de/
+    gnd: https://d-nb.info/gnd/2007744-0
   authors:
     -
       name: Dr. Manfred Nölte (SuUB)
@@ -80,14 +84,11 @@ project:
     -
       name: Deutsches Textarchiv (DTA)
       email: redaktion@deutschestextarchiv.de
-  funding:
-    name: Deutsche Forschungsgemeinschaft
-    url: https://www.dfg.de/
 timeCoverage:
   start: 1841
   end: 1922
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -103,3 +104,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

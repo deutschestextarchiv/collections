@@ -46,7 +46,7 @@ keywords:
   - deutsches Kaiserreich
   - 19.–20. Jh.
 urls:
-  landingPage: https://www.deutschestextarchiv.de/dsdk/
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/dsdk
   searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=dsdk
 association:
   institution:
@@ -69,9 +69,10 @@ project:
   name: Digitale Sammlung Deutscher Kolonialismus (DSDK)
   shortname: DSDK
   url: https://www.suub.uni-bremen.de/ueber-uns/projekte/dsdk/
-  funding: 
+  funding:
     name: DFG
     url: https://www.dfg.de/
+    gnd: https://d-nb.info/gnd/2007744-0
   authors:
     -
       name: Deutsches Textarchiv (DTA)
@@ -80,7 +81,7 @@ timeCoverage:
   start: 1884
   end: 1920
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -96,3 +97,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

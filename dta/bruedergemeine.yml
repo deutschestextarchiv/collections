@@ -40,8 +40,8 @@ keywords:
   - 19. Jh.
   - Text+
 urls:
-  landingPage: https://www.dwds.de/d/korpora/bruedergemeine
-  searchPage: https://www.dwds.de/r/?corpus=bruedergemeine
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/bruedergemeine
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=bruedergemeine
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften
@@ -49,7 +49,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
-    shortname: DWDS 
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -64,7 +64,7 @@ project:
   shortname: Nachrichten aus der Brüdergemeine
   url: https://collections.mun.ca/digital/collection/nachrichten
   authors:
-    - 
+    -
       name: SLUB – Digitale Sammlungen
       email: digital@slub-dresden.de
     -
@@ -74,7 +74,7 @@ timeCoverage:
   start: 1819
   end: 1894
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: false
@@ -90,3 +90,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

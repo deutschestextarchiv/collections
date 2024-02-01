@@ -6,8 +6,8 @@ dstar:
   flags: augsburgerallgemeine
 genre:
   -
-    main: Gebrauchsliteratur 
-    sub: Zeitungen 
+    main: Gebrauchsliteratur
+    sub: Zeitungen
 description: |
   Das Korpus der Augsburger Allgemeinen Zeitung wurde von der Berliner
   Arbeitsstelle des Deutschen Wörterbuches an der
@@ -24,10 +24,10 @@ format:
     - CMDI
     - DC
 keywords:
-  - Augsburger Allgemeine 
+  - Augsburger Allgemeine
   - Zeitung
 urls:
-  landingPage: https://www.deutschestextarchiv.de/doku/textquellen#augsburgerallgemeine
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/augsburgerallgemeine
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=augsburgerallgemeine
 association:
   institution:
@@ -54,7 +54,7 @@ timeCoverage:
   start: 1840
   end: 1840
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: false
@@ -70,3 +70,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

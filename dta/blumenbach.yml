@@ -31,7 +31,7 @@ keywords:
   - Naturhistorie
   - 18.–19. Jh.
 urls:
-  landingPage: https://deutschestextarchiv.de/doku/textquellen#blumenbach
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/blumenbach
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=blumenbach
 association:
   institution:
@@ -55,9 +55,9 @@ project:
   shortname: Blumenbach – Online
   url: https://www.blumenbach-online.de/
   authors:
-    - 
+    -
       name: Blumenbach – Online
-      email: kontakt.blumenbach-online@gwdg.de 
+      email: kontakt.blumenbach-online@gwdg.de
     -
       name: Deutsches Textarchiv (DTA)
       email: redaktion@deutschestextarchiv.de
@@ -65,7 +65,7 @@ timeCoverage:
   start: 1779
   end: 1832
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -81,3 +81,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

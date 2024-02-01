@@ -34,7 +34,7 @@ keywords:
   - Tageszeitung
   - 18.–19. Jh.
 urls:
-  landingPage: https://deutschestextarchiv.de/doku/textquellen#correspondent
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/correspondent
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=correspondent
   repository:
 association:
@@ -56,7 +56,7 @@ availability:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
   name: Volltextdigitalisierung der Staats- und Gelehrte[n] Zeitung des Hamburgischen Unpartheyischen Correspondenten und ihrer Vorläufer (1712–1848)
-  shortname: Digitalisierung des Hamburgischen Correspondenten 
+  shortname: Digitalisierung des Hamburgischen Correspondenten
   url: https://kw.uni-paderborn.de/en/institute-for-german-language-and-comparative-literature/germanistische-und-allgemeine-sprachwissenschaft/schuster/forschung/projekte/der-hamburgische-unpartheyische-correspondent-full-text-digitization
   authors:
     -
@@ -68,7 +68,7 @@ timeCoverage:
   start: 1712
   end: 1848
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -84,3 +84,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

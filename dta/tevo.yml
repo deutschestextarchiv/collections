@@ -18,7 +18,7 @@ description: |
    komplexen Textmustern. Entwicklung und Anwendung eines korpuslinguistischen
    Analyseverfahrens zur Erfassung der Mehrdimensionalität des
    Textmusterwandels“ zusammengestellt und umfassen einen Zeitraum von ca. 1600
-   bis 1930. 
+   bis 1930.
 format:
   data:
     - DTABf
@@ -60,6 +60,7 @@ project:
   funding:
     name: DFG
     url: https://www.dfg.de
+    gnd: https://d-nb.info/gnd/2007744-0
   authors:
     -
       name: Susanne Haaf
@@ -74,7 +75,7 @@ timeCoverage:
   start: 1599
   end: 1929
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -90,3 +91,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

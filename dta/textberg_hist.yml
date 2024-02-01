@@ -31,8 +31,8 @@ keywords:
   - 19. Jh.
   - Text+Berg
 urls:
-  landingPage: https://www.dwds.de/d/korpora/textberg
-  searchPage: https://www.dwds.de/r/?corpus=text+berg
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/textberg
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=textberg_hist
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften
@@ -68,7 +68,7 @@ timeCoverage:
   start: 1864
   end: 1900
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -84,3 +84,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

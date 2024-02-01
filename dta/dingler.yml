@@ -35,8 +35,8 @@ keywords:
   - 19.–20. Jh.
   - Text+
 urls:
-  landingPage: https://www.dwds.de/d/korpora/dingler
-  searchPage: https://www.dwds.de/r/?corpus=dingler
+  landingPage: https://dingler.bbaw.de
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=dingler
   repository:
   text+:
 association:
@@ -63,9 +63,10 @@ project:
   funding:
     name: DFG
     url: https://www.dfg.de/
+    gnd: https://d-nb.info/gnd/2007744-0
   authors:
     -
-      name: Marius Hug (HU-Berlin) 
+      name: Marius Hug (HU-Berlin)
     -
       name: Deutsches Textarchiv (DTA)
       email: redaktion@deutschestextarchiv.de
@@ -73,7 +74,7 @@ timeCoverage:
   start: 1820
   end: 1931
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -89,3 +90,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften, Technikgeschichte ]
+relations:
+  internal:
+    is_part_of: dtaxl

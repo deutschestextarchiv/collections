@@ -15,7 +15,7 @@ description: |
   Französischen, Englischen, Russischen, Dänischen, Italienischen,
   Spanischen, Ungarischen, Böhmischen, Niederländischen, Norwegischen,
   Polnischen und Schwedischen.
-  
+
   Der „Novellenschatz des Auslandes“ (14 Bände, 1872-1876)  wurde von
   der Digital Humanities Cooperation unter Leitung von Prof. Dr.
   Thomas Weitin in einem Corrected-OCR-Verfahren im Rahmen des von der
@@ -38,8 +38,8 @@ keywords:
   - 19. Jh.
   - Text+
 urls:
-  landingPage: https://www.dwds.de/d/korpora/nsda
-  searchPage: 
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/nschatz_ausl
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=nschatz_ausl
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften
@@ -72,7 +72,7 @@ timeCoverage:
   start: 1884
   end: 1887
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -88,3 +88,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

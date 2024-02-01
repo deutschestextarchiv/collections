@@ -32,7 +32,7 @@ keywords:
   - Grundlagentexte philosophische Ästhetik
   - 18.–20. Jh.
 urls:
-  landingPage: https://deutschestextarchiv.de/doku/textquellen#epoetics
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/epoetics
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=epoetics
 association:
   institution:
@@ -53,11 +53,12 @@ availability:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
   name: ePoetics – Korpuserschließung und Visualisierung deutschsprachiger Poetiken (1770–1960) für den „Algorithmic criticism“
-  shortname: ePoetics 
+  shortname: ePoetics
   url: http://epoetics.visus.uni-stuttgart.de/index5534.html?page_id=6
   funding:
     name: BMBF
     url: https://www.bmbf.de/
+    gnd: https://d-nb.info/gnd/5309538-8
   authors:
     -
       name: Deutsches Textarchiv (DTA)
@@ -66,7 +67,7 @@ timeCoverage:
   start: 1770
   end: 1960
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -82,3 +83,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

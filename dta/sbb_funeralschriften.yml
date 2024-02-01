@@ -14,7 +14,7 @@ description: |
   Staatsbibliothek zu Berlin. Die Funeralschriften sind Bestandteil
   der Sammlung von ca. 20.000 Personalschriften, darunter auch
   Hochzeitspredigten, Glückwunschgedichte und andere sogenannte
-  Gelegenheitsschriften. 
+  Gelegenheitsschriften.
 
   Die chronologische Struktur des Personalschriftenbestandes der
   Staatsbibliothek spiegelt deutlich die Blütezeit der
@@ -45,7 +45,7 @@ keywords:
   - Grabreden
   - 17. Jh.
 urls:
-  landingPage: https://deutschestextarchiv.de/doku/textquellen#sbb_funeralschriften
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/sbb_funeralschriften
   searchPage: https://www.dwds.de/r/?corpus=dtae&collection=sbb_funeralschriften
   repository:
 association:
@@ -77,7 +77,7 @@ timeCoverage:
   start: 1643
   end: 1659
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -93,3 +93,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

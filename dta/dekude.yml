@@ -12,14 +12,14 @@ description: |
   Beiträge und Abbildungen zur Kunst des Jugendstils, ihren Künstlern,
   künstlerischen Techniken, der Architektur und Innendekoration.
 
-  Die Zeitschrift wurde von der UB Heidelberg bilddigitalisiert 
+  Die Zeitschrift wurde von der UB Heidelberg bilddigitalisiert
   und mittels OCR-Verfahren im Volltext erfasst. Die
-  elektronischen Volltexte samt Metadaten wurden durch das DTA nach TEI-P5 überführt 
+  elektronischen Volltexte samt Metadaten wurden durch das DTA nach TEI-P5 überführt
   und werden nun als eigenständiges Korpus bereitgestellt. Die Daten sind
   zudem Bestandteil des Metakorpus [Historische Korpora](https://www.dwds.de/d/korpora/dtaxl).
 
   In Zusammenarbeit mit dem [DWDS](https://www.dwds.de) wurde das Korpus
-  für komplexe Suchabfragen schreibweisentolerant durchsuchbar gemacht. 
+  für komplexe Suchabfragen schreibweisentolerant durchsuchbar gemacht.
   Mit dem Tool DiaCollo sind die Daten hinsichtlich Kollokationen im zeitlichen Verlauf analysierbar.
 format:
   data:
@@ -30,15 +30,15 @@ format:
     - CMDI
     - DC
 keywords:
-  - Zeitschrift 
-  - Kunst 
+  - Zeitschrift
+  - Kunst
   - Dekoration
   - Architektur
   - Jugendstil
   - Text+
 urls:
-  landingPage: https://www.dwds.de/d/korpora/dekude
-  searchPage: https://www.dwds.de/r/?corpus=dekude
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/dekude
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=dekude
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften
@@ -57,19 +57,19 @@ availability:
   name: CC BY-SA 4.0
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
-  name: 
-  shortname: 
-  url: 
+  name:
+  shortname:
+  url:
   authors:
     -
-      name: 
-      email: 
+      name:
+      email:
       roles: [ ]
 timeCoverage:
   start: 1897
   end: 1932
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: false
@@ -85,3 +85,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

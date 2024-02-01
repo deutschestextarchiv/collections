@@ -1,11 +1,11 @@
 title:
   name: Der Neue Pitaval (1842-1890)
-  shortname: Pitaval 
+  shortname: Pitaval
 dstar:
   corpus: pitaval
 genre:
   -
-    main: Gebrauchsliteratur 
+    main: Gebrauchsliteratur
     sub: Kriminalistik
 description: |
   Das Korpus „Der Neue Pitaval“ umfasst 570 Texte aus der „Sammlung
@@ -44,8 +44,8 @@ keywords:
   - Kriminalgeschichten
   - Text+
 urls:
-  landingPage: https://www.dwds.de/d/korpora/pitaval
-  searchPage: https://www.dwds.de/r/?corpus=pitaval
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/pitaval
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=pitaval
 association:
   institution:
     name: Berlin-Brandenburgische Akademie der Wissenschaften
@@ -53,7 +53,7 @@ association:
     url: https://www.bbaw.de/
   infrastructure:
     name: Digitales Wörterbuch der deutschen Sprache
-    shortname: DWDS 
+    shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
@@ -64,9 +64,13 @@ availability:
   name: CC BY-SA 4.0
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
-  name: „Zwischen Recht und Literatur. Die Kriminalfallsammlung des Neuen Pitaval in der literaturwissenschaftlichen Korpusanalyse“  
+  name: „Zwischen Recht und Literatur. Die Kriminalfallsammlung des Neuen Pitaval in der literaturwissenschaftlichen Korpusanalyse“
   shortname: Pitaval Kriminalfallsammlung
   url: https://www.digitalhumanitiescooperation.de/zwischen-recht-und-literatur/
+  funding:
+    name: DFG
+    url: https://www.dfg.de/
+    gnd: https://d-nb.info/gnd/2007744-0
   authors:
     -
       name: Thomas Weitin
@@ -76,7 +80,7 @@ timeCoverage:
   start: 1842
   end: 1890
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: false
@@ -92,3 +96,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl

@@ -33,7 +33,7 @@ keywords:
   - historische Schulbücher
   - 17.–20. Jh.
 urls:
-  landingPage: https://www.dwds.de/d/gei_digital
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/gei_digital
   searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=gei_digital
 association:
   institution:
@@ -64,7 +64,7 @@ timeCoverage:
   start: 1648
   end: 1921
 languages:
-  - 
+  -
     full: German
     iso: deu
 facsimile: true
@@ -80,3 +80,6 @@ authority_control:
   metadata:
 modality: geschrieben
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl
