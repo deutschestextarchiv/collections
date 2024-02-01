@@ -85,3 +85,5 @@ facsimile: true
 transcription: [ double-keying ]
 annotationLevel:
 status: public
+disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+modality: geschrieben

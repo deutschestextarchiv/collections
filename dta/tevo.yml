@@ -11,7 +11,14 @@ genre:
   -
     main: Gebrauchsliteratur
     sub: Erbauungsliteratur
-description: ""
+description: |
+   Das Korpus „t.evo“ enthält zwei Textsammlungen (ein Korpus der
+   Erbauungsliteratur sowie ein Zeitungskorpus) mit insgesamt 536 Dokumenten.
+   Diese wurden in dem von der DFG geförderten Projekt „Die Evolution von
+   komplexen Textmustern. Entwicklung und Anwendung eines korpuslinguistischen
+   Analyseverfahrens zur Erfassung der Mehrdimensionalität des
+   Textmusterwandels“ zusammengestellt und umfassen einen Zeitraum von ca. 1600
+   bis 1930. 
 format:
   data:
     - DTABf
@@ -27,7 +34,7 @@ keywords:
   - Pressetexte
   - Erbauungsliteratur
 urls:
-  landingPage:
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/tevo/
   searchPage: https://kaskade.dwds.de/dstar/tevo/
 association:
   institution:
@@ -81,4 +88,5 @@ data:
 authority_control:
   data:
   metadata:
-modality:
+modality: geschrieben
+disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]

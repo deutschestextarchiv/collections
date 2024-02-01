@@ -65,3 +65,5 @@ facsimile: false
 transcription: [ ocr, "corrected ocr", manually, double-keying ]
 annotationLevel:
 status: public
+disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+modality: geschrieben

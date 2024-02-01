@@ -87,4 +87,5 @@ data:
 authority_control:
   data: 
   metadata:
-modality:
+modality: geschrieben
+disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
