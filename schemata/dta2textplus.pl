@@ -101,25 +101,25 @@ my %out = (
             },
         ],
         # cf. https://gitlab.com/minfba/resinfra/textplus-registry-models/-/blob/main/vocabulary_entries/collections_typ.json?ref_type=heads
-        kollektionstyp         => 'unbestimmt',
+        kollektionstyp         => 'Textsammlung', # optional
         genre                  => [ map { $_->{sub} ? sprintf('%s::%s', $_->{main}, $_->{sub}) : $_->{main} } @{$in->{genre}} ],
-        fachliche_zuordnung    => undef, # TODO?
-        schlagworte            => [ @{$in->{keywords}} ],
+        fachliche_zuordnung    => undef, # optional|see disciplines 
+        schlagworte            => [ @{$in->{keywords}} ], # optional
     },
     technische_angaben => {
-        pid                      => undef, # not yet in DTA
-        zugang                   => undef, # unclear
-        hierarchie               => undef,
-        bezug                    => undef,
-        dateien_datenströme      => undef, # unclear
-        technische_dokumentation => undef, # should maybe lead to DTA landing page?
+        pid                      => undef, # pflicht|mehrere Standards zulassen, PID zeigt auf Sammlung selbst 
+        zugang                   => undef, # pflicht|technische Zugangsdaten Endpunkt (FCS, OAI, API) samt Attribut zum Finden der Sammlung, kann auch sein "Lesesaal in der DNB"
+        hierarchie               => undef, # pflicht
+        bezug                    => undef, # optional
+        dateien_datenströme      => undef, # optional|ggf. Livelink zu Heimatorganisation
+        technische_dokumentation => undef, # optional| 
     },
     organisatorische_angaben => {
-        datenverantwortliche_person      => $in->{association}{editors}[0],  # TBD
-        datenverantwortliche_institution => $in->{association}{institution}, # TBD
-        ansprechperson                   => undef, # not (yet?) in DTA
-        förderer                         => undef, # not in DTA
-        förderer_id                      => undef, # not in DTA
+        datenverantwortliche_person      => $in->{association}{editors}[0],  # pflicht| TBD
+        datenverantwortliche_institution => $in->{association}{institution}, # pflicht| TBD
+        ansprechperson                   => undef, # pflicht|technischer Kontakt 
+        förderer                         => undef, # optional|funding_name
+        förderer_id                      => undef, # optional|funding_gnd 
         projekttitel                     => $in->{project}{name},
     },
 );
