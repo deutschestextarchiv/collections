@@ -119,6 +119,11 @@
     description:
       description: Corpus description.
       type: string
+    disciplines:
+      description: Field of science.
+      type: array
+      items:
+        type: string
     facsimile:
       description: Facsimile availability.
       type: boolean
@@ -157,7 +162,7 @@
             anyOf:
               -
                 type: [ string ]
-                enum: [ Belletristik, Gebrauchsliteratur, Wissenschaft, Zeitung ]
+                enum: [ Belletristik, Gebrauchsliteratur, Wissenschaft, Zeitschrift, Zeitung ]
               -
                 type: "null"
           sub:
@@ -181,14 +186,16 @@
             type: string
     modality:
       description: Modality.
-      oneOf:
-        -
-          type: "null"
-        -
-          type: array
-          items:
-            type: string
-            enum: [ 'printed text', hand-written, speech, unspecified ]
+      type: string
+      enum: [ geschrieben, hand-written, speech, unspecified ]
+#      oneOf:
+#        -
+#          type: "null"
+#        -
+#          type: array
+#          items:
+#            type: string
+#            enum: [ 'printed text', hand-written, speech, unspecified ]
     project:
       description: Project information.
       type: object
@@ -219,19 +226,23 @@
           type: object
           additionalProperties: false
           properties:
+            end:
+              description: Funding-end.
+              type: [ integer, "null" ]
+            gnd:
+              description: URL to GND handle.
+              type: string
+              format: uri
             name:
               description: Name of funder.
               type: string
+            start:
+              description: Funding-start.
+              type: [ integer, "null" ]
             url:
               description: URL of funder.
               type: string
               format: uri
-            start:
-              description: Funding-start.
-              type: [ integer, "null" ]
-            end:
-              description: Funding-end.
-              type: [ integer, "null" ]
         institution:
           description: Information about the institution.
           type: array
@@ -259,6 +270,24 @@
           description: URL of the project. 
           type: [ string, "null" ]
           format: uri
+    relations:
+      description: Relational status to other text collections.
+      type: object
+      additionalProperties: false
+      properties:
+        internal:
+          description: Handles an internal text collection.
+          type: object
+          additionalProperties: false
+          properties:
+            contains:
+              description: Describes a "has" relation.
+              type: array
+              items:
+                type: string
+            is_part_of:
+              description: Describes a "is one of" relation.
+              type: string
     size: # xxx ungünstig, weil das eigentlich berechnet werden kann/muss
       description: Corpus size.
       type: object

@@ -57,14 +57,26 @@ availability:
   name: CC BY-SA 4.0
   url: https://creativecommons.org/licenses/by-sa/4.0/
 project:
-  name:
-  shortname:
-  url:
+  name: Zentrum für digitale Lexikographie der deutschen Sprache
+  shortname: ZDL
+  url: https://www.zdl.org/
+  funding:
+    name: Bundesministerium für Bildung und Forschung
+    url: https://www.bmbf.de/
+    gnd: https://d-nb.info/gnd/5309538-8
   authors:
     -
-      name:
-      email:
-      roles: [ ]
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+    -
+      name: Matthias Boenig
+      email: boenig@bbaw.de
+    -
+      name: Susanne Haaf
+      email: haaf@bbaw.de
+    -
+      name: Marius Hug
+      email: hug@bbaw.de
 timeCoverage:
   start: 1897
   end: 1932
