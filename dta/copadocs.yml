@@ -8,7 +8,7 @@ genre:
     main: Gebrauchsliteratur
     sub: Brief
 description: |
-  Das Korpus „Patientenbriefe“ umfasst ca. 3.000 Briefe von mehreren
+  Das Korpus „Patientenbriefe“ umfasst ca. 4.000 Briefe von mehreren
   hundert Schreiber*n. Es handelt sich dabei um diejenigen Briefe, die
   in psychiatrischen Anstalten verfasst aber zurückgehalten und also
   nie abgeschickt wurden, (eine damals gängige Praxis). Die Briefe
@@ -61,7 +61,7 @@ availability:
 project:
   name: CoPaDocs – Corpus of Patient Documents
   shortname: CoPaDocs
-  url: http://copadocs.de/
+  url: https://www.copadocs.de/
   institution:
     - name: FAU Erlangen
   authors:
@@ -75,10 +75,10 @@ languages:
   -
     full: German
     iso: deu
-facsimile: false
+facsimile: true
 transcription: [ manually ]
 annotationLevel:
-status: wip
+status: public
 data:
   type: [ text corpus ]
   text_plusCluster: [ "structured, historical texts" ]
