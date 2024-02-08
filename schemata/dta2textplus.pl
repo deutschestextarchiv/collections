@@ -58,21 +58,38 @@ die '-i=... missing' unless $input;
 my $in = join '' => `perl $FindBin::Bin/compile-catalog.pl -s $input`;
 
 $in = decode_json($in) or die $@;
+if ( !ref $in or ref $in ne 'HASH' or !keys %$in ) {
+    exit;
+}
+
+my $funder;
+if ( ref $in->{project} eq 'ARRAY' ) {
+    foreach my $x ( @{$in->{project}} ) {
+        push @$funder, {
+            basic_information => {
+                name => $x->{funding}{name},
+            },
+        }
+    }
+}
+elsif ( $in->{project}{funding}{name} ) {
+    $funder = $in->{project}{funding}{name};
+}
 
 my %out = (
     inhaltliche_angaben => {
-        titel                  => $in->{title}{name}, # pflicht
-        beschreibung           => $in->{description}, # pflicht
-        größe                  => sprintf('%d documents, %d tokens', $in->{numbers}{documents}, $in->{numbers}{tokens}), # pflicht
-        lizenz                 => $in->{availability}{name}, # pflicht
-        'lizenz-url'           => $in->{availability}{url}, # pflicht
-        modalität              => $in->{modality}, # pflicht
-        sprache                => [ map { $_->{iso} } @{$in->{languages}} ], # pflicht
-        datentyp               => [ qw(collection corpus) ], # pflicht|vocabulary
+        titel                  => $in->{title}{name}, # mandatory
+        beschreibung           => $in->{description}, # mandatory
+        größe                  => sprintf('%d documents, %d tokens', $in->{numbers}{documents}, $in->{numbers}{tokens}), # mandatory
+        lizenz                 => $in->{availability}{name}, # mandatory
+        'lizenz-url'           => $in->{availability}{url}, # mandatory
+        modalität              => $in->{modality}, # mandatory
+        sprache                => [ map { $_->{iso} } @{$in->{languages}} ], # optional
+        datentyp               => [ qw(collection corpus) ], # mandatory | vocabulary
         erstellungsdatum       => undef, # not yet in DTA
         veröffentlichungsdatum => undef, # not yet in DTA
-        abgedeckter_zeitraum   => sprintf('%s-%s', $in->{timeCoverage}{start}, $in->{timeCoverage}{end}), # pflicht
-        volltext_verfügbar     => 'available', # pflicht|vocabulary
+        abgedeckter_zeitraum   => sprintf('%s-%s', $in->{timeCoverage}{start}, $in->{timeCoverage}{end}), # optional
+        volltext_verfügbar     => 'available', # mandatory | vocabulary
         annotationslayer => [
             {
                 typ                 => 'text',
@@ -103,24 +120,37 @@ my %out = (
         # cf. https://gitlab.com/minfba/resinfra/textplus-registry-models/-/blob/main/vocabulary_entries/collections_typ.json?ref_type=heads
         kollektionstyp         => 'Textsammlung', # optional
         genre                  => [ map { $_->{sub} ? sprintf('%s::%s', $_->{main}, $_->{sub}) : $_->{main} } @{$in->{genre}} ], # optional
-        fachliche_zuordnung    => undef, # optional|see disciplines 
-        schlagworte            => [ @{$in->{keywords}} ], # optional
+        fachliche_zuordnung    => [ @{$in->{disciplines}} ], # optional
+        schlagworte            => [ @{$in->{keywords}} ],    # optional
     },
     technische_angaben => {
-        pid                      => undef, # pflicht|url_landingpage 
-        zugang                   => undef, # pflicht|url_searchpage
-        hierarchie               => undef, # pflicht|see relations_internal_is_part_of or relations_internal_contains
+        pid                      => $in->{urls}{landingPage}, # required
+        zugang                   => $in->{urls}{searchPage},  # required
+        hierarchie               => undef, # optional | see relations_internal_is_part_of or relations_internal_contains
         bezug                    => undef, # optional
-        dateien_datenströme      => undef, # optional|ggf. Livelink zu Heimatorganisation
-        technische_dokumentation => undef, # optional| 
+        dateien_datenströme      => undef, # optional | ggf. Livelink zu Heimatorganisation
+        technische_dokumentation => undef, # optional
     },
     organisatorische_angaben => {
-        datenverantwortliche_person      => $in->{association}{editors}[0],  # pflicht| association_editors[0]_name
-        datenverantwortliche_institution => $in->{association}{institution}, # pflicht| association_institution_name 
-        ansprechperson                   => undef, # pflicht| association_editors[0]_email
-        förderer                         => undef, # optional|funding_name
-        förderer_id                      => undef, # optional|funding_gnd 
-        projekttitel                     => $in->{project}{name},
+        datenverantwortliche_person => { # optional
+            basic_information => {
+                lastname => $in->{association}{editors}[0]{name}
+            },
+        },
+        datenverantwortliche_institution => { # optional
+            basic_information => {
+                name => $in->{association}{institution}{name}
+            },
+        },
+        ansprechperson => { # optional
+            basic_information => {
+                lastname => $in->{association}{editors}[0]{email}
+            },
+        },
+        förderer     => $funder, # optional
+        förderer_id  => undef, # optional
+        projekttitel => (ref $in->{project} eq 'ARRAY' ? [ map { $_->{name} } @{$in->{project}} ]
+                                                       : $in->{project}{name}),
     },
 );
 
