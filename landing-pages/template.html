@@ -118,7 +118,7 @@
   <tr>
     <td class="col-md-4">
       <img title="Project" style="border-width:0px;height:15px" src="static/logos/house-user-solid.svg"/>
-      ${ meta.project.url ? ('<a href="' + meta.project.url + '">' + meta.project.shortname + '</a>') : meta.project.shortname }
+      ${ meta.project.url ? ('<a href="' + meta.project.url + '">' + meta.project.shortname + '</a>') : meta.project.shortname ? meta.project.shortname : 'N/A' }
     </td>
     <td class="col-md-4">
       <img title="Funding" style="border-width:0px;height:15px" src="static/logos/money-check-dollar-solid.svg"/>
