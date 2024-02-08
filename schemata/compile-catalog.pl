@@ -4,23 +4,29 @@ use 5.012;
 use warnings;
 
 use File::Basename 'basename';
+use File::Path 'make_path';
 use Getopt::Long;
 use JSON::PP;
-use LWP::UserAgent;
+use LWP::UserAgent::Cached;
 use URI::Escape 'uri_escape_utf8';
 use YAML::PP;
 
-my ($single);
+my ($single, $no_cache);
+my $cache_dir = '/tmp/lwp-cache';
 GetOptions(
-    's'  => \$single,
+    's' => \$single,
+    'no-cache' => \$no_cache,
+    'cache-dir=s' => \$cache_dir,
 ) or die("Error in command line arguments\n");
+
+make_path($cache_dir) unless $no_cache;
 
 my $ypp = YAML::PP->new(
     schema  => [qw(Core Merge)],
     boolean => 'JSON::PP',
 );
 
-my $ua = LWP::UserAgent->new;
+my $ua = LWP::UserAgent::Cached->new( $no_cache ? () : (cache_dir => $cache_dir) );
 my %stat_files = (
     tokens    => 'ddc.tokens.all.txt',
     sentences => 'ddc.sentences.all.txt',
