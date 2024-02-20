@@ -121,7 +121,7 @@ my %out = (
         kollektionstyp         => 'Textsammlung', # optional
         genre                  => [ map { $_->{sub} ? sprintf('%s::%s', $_->{main}, $_->{sub}) : $_->{main} } @{$in->{genre}} ], # optional
         fachliche_zuordnung    => [ @{$in->{disciplines}} ], # optional
-        schlagworte            => [ @{$in->{keywords}} ],    # optional
+        schlagworte            => [ grep { $_ ne 'Text+' } @{$in->{keywords}} ], # optional
     },
     technische_angaben => {
         pid                      => $in->{urls}{landingPage}, # required
