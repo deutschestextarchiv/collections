@@ -74,6 +74,7 @@ project:
     name: BMBF
     url: https://www.bmbf.de/
     gnd: https://d-nb.info/gnd/5309538-8
+    number: 01UG1610 A bis I
   authors:
     -
       name: Deutsches Textarchiv (DTA)

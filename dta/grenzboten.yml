@@ -77,6 +77,7 @@ project:
     name: DFG
     url: https://www.dfg.de/
     gnd: https://d-nb.info/gnd/2007744-0
+    number: 196492153
   authors:
     -
       name: Dr. Manfred Nölte (SuUB)

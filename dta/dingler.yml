@@ -64,6 +64,7 @@ project:
     name: DFG
     url: https://www.dfg.de/
     gnd: https://d-nb.info/gnd/2007744-0
+    number: 35469972
   authors:
     -
       name: Marius Hug (HU-Berlin)
