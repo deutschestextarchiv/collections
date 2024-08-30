@@ -62,18 +62,20 @@ if ( !ref $in or ref $in ne 'HASH' or !keys %$in ) {
     exit;
 }
 
-my $funder;
+my ($funder, $funding_id);
 if ( ref $in->{project} eq 'ARRAY' ) {
     foreach my $x ( @{$in->{project}} ) {
         push @$funder, {
             basic_information => {
                 name => $x->{funding}{name},
             },
-        }
+        };
+        push(@$funding_id, $x->{funding}{number}) if $x->{funding}{number};
     }
 }
 elsif ( $in->{project}{funding}{name} ) {
     $funder = $in->{project}{funding}{name};
+    $funding_id = $in->{project}{funding}{number}.'' if $in->{project}{funding}{number};
 }
 
 my %out = (
@@ -148,7 +150,7 @@ my %out = (
             },
         },
         förderer     => $funder, # optional
-        förderer_id  => undef, # optional
+        förderer_id  => $funding_id, # optional
         projekttitel => (ref $in->{project} eq 'ARRAY' ? [ map { $_->{name} } @{$in->{project}} ]
                                                        : $in->{project}{name}),
     },
