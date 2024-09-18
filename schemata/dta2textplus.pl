@@ -81,7 +81,7 @@ elsif ( $in->{project}{funding}{name} ) {
 my %out = (
     inhaltliche_angaben => {
         titel                  => $in->{title}{name}, # mandatory
-        beschreibung           => $in->{description}, # mandatory
+        beschreibung           => $in->{description} =~ s/\R\R.*//rs, # mandatory, only first paragraph
         größe                  => sprintf('%d documents, %d tokens', $in->{numbers}{documents}, $in->{numbers}{tokens}), # mandatory
         lizenz                 => $in->{availability}{name}, # mandatory
         'lizenz-url'           => $in->{availability}{url}, # mandatory
