@@ -82,7 +82,7 @@ my %out = (
     inhaltliche_angaben => {
         titel                  => $in->{title}{name}, # mandatory
         beschreibung           => $in->{description} =~ s/\R\R.*//rs, # mandatory, only first paragraph
-        größe                  => sprintf('%d documents, %d tokens', $in->{numbers}{documents}, $in->{numbers}{tokens}), # mandatory
+        größe                  => sprintf('%d Dokumente, %d Tokens', $in->{numbers}{documents}, $in->{numbers}{tokens}), # mandatory
         lizenz                 => $in->{availability}{name}, # mandatory
         'lizenz-url'           => $in->{availability}{url}, # mandatory
         modalität              => $in->{modality}, # mandatory
