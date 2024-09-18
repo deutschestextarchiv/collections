@@ -141,7 +141,11 @@ my %out = (
         },
         datenverantwortliche_institution => { # optional
             basic_information => {
-                name => $in->{association}{institution}{name}
+                name => sprintf(
+                    "%s%s",
+                    $in->{association}{institution}{name},
+                    ($in->{association}{institution}{shortname} ? " ($in->{association}{institution}{shortname})" : ''),
+                ),
             },
         },
         ansprechperson => { # optional
