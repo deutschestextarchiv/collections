@@ -121,7 +121,7 @@ my %out = (
         ],
         # cf. https://gitlab.com/minfba/resinfra/textplus-registry-models/-/blob/main/vocabulary_entries/collections_typ.json?ref_type=heads
         kollektionstyp         => undef, # optional
-        genre                  => [ map { $_->{sub} ? sprintf('%s::%s', $_->{main}, $_->{sub}) : $_->{main} } @{$in->{genre}} ], # optional
+        genre                  => undef, # [ map { $_->{sub} ? sprintf('%s::%s', $_->{main}, $_->{sub}) : $_->{main} } @{$in->{genre}} ], # optional
         fachliche_zuordnung    => [ @{$in->{disciplines}} ], # optional
         schlagworte            => [ grep { $_ ne 'Text+' } @{$in->{keywords}} ], # optional
     },
