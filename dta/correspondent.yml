@@ -8,17 +8,18 @@ genre:
   -
     main: Zeitung
 description: |
-  Das Korpus „Hamburgischer Correspondent“ ist Bestandteil
+  Das Korpus „Hamburgischer Correspondent“ ist Bestandteil des
   DTA-Zeitungskorpus und wurde im Rahmen des Kooperationsprojekts
   „Volltextdigitalisierung der Staats- und Gelehrte[n] Zeitung des
   Hamburgischen Unpartheyischen Correspondenten und ihrer Vorläufer
   (1712–1848)“ unter der Leitung von Prof. Dr. Britt-Marie Schuster an
   der Universität Paderborn in Zusammenarbeit mit dem DTA
-  digitalisiert. Die Texte Korpus wurden weitgehend gemäß den
-  DTA-Transkriptionsrichtlinien im Double-Keying-Verfahren von Nicht-
-  Muttersprachlern bzw. einzelne Jahrgänge manuell einfach von
-  Muttersprachlern erfasst und im TEI P5-Subset DTA-Basisformat
-  kodiert.
+  digitalisiert. 
+  
+  Die Texte wurden weitgehend gemäß den DTA-Transkriptionsrichtlinien im
+  Double-Keying-Verfahren von Nicht- Muttersprachlern bzw. einzelne Jahrgänge
+  manuell einfach von Muttersprachlern erfasst und im TEI P5-Subset
+  DTA-Basisformat kodiert.
 format:
   data:
     - DTABf
