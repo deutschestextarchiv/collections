@@ -14,17 +14,15 @@ genre:
   -
     main: Zeitung
 description: |
-  Das DTAE-Korpus enthält Einzeltexte und kleinere Sammlungen
-  unterschiedlicher Provenienz, die über das DTA-Erweiterungsmodul DTAE in
-  die DTA-Infrastruktur eingespielt wurden. Innerhalb des DTAE besteht
-  wiederum die Möglichkeit, einzelne Texte als Subkorpus zu clustern.
+  Das DTAE-Korpus enthält Einzeltexte und kleinere Sammlungen unterschiedlicher
+  Provenienz, die über das DTA-Erweiterungsmodul DTAE in die DTA-Infrastruktur
+  eingespielt wurden. Die Primärtexte aus dem späten 16. bis frühen 20.
+  Jahrhundert stammen aus verschiedenen Projektkontexten, ergänzen das
+  DTA-Kernkorpus und erhöhen die Vielfalt des DTA.
 
-  Die Primärtexte aus dem späten 16. bis frühen 20. Jahrhundert
-  stammen aus verschiedenen Projektkontexten, ergänzen das
-  DTA-Kernkorpus und erhöhen die Vielfalt des DTA. Darüber hinaus
-  können diese angelagerten Texte als Spezialkorpora mit dem
-  DTA-Kernkorpus auf ihre sprachlichen Spezifika hin verglichen
-  werden.
+  Innerhalb des DTAE besteht die Möglichkeit, einzelne Texte als Subkorpus zu
+  clustern.  Darüber hinaus können diese angelagerten Texte als Spezialkorpora
+  mit dem DTA-Kernkorpus auf ihre sprachlichen Spezifika hin verglichen werden.
 format:
   data:
     - DTABf
