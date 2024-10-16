@@ -11,22 +11,22 @@ description: |
   Das Korpus „Der Neue Pitaval“ umfasst 570 Texte aus der „Sammlung
   der interessantesten Kriminalgeschichten aller Länder aus älterer
   und neuerer Zeit“ aus den zwischen 1842 und 1890 erschienenen 60
-  Textbänden. Zunächst von Julius Eduard Hitzig und Wilhelm Häring (=
-  Willibald Alexis) herausgegeben, führte Anton Vollert die Reihe im
-  Jahre 1861 fort. Enthalten sind Schilderungen von Kriminalfällen in
+  Textbänden. Enthalten sind Schilderungen von Kriminalfällen in
   dokumentarischer Form, die anhand von Justizakten oder anderen
   Dokumenten für ein breiteres Publikum als Sachverhaltsdarstellung in
   Verbindung mit moderner, realistischer Erzählstruktur aufbereitet
   wurden.
-
-  Das Korpus entstand im Rahmen von Vorarbeiten für das DFG-geförderte
-  Projekt *Zwischen Recht und Literatur. Die Kriminalfallsammlung des
-  „Neuen Pitaval“ in der literaturwissenschaftlichen Korpusanalyse* und
-  wurde mit automatischen Methoden der Texterkennung (OCR) erfasst und
-  nachkorrigiert. Für die Aufnahme als Korpus in die Sammlungen des
-  Deutschen Textarchivs und des DWDS wurden die vorliegenden Textdaten
-  nach XML/TEI P5 konvertiert und sind nun – historische Schreibungen
-  entsprechend berücksichtigend – im Volltext frei durchsuchbar.
+  
+  Zunächst von Julius Eduard Hitzig und Wilhelm Häring (= Willibald Alexis)
+  herausgegeben, führte Anton Vollert die Reihe im Jahre 1861 fort. Das Korpus
+  entstand im Rahmen von Vorarbeiten für das DFG-geförderte Projekt *Zwischen
+  Recht und Literatur. Die Kriminalfallsammlung des „Neuen Pitaval“ in der
+  literaturwissenschaftlichen Korpusanalyse* und wurde mit automatischen
+  Methoden der Texterkennung (OCR) erfasst und nachkorrigiert. Für die Aufnahme
+  als Korpus in die Sammlungen des Deutschen Textarchivs und des DWDS wurden
+  die vorliegenden Textdaten nach XML/TEI P5 konvertiert und sind nun –
+  historische Schreibungen entsprechend berücksichtigend – im Volltext frei
+  durchsuchbar.
 
   Wir danken Thomas Weitin und Katharina Herget von der TU Darmstadt für
   die Bereitstellung der Korpusdaten unter
