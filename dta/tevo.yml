@@ -13,12 +13,13 @@ genre:
     sub: Erbauungsliteratur
 description: |
    Das Korpus „t.evo“ enthält zwei Textsammlungen (ein Korpus der
-   Erbauungsliteratur sowie ein Zeitungskorpus) mit insgesamt 536 Dokumenten.
-   Diese wurden in dem von der DFG geförderten Projekt „Die Evolution von
+   Erbauungsliteratur sowie ein Zeitungskorpus) mit insgesamt 536 Dokumenten,
+   die einen Zeitraum von ca. 1600 bis 1930 umfassen. 
+
+   Das Korpus wurden in dem von der DFG geförderten Projekt „Die Evolution von
    komplexen Textmustern. Entwicklung und Anwendung eines korpuslinguistischen
    Analyseverfahrens zur Erfassung der Mehrdimensionalität des
-   Textmusterwandels“ zusammengestellt und umfassen einen Zeitraum von ca. 1600
-   bis 1930.
+   Textmusterwandels“ zusammengestellt.
 format:
   data:
     - DTABf
