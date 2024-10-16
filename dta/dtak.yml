@@ -18,19 +18,18 @@ authority_control:
   data: [ GND ]
   metadata: [ GND ]
 description: |
-  Mit dem Kernkorpus stellt das Deutsche Textarchiv (DTA) einen
-  disziplinen- und gattungsübergreifenden Grundbestand
-  deutschsprachiger Texte mit einem Schwerpunkt ab dem frühen 16. bis
-  zum frühen 20. Jahrhundert bereit. Das Korpus wurde im Rahmen des
-  von der Deutschen Forschungsgemeinschaft (DFG) von 2007 bis 2016
-  geförderten Projekts erstellt. Es umfasst etwa 1.500 Titel aus dem
-  Zeitraum von ca. 1600 bis 1900, die aufgrund ihrer herausragenden
-  Bedeutung für die Entwicklung der deutschen Sprache bzw. der
-  jeweiligen Genres und wissenschaftlichen Disziplinen ausgewählt
-  wurden. Unter anderem aufgrund des sprachgeschichtlichen Fokus des
-  DTA und um den historischen Sprachstand möglichst genau abzubilden,
-  wurden dabei als Vorlage für die Digitalisierung in der Regel die
-  historischen Erstausgaben ausgewählt.
+  Mit dem Kernkorpus stellt das Deutsche Textarchiv (DTA) einen disziplinen-
+  und gattungsübergreifenden Grundbestand deutschsprachiger Texte mit einem
+  Schwerpunkt ab dem frühen 16. bis zum frühen 20. Jahrhundert bereit. Es
+  umfasst etwa 1.500 Titel, die aufgrund ihrer herausragenden Bedeutung für die
+  Entwicklung der deutschen Sprache bzw. der jeweiligen Genres und
+  wissenschaftlichen Disziplinen ausgewählt wurden.
+
+  Das Korpus wurde im Rahmen des von der Deutschen Forschungsgemeinschaft (DFG)
+  von 2007 bis 2016 geförderten Projekts erstellt. Unter anderem aufgrund des
+  sprachgeschichtlichen Fokus des DTA und um den historischen Sprachstand
+  möglichst genau abzubilden, wurden dabei als Vorlage für die Digitalisierung
+  in der Regel die historischen Erstausgaben ausgewählt.
 format:
   data:
     - DTABf
