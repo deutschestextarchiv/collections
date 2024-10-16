@@ -10,12 +10,13 @@ genre:
 description: |
   Das Dingler-Korpus enthält den kompletten Bestand des ursprünglich
   von J. G. Dingler herausgegebenen „Polytechnischen Journals“
-  (1820–1931). Die 375 Bände wurden in einem von der DFG zwischen
-  2007 und 2015 geförderten Projekt an der Humboldt-Universität zu
-  Berlin digitalisiert. Die Ressource mit über 200.000 Seiten ist im
+  (1820–1931). Die Ressource mit über 200.000 Seiten ist im
   Volltext erfasst, vollständig in TEI-P5 annotiert und als
   „DinglerOnline“ unter der Lizenz CC BY-SA 4.0 nachhaltig als
   Forschungsdaten für die Nachnutzung verfügbar.
+
+  Die 375 Bände wurden in einem von der DFG zwischen 2007 und 2015 geförderten
+  Projekt an der Humboldt-Universität zu Berlin digitalisiert.
 format:
   data:
     - DTABf
