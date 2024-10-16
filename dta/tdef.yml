@@ -12,20 +12,22 @@ description: |
   Das Korpus „Texte der ersten Frauenbewegung“ (TdeF) besteht aus
   deutschsprachigen Quellentexten, die in der Frauenbewegung um 1900
   entstanden sind. Im Vordergrund steht das Thema des
-  Frauenwahlrechts, aber in der kontroversen Diskussion, die es
-  zwischen den verschiedenen Lagern der Frauenbewegung, einzelnen
-  Vertreterinnen und den Parteien im Parlament gab, wurden auch viele
-  andere zeitgenössische Themen angeschnitten.
-
-  Der historische Zeitraum ist insofern klar bemessen, als die ersten
-  Texte zur Frauenwahlrechtsfrage um 1870 erschienen und die Frauen
-  1918 das Frauenwahlrecht erhielten.Bei den Texten handelt es sich
-  sowohl um eigenständige Werke in Form von Büchlein oder Broschüren
-  als auch um Zeitschriftenaufsätze, die in den Presseorganen der
-  Frauenbewegung publiziert wurden. Die Sammlung wird von Anna Pfundt
-  und Thomas Gloning (Justus-Liebig-Universität Gießen) betreut. Die
-  Volltexte werden nach XML/TEI P5 gemäß dem DTA-Basisformat erfasst
-  und innerhalb der DTA-Infrastruktur veröffentlicht.
+  Frauenwahlrechts. 
+  
+  Der historische Zeitraum ist insofern klar bemessen, als die ersten Texte zur
+  Frauenwahlrechtsfrage um 1870 erschienen und die Frauen 1918 das
+  Frauenwahlrecht erhielten. Bei den Texten handelt es sich sowohl um
+  eigenständige Werke in Form von Büchlein oder Broschüren als auch um
+  Zeitschriftenaufsätze, die in den Presseorganen der Frauenbewegung publiziert
+  wurden. In der kontroversen Diskussion, die es zwischen den verschiedenen
+  Lagern der Frauenbewegung, einzelnen Vertreterinnen und den Parteien im
+  Parlament gab, wurden neben dem Thema Frauenwahlrecht auch viele andere
+  zeitgenössische Themen angeschnitten.
+  
+  Die Sammlung wird von Anna Pfundt und Thomas Gloning
+  (Justus-Liebig-Universität Gießen) betreut. Die Volltexte werden nach XML/TEI
+  P5 gemäß dem DTA-Basisformat erfasst und innerhalb der DTA-Infrastruktur
+  veröffentlicht.
 format:
   data:
     - DTABf
