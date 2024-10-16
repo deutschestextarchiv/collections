@@ -62,30 +62,32 @@ if ( !ref $in or ref $in ne 'HASH' or !keys %$in ) {
     exit;
 }
 
-my $funder;
+my ($funder, $funding_id);
 if ( ref $in->{project} eq 'ARRAY' ) {
     foreach my $x ( @{$in->{project}} ) {
         push @$funder, {
             basic_information => {
                 name => $x->{funding}{name},
             },
-        }
+        };
+        push(@$funding_id, $x->{funding}{number}) if $x->{funding}{number};
     }
 }
 elsif ( $in->{project}{funding}{name} ) {
     $funder = $in->{project}{funding}{name};
+    $funding_id = $in->{project}{funding}{number}.'' if $in->{project}{funding}{number};
 }
 
 my %out = (
     inhaltliche_angaben => {
         titel                  => $in->{title}{name}, # mandatory
-        beschreibung           => $in->{description}, # mandatory
-        größe                  => sprintf('%d documents, %d tokens', $in->{numbers}{documents}, $in->{numbers}{tokens}), # mandatory
+        beschreibung           => $in->{description} =~ s/\R\R.*//rs, # mandatory, only first paragraph
+        größe                  => sprintf('%d Dokumente, %d Tokens', $in->{numbers}{documents}, $in->{numbers}{tokens}), # mandatory
         lizenz                 => $in->{availability}{name}, # mandatory
         'lizenz-url'           => $in->{availability}{url}, # mandatory
         modalität              => $in->{modality}, # mandatory
         sprache                => [ map { $_->{iso} } @{$in->{languages}} ], # optional
-        datentyp               => [ qw(collection corpus) ], # mandatory | vocabulary
+        datentyp               => [ qw(collection text) ], # mandatory | vocabulary
         erstellungsdatum       => undef, # not yet in DTA
         veröffentlichungsdatum => undef, # not yet in DTA
         abgedeckter_zeitraum   => sprintf('%s-%s', $in->{timeCoverage}{start}, $in->{timeCoverage}{end}), # optional
@@ -118,8 +120,8 @@ my %out = (
             },
         ],
         # cf. https://gitlab.com/minfba/resinfra/textplus-registry-models/-/blob/main/vocabulary_entries/collections_typ.json?ref_type=heads
-        kollektionstyp         => 'Textsammlung', # optional
-        genre                  => [ map { $_->{sub} ? sprintf('%s::%s', $_->{main}, $_->{sub}) : $_->{main} } @{$in->{genre}} ], # optional
+        kollektionstyp         => undef, # optional
+        genre                  => undef, # [ map { $_->{sub} ? sprintf('%s::%s', $_->{main}, $_->{sub}) : $_->{main} } @{$in->{genre}} ], # optional
         fachliche_zuordnung    => [ @{$in->{disciplines}} ], # optional
         schlagworte            => [ grep { $_ ne 'Text+' } @{$in->{keywords}} ], # optional
     },
@@ -139,7 +141,11 @@ my %out = (
         },
         datenverantwortliche_institution => { # optional
             basic_information => {
-                name => $in->{association}{institution}{name}
+                name => sprintf(
+                    "%s%s",
+                    $in->{association}{institution}{name},
+                    ($in->{association}{institution}{shortname} ? " ($in->{association}{institution}{shortname})" : ''),
+                ),
             },
         },
         ansprechperson => { # optional
@@ -148,7 +154,7 @@ my %out = (
             },
         },
         förderer     => $funder, # optional
-        förderer_id  => undef, # optional
+        förderer_id  => $funding_id, # optional
         projekttitel => (ref $in->{project} eq 'ARRAY' ? [ map { $_->{name} } @{$in->{project}} ]
                                                        : $in->{project}{name}),
     },

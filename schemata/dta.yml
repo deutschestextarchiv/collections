@@ -236,6 +236,11 @@
             name:
               description: Name of funder.
               type: string
+            number:
+              description: Number of funding (project number given by funder).
+              oneOf:
+                - type: integer
+                - type: string
             start:
               description: Funding-start.
               type: [ integer, "null" ]
