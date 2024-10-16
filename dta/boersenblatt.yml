@@ -8,14 +8,17 @@ genre:
     main: Gebrauchsliteratur
     sub: Zeitschrift
 description: |
-  Das Börsenblatt-Korpus enthält die Jahrgänge 1834–1945 des
-  „Börsenblatts für den Deutschen Buchhandel“. Diese wurden von der
-  Sächsischen Landesbibliothek – Staats- und Universitätsbibliothek
-  Dresden (SLUB) im Rahmen des Sächsischen
-  Landesdigitalisierungsprogramms für Wissenschaft und Kultur in
-  Kooperation mit der Historischen Kommission des Börsenvereins für
-  den Deutschen Buchhandel digitalisiert. Wissenschaftlich begleitet
-  wurde das Vorhaben von Prof. Dr. Christine Haug (LMU München).
+  Das Börsenblatt-Korpus enthält die Jahrgänge 1834–1945 des „Börsenblatts für
+  den Deutschen Buchhandel“. Die digitale Edition des Börsenblatts (1834–1945)
+  bietet außergewöhnlich reiches Quellenmaterial für 111 Jahre Druck-,
+  Verlags-, Buch- und Literaturgeschichte.
+
+  Die Werke wurden von der Sächsischen Landesbibliothek – Staats- und
+  Universitätsbibliothek Dresden (SLUB) im Rahmen des Sächsischen
+  Landesdigitalisierungsprogramms für Wissenschaft und Kultur in Kooperation
+  mit der Historischen Kommission des Börsenvereins für den Deutschen
+  Buchhandel digitalisiert. Wissenschaftlich begleitet wurde das Vorhaben von
+  Prof. Dr. Christine Haug (LMU München).
 
   Mit Hilfe der quelloffenen Workflowmanagementsoftware
   Kitodo.Production wurden ca. eine Million Digitalisate produziert,
@@ -23,10 +26,6 @@ description: |
   versehen. Die in der DWDS-Infrastruktur zugänglichen Textdaten
   wurden analog zum DTABf annotiert und mit entsprechenden Metadaten
   angereichert.
-
-  Die digitale Edition des Börsenblatts für den Deutschen Buchhandel
-  (1834–1945) bietet außergewöhnlich reiches Quellenmaterial für 111
-  Jahre Druck-, Verlags-, Buch- und Literaturgeschichte.
 format:
   data:
     - DTABf
