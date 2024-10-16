@@ -17,10 +17,11 @@ description: |
   Oberhofprediger in Braunschweig-Wolfenbüttel 1568–1714“ stammen.
   Die Texte wurden im Rahmen einer Kooperation zwischen dem DTA und
   der Herzog August Bibliothek Wolfenbüttel aus dem Bestand der
-  Wolfenbütteler Digitalen Bibliothek (WDB) übernommen. Die
-  Volltexttranskription wurde semiautomatisch in das DTA-Basisformat
-  überführt. Die Texte stehen unter der Lizenz CC BY-SA zur
-  Nachnutzung zur Verfügung.
+  Wolfenbütteler Digitalen Bibliothek (WDB) übernommen.
+
+  Die Volltexttranskription wurde semiautomatisch in das DTA-Basisformat
+  überführt. Die Texte stehen unter der Lizenz CC BY-SA zur Nachnutzung zur
+  Verfügung.
 format:
   data:
     - DTABf
