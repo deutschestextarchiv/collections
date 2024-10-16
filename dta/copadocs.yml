@@ -8,13 +8,12 @@ genre:
     main: Gebrauchsliteratur
     sub: Brief
 description: |
-  Das Korpus „Patientenbriefe“ umfasst ca. 4.000 Briefe von mehreren
-  hundert Schreiber*n. Es handelt sich dabei um diejenigen Briefe, die
-  in psychiatrischen Anstalten verfasst aber zurückgehalten und also
-  nie abgeschickt wurden, (eine damals gängige Praxis). Die Briefe
-  befinden sich bis heute in den damaligen Patientenakten, welche
-  wiederum von den Nachfolgeinstitutionen bzw. staatlichen Archiven
-  aufbewahrt werden.
+  Das Korpus „Patientenbriefe“ umfasst ca. 4.000 Briefe von mehreren hundert
+  Schreiber*n. Es handelt sich dabei um Briefe, die in psychiatrischen
+  Anstalten verfasst, aber (nach damals gängiger Praxis) zurückgehalten und
+  also nie abgeschickt wurden. Die Briefe befinden sich bis heute in den
+  damaligen Patientenakten, welche wiederum von den Nachfolgeinstitutionen bzw.
+  staatlichen Archiven aufbewahrt werden.
 
   Sie wurden digitalisiert und manuell nach TEI-Standards im
   XML-Format transkribiert.  Die Faksimiles sind vorhanden und
