@@ -12,12 +12,13 @@ description: |
   dem Zeitraum 1750–1920. Durch die Transkription dieser Texte
   verfolgt stimm-los das Ziel, in Fraktur gesetzte Klassiker der
   Weltliteratur verschiedener Sprachen einer breiten Leserschaft
-  zugänglich zu machen. Im Rahmen von Text+ werden die Transkriptionen
-  sowie zugehörige Metadaten dem Deutschen Textarchiv (DTA) als
-  Repositorium für historische Texte zur Verfügung gestellt. Das DTA
-  übernimmt die Konvertierung der Werke in das DTA-Standardformat
-  DTABf sowie die Integration und langfristige Bereitstellung der
-  Resource in der DTA-Infrastruktur.
+  zugänglich zu machen. 
+  
+  Im Rahmen von Text+ wurden dem Deutschen Textarchiv (DTA) als Repositorium
+  für historische Texte die Transkriptionen sowie zugehörige Metadaten zur
+  Verfügung gestellt. Das DTA konvertiert die Werke in das
+  DTA-Standardformat DTABf und übernimmt die Integration und langfristige
+  Bereitstellung der Resource in der DTA-Infrastruktur.
 format:
   data:
     - DTABf
