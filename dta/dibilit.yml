@@ -11,15 +11,16 @@ genre:
   -
     main: Wissenschaft
 description: |
-  Das DiBiLit-Korpus besteht aus Texten und Metadaten der „Digitalen
-  Bibliothek bei Textgrid“ (TextGrid) und aus Daten des German Drama
-  Corpus (GerDraCor), des i5-Korpus des Leibniz-Instituts für Deutsche
-  Sprache (IDS-Mannheim) und der Online-Bibliothek von Zeno.org, die
-  von TextGrid erworben wurde. Der Publikationszeitraum der digitalen
-  Ausgaben erstreckt sich vom 16. bis zur ersten Hälfte des 20.
-  Jahrhunderts. Es finden sich darin vor allem literarische Werke
-  (Lyrik, Drama, Prosa), aber auch geistes- und
-  sozialwissenschaftliche Texte.
+  Das DiBiLit-Korpus besteht aus Texten der Online-Bibliothek von Zeno.org, die
+  von TextGrid erworben wurde. Der Publikationszeitraum der digitalen Ausgaben
+  erstreckt sich vom 16. bis zur ersten Hälfte des 20.  Jahrhunderts. Es finden
+  sich darin vor allem literarische Werke (Lyrik, Drama, Prosa), aber auch
+  geistes- und sozialwissenschaftliche Texte.
+
+  Für den Korpusbau wurden auch Texte und Metadaten der „Digitalen
+  Bibliothek bei Textgrid“ (TextGrid) verwendet, außerdem Daten des German Drama
+  Corpus (GerDraCor) und des i5-Korpus des Leibniz-Instituts für Deutsche
+  Sprache (IDS-Mannheim). 
 
   Das im Rahmen des Projekts CLARIAH-DE entstandene DiBiLit-Korpus
   stellt ein eigenständiges Korpus im Deutschen Textarchiv des
