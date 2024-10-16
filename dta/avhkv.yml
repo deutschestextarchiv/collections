@@ -14,14 +14,13 @@ description: |
   Zuge einer Kooperation des DTA mit dem Projekt „Hidden Kosmos.
   Reconstructing A. v. Humboldt’s »Kosmos-Lectures«“ an der
   Humboldt-Universität zu Berlin wurden insgesamt zehn handschriftlich
-  verfasste Dokumente (mit einem Umfang von ca. 3.700 Seiten)
-  erschlossen, fortlaufend tiefer annotiert und im DTA publiziert.
+  verfasste Dokumente erschlossen, fortlaufend tiefer annotiert und im DTA publiziert.
 
-  Diese Nachschriften waren – mit zwei Ausnahmen, die zuvor in (z. T.
-  unzuverlässigen) gedruckten Editionen erschienen waren – der
-  Forschung und der Allgemeinheit de facto unbekannt. Die
-  Volltexttranskriptionen sind allesamt im DTA-Basisformat für
-  Manuskripte (DTABf-M) annotiert.
+  Diese Nachschriften (mit einem Umfang von ca. 3.700 Seiten) waren – mit zwei
+  Ausnahmen, die zuvor in (z. T.  unzuverlässigen) gedruckten Editionen
+  erschienen waren – der Forschung und der Allgemeinheit de facto unbekannt.
+  Die Volltexttranskriptionen sind allesamt im DTA-Basisformat für Manuskripte
+  (DTABf-M) annotiert.
 format:
   data:
     - DTABf
