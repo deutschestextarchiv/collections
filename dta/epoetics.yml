@@ -10,12 +10,11 @@ genre:
     sub: Literaturwissenschaft
 description: |
   Das Korpus ePoetics umfasst eine Auswahl von Poetiken und Ästhetiken
-  aus dem Zeitraum von 1770 bis 1960 die in dem vom BMBF geförderten
+  aus dem Zeitraum von 1770 bis 1960, die in dem vom BMBF geförderten
   Projekt „ePoetics – Korpuserschließung und Visualisierung
   deutschsprachiger Poetiken (1770–1960) für den ‚Algorithmic
   Criticism‘“ digitalisiert wurden. Alle Texte wurden in Abstimmung
-  mit dem DTA gemäß dem DTA-Basisformat annotiert und im DTA
-  veröffentlicht.
+  mit dem DTA gemäß dem DTA-Basisformat annotiert.
 format:
   data:
     - DTABf
