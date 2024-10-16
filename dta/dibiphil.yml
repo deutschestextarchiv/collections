@@ -11,25 +11,24 @@ genre:
   - main: Wissenschaft
     sub: Philosophie
 description:
-  Das DiBiPhil-Korpus besteht aus philosophischen Texten, die in der
-  „Digitalen Bibliothek“ von Zeno.org enthalten waren, welche von
-  TextGrid erworben wurde. Dieses Korpus wurde allerdings nie Teil
-  des TextGrid-Repository und wird daher hier erstmals im TEI-Format
-  (nach DTABf) zur Verfügung gestellt.
-  Der Entstehungszeitraum der bereitgestellten Texte erstreckt sich vom
-  15. bis zur ersten Hälfte des 20. Jahrhunderts mit einem Fokus auf
-  dem 18. bis 20. Jahrhundert. Die zugrundeliegenden Ausgaben stammen
-  weitestgehend aus dem 19. und 20. Jahrhundert.
+  Das DiBiPhil-Korpus besteht aus philosophischen Texten, die in der „Digitalen
+  Bibliothek“ von Zeno.org enthalten waren, welche von TextGrid erworben wurde.
+  Der Entstehungszeitraum der bereitgestellten Texte erstreckt sich vom 15. bis
+  zur ersten Hälfte des 20. Jahrhunderts mit einem Fokus auf dem 18. bis 20.
+  Jahrhundert. Die zugrundeliegenden Ausgaben stammen weitestgehend aus dem 19.
+  und 20. Jahrhundert.
 
-  Das im Rahmen des Projekts CLARIAH-DE vorbereitete und im Rahmen
-  des ZDL (AP3) beendete DiBiPhil-Korpus stellt ein eigenständiges Korpus
-  im Deutschen Textarchiv des Zentrums Sprache dar. Es enthält die
-  digitalisierten Publikationen und ermöglicht so computerbasierte
-  Analysemöglichkeiten entsprechend den Möglichkeiten des DTA. Die
-  Korpusbereitstellung ermöglicht komplexe Suchanfragen auf Grundlage
-  linguistischer Voranalysen (Lemmatisierung, POS-Tagging,
-  orthographische Normierung), Korpusanalysen mit Wortverlaufskurven
-  und Kollokationsanalysen im zeitlichen Verlauf mit DiaCollo.
+  Das im Rahmen des Projekts CLARIAH-DE vorbereitete und im Rahmen des ZDL
+  (AP3) beendete DiBiPhil-Korpus stellt ein eigenständiges Korpus im Deutschen
+  Textarchiv des Zentrums Sprache dar. Das Korpus wurde nie Teil des
+  TextGrid-Repository und wird daher hier erstmals im TEI-Format (nach DTABf)
+  zur Verfügung gestellt.Es enthält die digitalisierten Publikationen und
+  ermöglicht so computerbasierte Analysemöglichkeiten entsprechend den
+  Möglichkeiten des DTA. Die Korpusbereitstellung ermöglicht komplexe
+  Suchanfragen auf Grundlage linguistischer Voranalysen (Lemmatisierung,
+  POS-Tagging, orthographische Normierung), Korpusanalysen mit
+  Wortverlaufskurven und Kollokationsanalysen im zeitlichen Verlauf mit
+  DiaCollo.
 format:
   data:
     - DTABf
