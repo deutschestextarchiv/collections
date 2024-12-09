@@ -66,6 +66,9 @@ project:
       name: Thomas Weitin
       email: thomas.weitin@tu-darmstadt.de
     -
+      name: Katharina Herget
+      email: katharina.herget@tu-darmstadt.de
+    -
       name: Deutsches Textarchiv (DTA)
       email: redaktion@deutschestextarchiv.de
 timeCoverage:
