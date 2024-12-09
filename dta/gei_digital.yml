@@ -58,6 +58,9 @@ project:
   url: https://diacollo.gei.de/
   authors:
     -
+      name: Anke Hertling
+      email: hertling@leibniz-gei.de
+    -
       name: Deutsches Textarchiv (DTA)
       email: redaktion@deutschestextarchiv.de
 timeCoverage:
