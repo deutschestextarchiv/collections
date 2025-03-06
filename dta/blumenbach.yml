@@ -1,6 +1,6 @@
 title:
-  name: Korpus Blumenbach online
-  shortname: Blumenbach online
+  name: Naturhistorische Schriften von J. F. Blumenbach
+  shortname: Blumenbach – Naturhistorische Schriften
 dstar:
   corpus: dtae
   flags: blumenbach
@@ -8,7 +8,7 @@ genre:
   -
     main: Wissenschaft
 description: |
-  Das Korpus „Blumenbach online“ enthält Publikationen und die
+  Das Korpus „Naturhistorische Schriften von J. F. Blumenbach“ enthält Publikationen und die
   naturhistorischen Sammlungen des Göttinger Naturforschers Johann
   Friedrich Blumenbach (1752–1840), die im Rahmen des Projekts „Johann
   Friedrich Blumenbach – Online“ bearbeitet wurden. 
