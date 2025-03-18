@@ -81,7 +81,7 @@ languages:
 facsimile: false
 transcription: [ ocr ]
 annotationLevel:
-status: wip
+status: public
 data:
   type: [ text corpus ]
   text_plusCluster: [ "structured, historical texts" ]
