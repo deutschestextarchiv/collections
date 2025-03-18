@@ -32,7 +32,7 @@ my %stat_files = (
     sentences => 'ddc.sentences.all.txt',
     documents => 'ddc.files.all.txt',
 );
-my $dstar_base = 'https://kaskade.dwds.de/dstar/';
+my $dstar_base = 'https://ddc.dwds.de/dstar/';
 
 my %stat_queries = (
     tokens    => 'COUNT(* #SEP #HAS[flags,/\b%s\b/])',

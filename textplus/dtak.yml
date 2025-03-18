@@ -63,7 +63,7 @@ relations:
     is_part_of: Metakorpus Historische Texte (dtaxl)
 access:
   landing_page: https://www.deutschestextarchiv.de/collections/dtak.html 
-  search_page: https://kaskade.dwds.de/dstar/dtak
+  search_page: https://ddc.dwds.de/dstar/dtak
   content: https://github.com/deutschestextarchiv/collections/ris/dtak.ris
   documentation: https://www.deutschestextarchiv.de/collections/dtak.html
 responsibility:

@@ -29,12 +29,12 @@ description: |
 
   Das „Grenzboten“-Korpus stellt ein eigenständiges historisches
   Korpus des Zentrums Sprache dar. Es kann über die
-  [DTA-Schnittstelle](https://kaskade.dwds.de/dstar/grenzboten/)
+  [DTA-Schnittstelle](https://ddd.dwds.de/dstar/grenzboten/)
   recherchiert werden. Dabei sind ebenso komplexe Suchanfragen auf
   Grundlage linguistischer Voranalysen (Lemmatisierung, POS-Tagging,
   orthographische Normierung) möglich wie Korpusanalyse mit
-  [Wortverlaufskurven](https://kaskade.dwds.de/dstar/grenzboten/hist.perl)
-  oder nach [Kollokationen](https://kaskade.dwds.de/dstar/grenzboten/diacollo/)
+  [Wortverlaufskurven](https://ddc.dwds.de/dstar/grenzboten/hist.perl)
+  oder nach [Kollokationen](https://ddc.dwds.de/dstar/grenzboten/diacollo/)
   (DiaCollo).
 format:
   data:
