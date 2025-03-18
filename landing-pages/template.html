@@ -57,7 +57,6 @@
   </div>
 
   <script src="static/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
-  <script src="static/jquery-3.6.3.min.js"></script>
   <script src="static/showdown.min.js"></script>
 
   <script>
@@ -144,10 +143,10 @@
   <a href="https://ddc.dwds.de/dstar/${meta.dstar.corpus}/diacollo/">DiaCollo</a>.
 </p>
 
-<form class="mb-3 mx-auto" method="get" action="https://ddc.dwds.de/dstar/${meta.dstar.corpus}/dstar.perl">
+<form class="mb-3 mx-auto" method="get" action="https://ddc.dwds.de/dstar/${meta.dstar.corpus}/dstar.perl" id="dstar-search">
   <div class="col-8">
     <div class="input-group">
-      <input class="form-control" type="search" name="q" placeholder="DDC-Abfrage">
+      <input class="form-control" type="search" name="q" id="q" placeholder="DDC-Abfrage">
       <button type="submit" class="btn btn-primary">suchen</button>
     </div>
   </div>
@@ -203,9 +202,23 @@ template += `
   </footer>
 </div>`
 
-    $( function() {
-      $(document).attr("title", meta.title.name);
-      $('#content').html(template)
+    document.addEventListener('DOMContentLoaded', () => {
+      document.title = meta.title.name
+      document.getElementById('content').innerHTML = template
+
+      if ( meta.dstar.flags ) {
+        document.getElementById('dstar-search').addEventListener('submit', event => {
+          const input = document.getElementById('q')
+          const hiddenInput = document.createElement('input')
+
+          hiddenInput.type = 'hidden'
+          hiddenInput.name = input.name
+          hiddenInput.value = `${input.value} #HAS[flags,/${meta.dstar.flags}/]`
+
+          input.removeAttribute('name')
+          event.target.appendChild(hiddenInput)
+        })
+      }
     })
   </script>
 </body>
