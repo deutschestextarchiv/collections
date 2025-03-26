@@ -1,0 +1,107 @@
+title:
+  name: Psychiatrische Lehrwerke Korpus
+  shortname: Psychiatrische Lehrwerke 
+dstar:
+  corpus: psyleko 
+genre:
+  -
+    main: Gebrauchsliteratur
+    sub: Medizin 
+  -
+    main: Wissenschaft
+    sub: Psychologie 
+description: |
+  Das Korpus „Psychiatrische Lehrwerke“ umfasst 12 Lehrbücher renommierter
+  Psychiater. Die Texte wurden im Zeitraum von 1825 bis 1931 auf Deutsch
+  verfasst. Sie bilden die Konstitutions-, Entwicklungs- und
+  Ausdifferenzierungsphasen der Psychiatrie im Rahmen ihrer Etablierung und
+  Institutionalisierung als wissenschaftliche Disziplin ab. 
+  
+  Mit dem vorliegenden Korpus ist es möglich, fachsprachliche bzw.
+  -kommunikative Entwicklungen auf unterschiedlichen linguistischen Ebenen
+  nachzuvollziehen. Dazu gehören ebenso sprachstrukturelle Entwicklungen,
+  semantische-konzeptuelle Veränderungen der Fachterminologie wie
+  sprachlich-kommunikative Praktiken der Wissenschaftskommunikation und
+  Entwicklungen der traditionsreichen Textsorte „Lehrbuch“. Das Korpus lässt
+  sich darüber hinaus mit anderen, eher naturwissenschaftlich orientierten
+  Korpora in Verbindung setzen.
+
+  Das Korpus ist im Rahmen eines DFG-geförderten Projektes (FAKT –
+  Unterbestimmtheit als Motor von Fachkommunikation) entstanden und wird im
+  Rahmen von zuvor entstandenen (vgl. Schuster 2010) sowie Projektpublikationen
+  beschrieben. Die Originale stammen aus verschiedenen Bibliotheksbeständen des
+  gesamten deutschsprachigen Raums, wo sie als PDF-Digitalisate zur Verfügung
+  stehen. Die Texte wurden buchstabengetreu transkribiert von textloop (Martina
+  Gödel und Team).
+
+ Weiterführende Informationen
+
+ Britt-Marie Schuster. Auf dem Weg zur Fachsprache. Sprachliche Professionalisierung in der psychiatrischen Schreibpraxis (1800-1939). Berlin/New York, 2010.
+ format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Psychiatrie
+  - Medizin 
+  - Lehrwerke
+  - FAKT 
+  - Sprachgeschichte
+  - Fachsprachen
+urls:
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/psyleko
+  searchPage: https://www.dwds.de/r/?corpus=dtae&collection=psyleko
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name:
+  url:
+  authors:
+    -
+      name: Britt-Marie Schuster 
+      email: brittms@mail.uni-paderborn.de 
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start:
+  end:
+languages:
+  -
+    full: German
+    iso: deu
+facsimile: true 
+transcription: [ corrected ocr ]
+annotationLevel:
+status: wip
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality: geschrieben
+disciplines: [ Sprachwissenschaften, Geschichtswissenschaften, Kulturwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl
