@@ -1,22 +1,23 @@
 title:
   name: Psychiatrische Lehrwerke Korpus
-  shortname: Psychiatrische Lehrwerke 
+  shortname: Psychiatrische Lehrwerke
 dstar:
-  corpus: psyleko 
+  corpus: dtae
+  flags: psyleko
 genre:
   -
     main: Gebrauchsliteratur
-    sub: Medizin 
+    sub: Medizin
   -
     main: Wissenschaft
-    sub: Psychologie 
+    sub: Psychologie
 description: |
   Das Korpus „Psychiatrische Lehrwerke“ umfasst 12 Lehrbücher renommierter
   Psychiater. Die Texte wurden im Zeitraum von 1825 bis 1931 auf Deutsch
   verfasst. Sie bilden die Konstitutions-, Entwicklungs- und
   Ausdifferenzierungsphasen der Psychiatrie im Rahmen ihrer Etablierung und
-  Institutionalisierung als wissenschaftliche Disziplin ab. 
-  
+  Institutionalisierung als wissenschaftliche Disziplin ab.
+
   Mit dem vorliegenden Korpus ist es möglich, fachsprachliche bzw.
   -kommunikative Entwicklungen auf unterschiedlichen linguistischen Ebenen
   nachzuvollziehen. Dazu gehören ebenso sprachstrukturelle Entwicklungen,
@@ -34,10 +35,10 @@ description: |
   stehen. Die Texte wurden buchstabengetreu transkribiert von textloop (Martina
   Gödel und Team).
 
- Weiterführende Informationen
+  ### Weiterführende Informationen
 
- Britt-Marie Schuster. Auf dem Weg zur Fachsprache. Sprachliche Professionalisierung in der psychiatrischen Schreibpraxis (1800-1939). Berlin/New York, 2010.
- format:
+  Britt-Marie Schuster. Auf dem Weg zur Fachsprache. Sprachliche Professionalisierung in der psychiatrischen Schreibpraxis (1800–1939). Berlin/New York, 2010.
+format:
   data:
     - DTABf
     - TCF
@@ -47,9 +48,9 @@ description: |
     - DC
 keywords:
   - Psychiatrie
-  - Medizin 
+  - Medizin
   - Lehrwerke
-  - FAKT 
+  - FAKT
   - Sprachgeschichte
   - Fachsprachen
 urls:
@@ -77,22 +78,22 @@ project:
   url:
   authors:
     -
-      name: Britt-Marie Schuster 
-      email: brittms@mail.uni-paderborn.de 
+      name: Britt-Marie Schuster
+      email: brittms@mail.uni-paderborn.de
     -
       name: Deutsches Textarchiv (DTA)
       email: redaktion@deutschestextarchiv.de
 timeCoverage:
-  start:
-  end:
+  start: 1825
+  end: 1931
 languages:
   -
     full: German
     iso: deu
-facsimile: true 
+facsimile: true
 transcription: [ corrected ocr ]
 annotationLevel:
-status: wip
+status: public
 data:
   type: [ text corpus ]
   text_plusCluster: [ "structured, historical texts" ]
