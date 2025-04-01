@@ -1,8 +1,8 @@
 title:
-  name: Psychiatrische Lehrwerke Korpus
+  name: Korpus „Psychiatrische Lehrwerke“
   shortname: Psychiatrische Lehrwerke
 dstar:
-  corpus: dtae
+  corpus: dtaxl
   flags: psyleko
 genre:
   -
