@@ -35,15 +35,15 @@ association:
     shortname: BBAW
     url: https://www.bbaw.de/
   infrastructure:
-    name: 
+    name: Digitales Wörterbuch der deutschen Sprache
     shortname: DWDS
     url: https://www.dwds.de/
   editors:
     -
       name: Digitales Wörterbuch der deutschen Sprache
 availability:
-  name: 
-  url: 
+  name: academic
+  url: https://www.dwds.de/d/nutzungsbedingungen
 project:
   name: Digitales Wörterbuch der deutschen Sprache
   shortname: DWDS
