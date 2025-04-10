@@ -1,0 +1,66 @@
+title:
+  name: DWDS-Gegenwartskorpora mit freiem Zugang – DWDSXL
+  shortname: DWDSXL
+dstar:
+  corpus: dwdsxl
+data:
+  type: [ "text corpus" ]
+  text_plusCluster: [ "structured, contemporary texts" ]
+  text_plusDomain: [ collections ]
+genre:
+  -
+    main: Belletristik
+  -
+    main: Gebrauchsliteratur
+  -
+    main: Wissenschaft
+  -
+    main: Zeitung
+description: |
+  DWDSXL ist ein Metakorpus, das die gegenwartssprachlichen Korpora des DWDS mit freiem Zugang enthält.
+format:
+  data:
+    - 
+  metadata:
+    - 
+keywords:
+  - DWDSXL
+  - Metakorpus
+urls:
+  landingPage: https://www.dwds.de/d/korpora/dwdsxl 
+  searchPage: https://www.dwds.de/r/?corpus=dwdsxl
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: 
+    shortname: DWDS
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Digitales Wörterbuch der deutschen Sprache
+availability:
+  name: 
+  url: 
+project:
+  name: Digitales Wörterbuch der deutschen Sprache
+  shortname: DWDS
+  url: https://www.dwds.de/
+timeCoverage:
+  start: 1465
+  end: 1969
+languages:
+  -
+    full: German
+    iso: deu
+facsimile: false
+transcription: [ ocr, "corrected ocr", manually ]
+annotationLevel:
+status: public
+disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
+modality: geschrieben
+relations:
+  internal:
+    contains:
