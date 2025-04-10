@@ -109,7 +109,7 @@
           type: array
           items:
             type: string
-            enum: [ "contemporary language", "structured, historical texts", "unstructured texts", "ancient and medieval texts", "early modern, modern, and contemporary texts", "german dictionaries in an european context", "born-digital lexical resources", "non-latin scripts" ]
+            enum: [ "contemporary language", "structured, historical texts", "unstructured texts", "ancient and medieval texts", "early modern, modern, and contemporary texts", "german dictionaries in an european context", "born-digital lexical resources", "non-latin scripts", "structured, contemporary texts" ]
         text_plusDomain:
           description: Information about the NFDI data domain within text+.
           type: array
@@ -137,13 +137,13 @@
           type: array
           items:
             type: string
-            enum: [ DTABf, TCF ]
+            enum: [ DTABf, TCF, XML ]
         metadata:
           description: Metadata format and derivates.
           type: array
           items:
             type: string
-            enum: [ CMDI, DC, DTABf ]
+            enum: [ CMDI, DC, DTABf, XML ]
         mimetype:
           description: Mimetype type.
           type: array

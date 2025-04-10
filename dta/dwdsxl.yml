@@ -20,9 +20,9 @@ description: |
   DWDSXL ist ein Metakorpus, das die gegenwartssprachlichen Korpora des DWDS mit freiem Zugang enthält.
 format:
   data:
-    - 
+    - XML
   metadata:
-    - 
+    - XML
 keywords:
   - DWDSXL
   - Metakorpus
@@ -61,6 +61,3 @@ annotationLevel:
 status: public
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
 modality: geschrieben
-relations:
-  internal:
-    contains:
