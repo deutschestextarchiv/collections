@@ -5,7 +5,8 @@ dstar:
   corpus: dekude
 genre:
   -
-    main: Zeitschrift
+    main: Gebrauchsliteratur
+    sub: Zeitschrift
 description: |
   Das Korpus „Deutsche Kunst und Dekoration“ umfasst 70 der gleichnamigen
   Zeitschrift, die zwischen 1897 und 1932 fortlaufend erschien. Sie enthält

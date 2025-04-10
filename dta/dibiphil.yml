@@ -4,11 +4,14 @@ title:
 dstar:
   corpus: dibiphil
 genre:
-  - main: Belletristik
+  - 
+    main: Belletristik
     sub: Philosophie
-  - main: Gebrauchsliteratur
+  - 
+    main: Gebrauchsliteratur
     sub: Philosophie
-  - main: Wissenschaft
+  - 
+    main: Wissenschaft
     sub: Philosophie
 description:
   Das DiBiPhil-Korpus besteht aus philosophischen Texten, die in der „Digitalen

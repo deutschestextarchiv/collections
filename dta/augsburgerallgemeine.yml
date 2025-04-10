@@ -6,8 +6,7 @@ dstar:
   flags: augsburgerallgemeine
 genre:
   -
-    main: Gebrauchsliteratur
-    sub: Zeitungen
+    main: Zeitung
 description: |
   Das Korpus der Augsburger Allgemeinen Zeitung wurde von der Berliner
   Arbeitsstelle des Deutschen Wörterbuches an der

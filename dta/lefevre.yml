@@ -6,8 +6,7 @@ dstar:
   flags: lefevre
 genre:
   -
-    main: Gebrauchsliteratur
-    sub: Zeitungen
+    main: Zeitung
 description: |
   Das „Lefèvre-Korpus“ umfasst ausgewählte deutschsprachige Zeitungen aus dem
   letzten Drittel des 17. Jahrhunderts. Diese Zeitungen erschienen in der Regel

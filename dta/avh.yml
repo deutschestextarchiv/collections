@@ -7,6 +7,10 @@ dstar:
 genre:
   -
     main: Wissenschaft
+  -
+    main: Belletristik
+  -
+    main: Gebrauchsliteratur
 description: |
   Das AvH-Korpus enthält 164 unselbstständige Schriften Alexander von
   Humboldts, die im Rahmen des Projekts „Digitalisierung ausgewählter

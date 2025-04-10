@@ -7,6 +7,8 @@ genre:
   -
     main: Gebrauchsliteratur
     sub: Zeitschrift
+  -
+    main: Wissenschaft
 description: |
   Das Dingler-Korpus enthält den kompletten Bestand des ursprünglich
   von J. G. Dingler herausgegebenen „Polytechnischen Journals“

@@ -5,8 +5,7 @@ dstar:
   corpus: gartenlaube
 genre:
   -
-    main: Gebrauchsliteratur
-    sub: Zeitschrift
+    main: Zeitung
 description: |
   Das Gartenlaube-Korpus umfasst 15 Ausgaben des illustrierten
   Familienblatts „Die Gartenlaube“ aus den Jahren 1853 bis 1867. Die
