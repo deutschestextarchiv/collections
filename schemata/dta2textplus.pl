@@ -87,7 +87,7 @@ my %out = (
         'lizenz-url'           => $in->{availability}{url}, # mandatory
         modalität              => $in->{modality}, # mandatory
         sprache                => [ map { $_->{iso} } @{$in->{languages}} ], # optional
-        datentyp               => [ qw(collection text) ], # mandatory | vocabulary
+        datentyp               => [ qw(Text) ], # mandatory | vocabulary
         erstellungsdatum       => undef, # not yet in DTA
         veröffentlichungsdatum => undef, # not yet in DTA
         abgedeckter_zeitraum   => sprintf('%s-%s', $in->{timeCoverage}{start}, $in->{timeCoverage}{end}), # optional
@@ -120,8 +120,8 @@ my %out = (
             },
         ],
         # cf. https://gitlab.com/minfba/resinfra/textplus-registry-models/-/blob/main/vocabulary_entries/collections_typ.json?ref_type=heads
-        kollektionstyp         => undef, # optional
-        genre                  => undef, # [ map { $_->{sub} ? sprintf('%s::%s', $_->{main}, $_->{sub}) : $_->{main} } @{$in->{genre}} ], # optional
+        kollektionstyp         => 'Sammlung', # optional
+        genre                  => [ map { $_->{sub} ? sprintf('%s::%s', $_->{main}, $_->{sub}) : $_->{main} } @{$in->{genre}} ], # optional
         fachliche_zuordnung    => [ @{$in->{disciplines}} ], # optional
         schlagworte            => [ grep { $_ ne 'Text+' } @{$in->{keywords}} ], # optional
     },
