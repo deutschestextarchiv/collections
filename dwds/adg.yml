@@ -9,13 +9,9 @@ data:
   text_plusDomain: [ collections ]
 genre:
   -
-    main: Belletristik
-  -
     main: Gebrauchsliteratur
   -
     main: Wissenschaft
-  -
-    main: Zeitung
 description: |
   Heinrich von Sieglers Archiv der Gegenwart erschien von 1931 bis 2004 und enthält Artikel, die tagespolitische Ereignisse aus Deutschland und der Welt dokumentieren. Das AdG-Korpus umfasst den Datenbestand des Archivs der Gegenwart der Jahrgänge 1931 bis 2000 und basiert auf der CD-ROM-Ausgabe des Siegler-Verlags von 2001.
 format:
@@ -57,8 +53,11 @@ languages:
     full: German
     iso: deu
 facsimile: false
-transcription: [ "corrected ocr" ]
+transcription: 
 annotationLevel:
 status: wip
-disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Politikwissenschaften ]
+disciplines: [ Sprachwissenschaften ]
 modality: geschrieben
+relations:
+  internal:
+    is_part_of: dwdsxl
