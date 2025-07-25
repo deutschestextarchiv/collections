@@ -1,0 +1,70 @@
+title:
+  name: Wikibooks-Korpus 
+  shortname: Wikibooks-Korpus 
+dstar:
+  corpus: wikibooks 
+data:
+  type: [ "text corpus" ]
+  text_plusCluster: [ "structured, contemporary texts" ]
+  text_plusDomain: [ collections ]
+genre:
+  -
+    main: Gebrauchsliteratur
+  -
+    main: Wissenschaft
+description: |
+  Das Wikibooks-Korpus enthält Volltexte aus deutschsprachigen Lehr-,
+  Fach- und Sachbüchern von Wikibooks der Wikimedia Foundation auf der
+  Basis des Datenbank-Abzugs vom 1.7.2025. Texte aus anderen
+  Seitenarten (Diskussionen etc.) wurden nicht aufgenommen. Das
+  Wikibooks-Korpus wurde nach dem Vorbild des Wikipedia-Korpus
+  konzipiert. Es eignet sich damit insbesondere für die Recherche nach
+  lexikografischen Belegen.
+
+format:
+  data:
+    - XML
+  metadata:
+    - XML
+keywords:
+  - Lehrbücher 
+  - Fachbücher 
+  - Sachbücher 
+urls:
+  landingPage: https://www.dwds.de/d/korpora/wikibooks
+  searchPage: https://www.dwds.de/r/?corpus=wikibooks
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Digitales Wörterbuch der deutschen Sprache
+availability:
+  name: academic
+  url: https://www.dwds.de/d/nutzungsbedingungen
+project:
+  name: Digitales Wörterbuch der deutschen Sprache
+  shortname: DWDS
+  url: https://www.dwds.de/
+timeCoverage:
+  start: 2004 
+  end: 2025 
+languages:
+  -
+    full: German
+    iso: deu
+facsimile: false
+transcription: 
+annotationLevel:
+status: wip
+disciplines: [ Sprachwissenschaften ]
+modality: geschrieben
+relations:
+  internal:
+    is_part_of: dwdsxl

@@ -1,0 +1,67 @@
+title:
+  name: Blogs 
+  shortname: Blogs
+dstar:
+  corpus: blogs 
+data:
+  type: [ "text corpus" ]
+  text_plusCluster: [ "structured, contemporary texts" ]
+  text_plusDomain: [ collections ]
+genre:
+  -
+    main: Gebrauchsliteratur
+description: |
+  Dieses Webkorpus besteht aus Beiträgen und Kommentaren, die auf
+  einer Reihe von Blogs veröffentlicht worden sind, deren
+  Betreiber/innen die Wiederveröffentlichung der Texte mittels
+  Creative-Commons-Lizenzen ausdrücklich gefördert haben. Aus diesem
+  Grund ist das Korpus auch ohne Anmeldung zugänglich, außerdem stehen
+  die Belege selber unter CC-BY-SA-Lizenz. Die Quellen müssen genannt
+  werden und die entsprechenden Textstellen können
+  wiederveröffentlicht werden.
+format:
+  data:
+    - XML
+  metadata:
+    - XML
+keywords:
+  - Webkorpus
+  - Blog
+urls:
+  landingPage: https://www.dwds.de/d/korpora/blogs
+  searchPage: https://www.dwds.de/r/?corpus=blogs
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Digitales Wörterbuch der deutschen Sprache
+availability:
+  name: academic
+  url: https://www.dwds.de/d/nutzungsbedingungen
+project:
+  name: Digitales Wörterbuch der deutschen Sprache
+  shortname: DWDS
+  url: https://www.dwds.de/
+timeCoverage:
+  start: 1995 
+  end: 2014
+languages:
+  -
+    full: German
+    iso: deu
+facsimile: false
+transcription: 
+annotationLevel:
+status: wip
+disciplines: [ Sprachwissenschaften ]
+modality: geschrieben
+relations:
+  internal:
+    is_part_of: dwdsxl

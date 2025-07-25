@@ -1,0 +1,66 @@
+title:
+  name: Politische Reden (1982–2020) 
+  shortname: Politische Reden
+dstar:
+  corpus: politische_reden 
+data:
+  type: [ "text corpus" ]
+  text_plusCluster: [ "structured, contemporary texts" ]
+  text_plusDomain: [ collections ]
+genre:
+  -
+    main: Gebrauchsliteratur
+description: |
+ Das Korpus „Politische Reden“ enthält derzeit 15.240 Reden von über
+ 200 bedeutenden politischen Persönlichkeiten aus 6 verschiedenen
+ Ländern und Regionen. Die Kriterien für die Aufnahme ins Korpus
+ setzen sich aus der politischen Relevanz (etwa der protokollarischen
+ Rangordnung und systemrelevanten oder medienwirksamen Funktionen) und
+ einer geographischen Verteilung zusammen, die die Anzahl der
+ jeweiligen Muttersprachler/innen einbezieht. 
+format:
+  data:
+    - XML
+  metadata:
+    - XML
+keywords:
+  - Politik
+  - Reden 
+urls:
+  landingPage: https://www.dwds.de/d/korpora/politische_reden
+  searchPage: https://www.dwds.de/r/?corpus=politische_reden
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Digitales Wörterbuch der deutschen Sprache
+availability:
+  name: academic
+  url: https://www.dwds.de/d/nutzungsbedingungen
+project:
+  name: Digitales Wörterbuch der deutschen Sprache
+  shortname: DWDS
+  url: https://www.dwds.de/
+timeCoverage:
+  start: 1982
+  end: 2020 
+languages:
+  -
+    full: German
+    iso: deu
+facsimile: false
+transcription: 
+annotationLevel:
+status: wip
+disciplines: [ Sprachwissenschaften ]
+modality: geschrieben
+relations:
+  internal:
+    is_part_of: dwdsxl

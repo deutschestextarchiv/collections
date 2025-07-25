@@ -1,0 +1,60 @@
+title:
+  name: Berliner Zeitung (1994–2005) 
+  shortname: Berliner Zeitung 
+dstar:
+  corpus: bz 
+data:
+  type: [ "text corpus" ]
+  text_plusCluster: [ "structured, contemporary texts" ]
+  text_plusDomain: [ collections ]
+genre:
+  -
+    main: Zeitung
+description: |
+  Dieses Korpus umfasst alle online erschienenen Artikel der Berliner
+  Zeitung aus der Zeit von Januar 1994 bis Dezember 2005.
+format:
+  data:
+    - XML
+  metadata:
+    - XML
+keywords:
+  - Berliner Zeitung 
+urls:
+  landingPage: https://www.dwds.de/d/korpora/bz
+  searchPage: https://www.dwds.de/r/?corpus=bz
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Digitales Wörterbuch der deutschen Sprache
+availability:
+  name: academic
+  url: https://www.dwds.de/d/nutzungsbedingungen
+project:
+  name: Digitales Wörterbuch der deutschen Sprache
+  shortname: DWDS
+  url: https://www.dwds.de/
+timeCoverage:
+  start: 1994
+  end: 2005
+languages:
+  -
+    full: German
+    iso: deu
+facsimile: false
+transcription: 
+annotationLevel:
+status: wip
+disciplines: [ Sprachwissenschaften ]
+modality: geschrieben
+relations:
+  internal:
+    is_part_of: dwdsxl

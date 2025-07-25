@@ -1,0 +1,68 @@
+title:
+  name: Gesetze und Verordnungen (1897–2024) 
+  shortname: Gesetze und Verordnungen 
+dstar:
+  corpus: gesetze 
+data:
+  type: [ "text corpus" ]
+  text_plusCluster: [ "structured, contemporary texts" ]
+  text_plusDomain: [ collections ]
+genre:
+  -
+    main: Gebrauchsliteratur
+description: |
+  Dieses Korpus enthält Gesetzes- und Verordnungstexte der
+  Bundesrepublik Deutschland in konsolidierten Fassungen, wie sie vom
+  Bundesministerium der Justiz und für Verbraucherschutz und dem
+  Bundesamt für Justiz auf der Webseite „Gesetze im Internet“ zur
+  freien Nutzung und Weiterverwendung zur Verfügung gestellt werden.
+format:
+  data:
+    - XML
+  metadata:
+    - XML
+keywords:
+  - Bundesrepublik Deutschland 
+  - Bundesministerium 
+  - Gesetze
+  - Verordnungen
+  - Justiz
+  - Verbraucherschutz
+urls:
+  landingPage: https://www.dwds.de/d/korpora/gesetze
+  searchPage: https://www.dwds.de/r/?corpus=gesetze
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Digitales Wörterbuch der deutschen Sprache
+availability:
+  name: academic
+  url: https://www.dwds.de/d/nutzungsbedingungen
+project:
+  name: Digitales Wörterbuch der deutschen Sprache
+  shortname: DWDS
+  url: https://www.dwds.de/
+timeCoverage:
+  start: 1897
+  end: 2024
+languages:
+  -
+    full: German
+    iso: deu
+facsimile: false
+transcription: 
+annotationLevel:
+status: wip
+disciplines: [ Sprachwissenschaften ]
+modality: geschrieben
+relations:
+  internal:
+    is_part_of: dwdsxl

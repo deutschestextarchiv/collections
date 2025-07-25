@@ -1,0 +1,63 @@
+title:
+  name: Bundestagskorpus (1949–2017) 
+  shortname: Bundestagskorpus 
+dstar:
+  corpus: bundestag 
+data:
+  type: [ "text corpus" ]
+  text_plusCluster: [ "structured, contemporary texts" ]
+  text_plusDomain: [ collections ]
+genre:
+  -
+    main: Gebrauchsliteratur
+description: |
+  Das Bundestagskorpus enthält die Volltexte der Plenarprotokolle und
+  Drucksachen des Deutschen Bundestags von der 1. bis zur 18.
+  Wahlperiode (1949–2017).
+format:
+  data:
+    - XML
+  metadata:
+    - XML
+keywords:
+  - Politik 
+  - Bundestag 
+  - Plenarprotokoll 
+urls:
+  landingPage: https://www.dwds.de/d/korpora/bundestag
+  searchPage: https://www.dwds.de/r/?corpus=bundestag
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Digitales Wörterbuch der deutschen Sprache
+availability:
+  name: academic
+  url: https://www.dwds.de/d/nutzungsbedingungen
+project:
+  name: Digitales Wörterbuch der deutschen Sprache
+  shortname: DWDS
+  url: https://www.dwds.de/
+timeCoverage:
+  start: 1949
+  end: 2017 
+languages:
+  -
+    full: German
+    iso: deu
+facsimile: false
+transcription:
+annotationLevel:
+status: wip
+disciplines: [ Sprachwissenschaften ]
+modality: geschrieben
+relations:
+  internal:
+    is_part_of: dwdsxl

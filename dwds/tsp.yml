@@ -1,0 +1,65 @@
+title:
+  name: Der Tagesspiegel (ab 1996) 
+  shortname: Der Tagesspiegel (ab 1996) 
+dstar:
+  corpus: tsp 
+data:
+  type: [ "text corpus" ]
+  text_plusCluster: [ "structured, contemporary texts" ]
+  text_plusDomain: [ collections ]
+genre:
+  -
+    main: Zeitung
+description: |
+  Dank der freundlichen Genehmigung durch den Verlag Der Tagesspiegel
+  GmbH sowie die GBI-Genios Deutsche Wirtschaftsdatenbank GmbH können
+  die Daten des Tagesspiegels zur Nachnutzung im DWDS zur Verfügung
+  gestellt werden. Die zwischen 1996 und 2004 auf Tagesspiegel Online
+  erschienenen Artikel stehen für die wissenschaftliche Nutzung
+  bereit. Nach Anmeldung stehen auch die seit 2005 im Tagesspiegel
+  erschienenen Artikel für die Recherche zur Verfügung.
+format:
+  data:
+    - XML
+  metadata:
+    - XML
+keywords:
+  - Tagesspiegel 
+urls:
+  landingPage: https://www.dwds.de/d/korpora/tsp
+  searchPage: https://www.dwds.de/r/?corpus=tsp
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Digitales Wörterbuch der deutschen Sprache
+availability:
+  name: academic
+  url: https://www.dwds.de/d/nutzungsbedingungen
+project:
+  name: Digitales Wörterbuch der deutschen Sprache
+  shortname: DWDS
+  url: https://www.dwds.de/
+timeCoverage:
+  start: 1906
+  end: 2004 
+languages:
+  -
+    full: German
+    iso: deu
+facsimile: false
+transcription: 
+annotationLevel:
+status: wip
+disciplines: [ Sprachwissenschaften ]
+modality: geschrieben
+relations:
+  internal:
+    is_part_of: dwdsxl

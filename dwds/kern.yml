@@ -1,0 +1,76 @@
+title:
+  name: DWDS-Kernkorpus (1900–1999) 
+  shortname: DWDS-Kernkorpus 
+dstar:
+  corpus: kern 
+data:
+  type: [ "text corpus" ]
+  text_plusCluster: [ "structured, contemporary texts" ]
+  text_plusDomain: [ collections ]
+genre:
+  -
+    main: Belletristik
+  -
+    main: Gebrauchsliteratur
+  -
+    main: Wissenschaft
+  -
+    main: Zeitung
+description: |
+  Das DWDS-Kernkorpus des 20. Jahrhunderts ist ein nach Textsorten und
+  zeitlich über das gesamte Jahrhundert ausgewogenes Korpus. Die Auswahl
+  der Texte wurde von der Arbeitsgruppe DWDS und Mitgliedern der
+  Berlin-Brandenburgischen Akademie der Wissenschaften begleitet und
+  begutachtet. Ziel war es, dem Ideal der Repräsentativität möglichst
+  nahe zu kommen, und ein lexikografisches Korpus zusammenzustellen, das
+  als ausgewogen und hinreichend groß in Bezug auf den
+  Forschungsgegenstand „deutscher Wortschatz des 20. Jahrhunderts“
+  bewertet werden kann.
+format:
+  data:
+    - XML
+  metadata:
+    - XML
+keywords:
+  - lexikografisches Korpus 
+  - ausgewogen 
+  - deutscher Wortschatz
+  - 20. Jahrhundert 
+urls:
+  landingPage: https://www.dwds.de/d/korpora/kern
+  searchPage: https://www.dwds.de/r/?corpus=kern
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Digitales Wörterbuch der deutschen Sprache
+availability:
+  name: academic
+  url: https://www.dwds.de/d/nutzungsbedingungen
+project:
+  name: Digitales Wörterbuch der deutschen Sprache
+  shortname: DWDS
+  url: https://www.dwds.de/
+timeCoverage:
+  start: 1900
+  end: 1999 
+languages:
+  -
+    full: German
+    iso: deu
+facsimile: false
+transcription: 
+annotationLevel:
+status: wip
+disciplines: [ Sprachwissenschaften ]
+modality: geschrieben
+relations:
+  internal:
+    is_part_of: dwdsxl

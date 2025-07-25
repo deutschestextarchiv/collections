@@ -1,0 +1,73 @@
+title:
+  name: Politischer Samisdat der DDR (1969–1990) 
+  shortname: Politischer Samisdat
+dstar:
+  corpus: samisdat 
+data:
+  type: [ "text corpus" ]
+  text_plusCluster: [ "structured, contemporary texts" ]
+  text_plusDomain: [ collections ]
+genre:
+  -
+    main: Gebrauchsliteratur
+  - 
+    main: Belletristik
+description: |
+  Der Samisdat in der DDR bezeichnete inoffizielle, oft illegale
+  Schriften, die außerhalb der staatlichen Zensur verbreitet wurden.
+  Diese Untergrundliteratur umfasste Flugblätter, politische Essays,
+  regimekritische Zeitschriften und literarische Werke, die nicht
+  durch offizielle Verlage erscheinen konnten. Besonders in den 1970er
+  und 1980er Jahren gewannen diese Texte an Bedeutung, da sie
+  oppositionelle Gruppen vernetzten und alternative Diskurse
+  ermöglichten. Die Verbreitung erfolgte meist durch manuelle
+  Vervielfältigung mittels Schreibmaschinen, Kohlepapier oder später
+  auch durch illegale Kopiergeräte. Aufgrund der repressiven Kontrolle
+  durch das Ministerium für Staatssicherheit (MfS) war der Besitz oder
+  die Weitergabe solcher Schriften mit erheblichen Risiken verbunden.
+format:
+  data:
+    - XML
+  metadata:
+    - XML
+keywords:
+  - Politik
+  - Reden 
+urls:
+  landingPage: https://www.dwds.de/d/korpora/samisdat
+  searchPage: https://www.dwds.de/r/?corpus=samisdat
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Digitales Wörterbuch der deutschen Sprache
+availability:
+  name: academic
+  url: https://www.dwds.de/d/nutzungsbedingungen
+project:
+  name: Digitales Wörterbuch der deutschen Sprache
+  shortname: DWDS
+  url: https://www.dwds.de/
+timeCoverage:
+  start: 1969
+  end: 1990 
+languages:
+  -
+    full: German
+    iso: deu
+facsimile: false
+transcription: 
+annotationLevel:
+status: wip
+disciplines: [ Sprachwissenschaften ]
+modality: geschrieben
+relations:
+  internal:
+    is_part_of: dwdsxl

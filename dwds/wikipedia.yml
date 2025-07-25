@@ -1,0 +1,73 @@
+title:
+  name: Wikipedia-Korpus 
+  shortname: Wikipedia-Korpus 
+dstar:
+  corpus: wikipedia
+data:
+  type: [ "text corpus" ]
+  text_plusCluster: [ "structured, contemporary texts" ]
+  text_plusDomain: [ collections ]
+genre:
+  -
+    main: Belletristik
+  -
+    main: Gebrauchsliteratur
+  -
+    main: Wissenschaft
+description: |
+  Das Wikipedia-Korpus enthält Volltexte aus den Artikeln aus der
+  deutschsprachigen Wikipedia auf der Basis des Datenbank-Abzugs vom
+  1.7.2025. Texte aus anderen Seitenarten (Diskussionen etc.) wurden
+  nicht aufgenommen. Das Korpus wurde so konzipiert, dass es sich
+  insbesondere für die Recherche nach (fach)sprachlichen
+  lexikografischen Belegen eignet. Deshalb wurden bei der
+  automatischen Korpuskuration die Artikeltexte so weit wie möglich um
+  Textteile bereinigt, die nicht satzförmig oder nicht deutschsprachig
+  sind. Dies betrifft unter anderem Überschriften, Tabellen,
+  Literaturangaben und fremdsprachliche Zitate, soweit diese in den
+  Wikipedia-Quellen als solche ausgezeichnet sind.
+format:
+  data:
+    - XML
+  metadata:
+    - XML
+keywords:
+  - Wikipedia 
+urls:
+  landingPage: https://www.dwds.de/d/korpora/wikipedia
+  searchPage: https://www.dwds.de/r/?corpus=wikipedia
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Digitales Wörterbuch der deutschen Sprache
+availability:
+  name: academic
+  url: https://www.dwds.de/d/nutzungsbedingungen
+project:
+  name: Digitales Wörterbuch der deutschen Sprache
+  shortname: DWDS
+  url: https://www.dwds.de/
+timeCoverage:
+  start: 2006 
+  end: 2025
+languages:
+  -
+    full: German
+    iso: deu
+facsimile: false
+transcription: 
+annotationLevel:
+status: wip
+disciplines: [ Sprachwissenschaften ]
+modality: geschrieben
+relations:
+  internal:
+    is_part_of: dwdsxl

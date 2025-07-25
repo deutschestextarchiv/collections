@@ -1,0 +1,69 @@
+title:
+  name: Gesprochene Sprache 
+  shortname: Gesprochene Sprache
+dstar:
+  corpus: spk 
+data:
+  type: [ "text corpus" ]
+  text_plusCluster: [ "structured, contemporary texts" ]
+  text_plusDomain: [ collections ]
+genre:
+  -
+    main: Gebrauchsliteratur
+  -
+    main: Wissenschaft
+  -
+    main: Zeitung
+description: |
+  Das Korpus Gesprochene Sprache umfasst Transkripte von Reden,
+  Parlamentsprotokollen und Interviews aus dem gesamten 20.
+  Jahrhundert.
+format:
+  data:
+    - XML
+  metadata:
+    - XML
+keywords:
+  - gesprochene Sprache
+  - Reden
+  - Interviews
+  - Protokolle
+  - 20. Jahrhundert 
+urls:
+  landingPage: https://www.dwds.de/d/korpora/spk
+  searchPage: https://www.dwds.de/r/?corpus=spk
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Digitales Wörterbuch der deutschen Sprache
+availability:
+  name: academic
+  url: https://www.dwds.de/d/nutzungsbedingungen
+project:
+  name: Digitales Wörterbuch der deutschen Sprache
+  shortname: DWDS
+  url: https://www.dwds.de/
+timeCoverage:
+  start: 1900
+  end: 1999 
+languages:
+  -
+    full: German
+    iso: deu
+facsimile: false
+transcription: 
+annotationLevel:
+status: wip
+disciplines: [ Sprachwissenschaften ]
+modality: geschrieben
+relations:
+  internal:
+    is_part_of: dwdsxl

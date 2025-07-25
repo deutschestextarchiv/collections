@@ -1,0 +1,64 @@
+title:
+  name: Filmuntertitel 
+  shortname: Filmuntertitel 
+dstar:
+  corpus: untertitel 
+data:
+  type: [ "text corpus" ]
+  text_plusCluster: [ "structured, contemporary texts" ]
+  text_plusDomain: [ collections ]
+genre:
+  -
+    main: Gebrauchsliteratur
+description: |
+  Das Untertitelkorpus ist eine Sammlung von Film- und
+  Serienuntertiteln auf Basis des deutschsprachigen Teils der
+  Communityplattform opensubtitles.org. Es enthält ca. 12.000
+  Dokumente und wurde 2013/14 erstellt.
+ format:
+  data:
+    - XML
+  metadata:
+    - XML
+keywords:
+  - Untertitel
+  - Film
+  - Serien
+urls:
+  landingPage: https://www.dwds.de/d/korpora/untertitel
+  searchPage: https://www.dwds.de/r/?corpus=untertitel
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Digitales Wörterbuch der deutschen Sprache
+availability:
+  name: academic
+  url: https://www.dwds.de/d/nutzungsbedingungen
+project:
+  name: Digitales Wörterbuch der deutschen Sprache
+  shortname: DWDS
+  url: https://www.dwds.de/
+timeCoverage:
+  start: 1916
+  end: 2014 
+languages:
+  -
+    full: German
+    iso: deu
+facsimile: false
+transcription: 
+annotationLevel:
+status: wip
+disciplines: [ Sprachwissenschaften ]
+modality: geschrieben
+relations:
+  internal:
+    is_part_of: dwdsxl

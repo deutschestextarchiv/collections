@@ -1,0 +1,67 @@
+title:
+  name: Wikivoyage-Korpus 
+  shortname: Wikivoyage-Korpus
+dstar:
+  corpus: wikivoyage
+data:
+  type: [ "text corpus" ]
+  text_plusCluster: [ "structured, contemporary texts" ]
+  text_plusDomain: [ collections ]
+genre:
+  -
+    main: Gebrauchsliteratur
+description: |
+  Das Wikivoyage-Korpus enthält Volltexte aus den Artikeln aus der
+  deutschen Sprachversion des Wikivoyage-Reiseführers der Wikimedia
+  Foundation auf der Basis des Datenbank-Abzugs vom 1.7.2025. Texte
+  aus anderen Seitenarten (Diskussionen etc.) wurden nicht
+  aufgenommen. Das Wikivoyage-Korpus wurde nach dem Vorbild des
+  Wikipedia-Korpus konzipiert. Es eignet sich damit insbesondere für
+  die Recherche nach lexikografischen Belegen.
+format:
+  data:
+    - XML
+  metadata:
+    - XML
+keywords:
+  - Wikivoyage 
+  - Wikimedia 
+  - Reiseführer 
+urls:
+  landingPage: https://www.dwds.de/d/korpora/wikivoyage
+  searchPage: https://www.dwds.de/r/?corpus=wikivoyage
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Digitales Wörterbuch der deutschen Sprache
+availability:
+  name: academic
+  url: https://www.dwds.de/d/nutzungsbedingungen
+project:
+  name: Digitales Wörterbuch der deutschen Sprache
+  shortname: DWDS
+  url: https://www.dwds.de/
+timeCoverage:
+  start: 2012 
+  end: 2025 
+languages:
+  -
+    full: German
+    iso: deu
+facsimile: false
+transcription: 
+annotationLevel:
+status: wip
+disciplines: [ Sprachwissenschaften ]
+modality: geschrieben
+relations:
+  internal:
+    is_part_of: dwdsxl
