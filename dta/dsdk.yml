@@ -19,10 +19,9 @@ description: |
   geförderten Projekts DSDK digitalisiert und per
   OCR vervolltextet.
 
-  Alle Volltexte wurden via DTAE in die Forschungsinfrastruktur
-  CLARIN-D integriert. Das DSDK-Korpus stellt ein eigenständiges
-  historisches Korpus des Zentrums Sprache dar. Es kann über die
-  dstar-Schnittstelle recherchiert werden. Dabei sind ebenso komplexe
+  Das DSDK-Korpus stellt ein eigenständiges historisches Korpus des
+  Zentrums Sprache dar. Alle Volltexte wurden in die
+  Forschungsinfrastruktur des DWDS integriert. So sind ebenso komplexe
   Suchanfragen auf Grundlage linguistischer Voranalysen
   (Lemmatisierung, POS-Tagging, orthographische Normierung) möglich
   wie Korpusanalysen mit Wortverlaufskurven oder Kollokationen
