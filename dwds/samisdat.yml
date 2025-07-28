@@ -13,26 +13,31 @@ genre:
   - 
     main: Belletristik
 description: |
-  Der Samisdat in der DDR bezeichnete inoffizielle, oft illegale
-  Schriften, die außerhalb der staatlichen Zensur verbreitet wurden.
+  
+  Das Korpus „Politischer Samisdat“ enthält inoffizielle, oft illegale
+  Schriften, die in der DDR zwischen 1969 und 1990 außerhalb der staatlichen Zensur verbreitet wurden.
   Diese Untergrundliteratur umfasste Flugblätter, politische Essays,
   regimekritische Zeitschriften und literarische Werke, die nicht
-  durch offizielle Verlage erscheinen konnten. Besonders in den 1970er
-  und 1980er Jahren gewannen diese Texte an Bedeutung, da sie
-  oppositionelle Gruppen vernetzten und alternative Diskurse
-  ermöglichten. Die Verbreitung erfolgte meist durch manuelle
-  Vervielfältigung mittels Schreibmaschinen, Kohlepapier oder später
-  auch durch illegale Kopiergeräte. Aufgrund der repressiven Kontrolle
-  durch das Ministerium für Staatssicherheit (MfS) war der Besitz oder
-  die Weitergabe solcher Schriften mit erheblichen Risiken verbunden.
+  durch offizielle Verlage erscheinen konnten. 
+  
+  Besonders in den 1970er und 1980er Jahren gewannen diese Texte an Bedeutung,
+  da sie oppositionelle Gruppen vernetzten und alternative Diskurse
+  ermöglichten. Die Verbreitung erfolgte meist durch manuelle Vervielfältigung
+  mittels Schreibmaschinen, Kohlepapier oder später auch durch illegale
+  Kopiergeräte. Aufgrund der repressiven Kontrolle durch das Ministerium für
+  Staatssicherheit (MfS) war der Besitz oder die Weitergabe solcher Schriften
+  mit erheblichen Risiken verbunden.
 format:
   data:
     - XML
   metadata:
     - XML
 keywords:
-  - Politik
-  - Reden 
+  - Untergrundliteratur
+  - Flugblätter
+  - Essays
+  - regimekritisch
+  - Opposition 
 urls:
   landingPage: https://www.dwds.de/d/korpora/samisdat
   searchPage: https://www.dwds.de/r/?corpus=samisdat
@@ -65,7 +70,7 @@ languages:
 facsimile: false
 transcription: 
 annotationLevel:
-status: wip
+status: public
 disciplines: [ Sprachwissenschaften ]
 modality: geschrieben
 relations:

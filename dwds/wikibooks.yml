@@ -27,6 +27,7 @@ format:
   metadata:
     - XML
 keywords:
+  - Wikibooks
   - Lehrbücher 
   - Fachbücher 
   - Sachbücher 
@@ -62,7 +63,7 @@ languages:
 facsimile: false
 transcription: 
 annotationLevel:
-status: wip
+status: public
 disciplines: [ Sprachwissenschaften ]
 modality: geschrieben
 relations:

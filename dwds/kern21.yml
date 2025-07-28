@@ -57,7 +57,7 @@ project:
   url: https://www.dwds.de/
 timeCoverage:
   start: 2000 
-  end: 20101
+  end: 2010
 languages:
   -
     full: German
@@ -65,7 +65,7 @@ languages:
 facsimile: false
 transcription: 
 annotationLevel:
-status: wip
+status: public
 disciplines: [ Sprachwissenschaften ]
 modality: geschrieben
 relations:

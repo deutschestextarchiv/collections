@@ -11,13 +11,11 @@ genre:
   -
     main: Zeitung
 description: |
-  Dank der freundlichen Genehmigung durch den Verlag Der Tagesspiegel
+  Das Tagesspiegel-Korpus enthält die zwischen 1996 und 2004 auf Tagesspiegel Online
+  erschienenen Artikel. Dank der freundlichen Genehmigung durch den Verlag Der Tagesspiegel
   GmbH sowie die GBI-Genios Deutsche Wirtschaftsdatenbank GmbH können
-  die Daten des Tagesspiegels zur Nachnutzung im DWDS zur Verfügung
-  gestellt werden. Die zwischen 1996 und 2004 auf Tagesspiegel Online
-  erschienenen Artikel stehen für die wissenschaftliche Nutzung
-  bereit. Nach Anmeldung stehen auch die seit 2005 im Tagesspiegel
-  erschienenen Artikel für die Recherche zur Verfügung.
+  diese Daten im DWDS zur wissenschaftlichen Nachnutzung zur Verfügung
+  gestellt werden. 
 format:
   data:
     - XML
@@ -57,7 +55,7 @@ languages:
 facsimile: false
 transcription: 
 annotationLevel:
-status: wip
+status: public
 disciplines: [ Sprachwissenschaften ]
 modality: geschrieben
 relations:

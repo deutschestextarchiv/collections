@@ -57,7 +57,7 @@ languages:
 facsimile: false
 transcription:
 annotationLevel:
-status: wip
+status: public
 disciplines: [ Sprachwissenschaften ]
 modality: geschrieben
 relations:
