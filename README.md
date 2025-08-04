@@ -1,7 +1,9 @@
 # DTA collections metadata
 
-This repository contains descriptions of collections of historical and contemporary texts.
-The collections are part of [Deutsches Textarchiv (DTA)](https://www.deutschestextarchiv.de/) and [Digitales Wörterbuch der deutsche Sprache (DWDS)](https://www.dwds.de/). All descriptions are available as YAML files.
+This repository contains descriptions of collections of historical and
+contemporary texts.  The collections are part of [Deutsches Textarchiv (DTA)](https://www.deutschestextarchiv.de/) and 
+[Digitales Wörterbuch der deutschen Sprache (DWDS)](https://www.dwds.de/). All descriptions are available
+as YAML files.
 
 The directory [`schemata`](schemata) contains corresponding JSON schema files (in YAML format) as well as a script
 which can be used for validation.
