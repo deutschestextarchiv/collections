@@ -15,7 +15,7 @@ description: |
   Serienuntertiteln auf Basis des deutschsprachigen Teils der
   Communityplattform opensubtitles.org. Es enthält ca. 12.000
   Dokumente und wurde 2013/14 erstellt.
- format:
+format:
   data:
     - XML
   metadata:
