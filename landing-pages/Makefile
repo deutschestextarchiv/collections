@@ -5,21 +5,27 @@ MKFILE_DIR  := $(dir $(MKFILE_PATH))
 .PHONY: all
 all: landing-pages
 
-YAML_DIR   := $(MKFILE_DIR)../dta
-YAML_FILES := $(wildcard $(YAML_DIR)/*.yml)
+YAML_DIRS   := $(MKFILE_DIR)../dta $(MKFILE_DIR)../dwds
+YAML_FILES  := $(wildcard $(addsuffix /*.yml, $(YAML_DIRS)))
 OUTDIR     := $(MKFILE_DIR)web
 HTML_TEMPLATE := $(MKFILE_DIR)template.html
 
-.PHONY: landing-pages
-landing-pages: $(subst $(YAML_DIR),$(OUTDIR),$(YAML_FILES:.yml=.html)) $(HTML_TEMPLATE)
+HTML_FILES := $(patsubst %.yml,$(OUTDIR)/%.html,$(notdir $(YAML_FILES)))
 
-$(YAML_FILES): | $(OUTDIR)
+.PHONY: landing-pages
+landing-pages: $(HTML_FILES)
 
 $(OUTDIR):
 	mkdir -p $(OUTDIR)
 
-$(OUTDIR)/%.html: $(YAML_DIR)/%.yml $(HTML_TEMPLATE)
+vpath %.yml $(YAML_DIRS)
+$(OUTDIR)/%.html: %.yml $(HTML_TEMPLATE) | $(OUTDIR)
 	perl -pE 'BEGIN { $$j = `$(MKFILE_DIR)../schemata/compile-catalog.pl -s $<`; exit if !$$j or $$j =~ /^\{\}/ } s/(let meta = )\"\"/\1 $$j/' $(HTML_TEMPLATE) > $@
+	test -s $@ || rm -f $@
+
+.PHONY: publish
+publish:
+	rsync -av $(OUTDIR)/* kaskade:/var/www/sammlungen
 
 .PHONY: clean
 clean:
