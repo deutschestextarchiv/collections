@@ -1,9 +1,9 @@
 corpus:
   title:
     name: Korpus Sophie Tieck
-    shortname: S_Tieck-Korpus
+    shortname: Sophie-Tieck-Korpus
   dstar:
-    corpus: tieck
+    corpus: sophie_tieck
   data:
     type: [ "text corpus" ]
     text_plusCluster: [ "structured, historical texts" ]
@@ -16,11 +16,10 @@ corpus:
     metadata: [ GND ]
   description: |
     Textkorpus Sophie Tieck. Die Ausgangsdaten stammen aus der
-    Kooperation zwischen Google und der BSB zur Digitalisierung der
-    urheberrechtsfreien Altbestände der Bayerischen Staatsbibliothek. 
-    Die Daten wurden angereichert, nach TEI konvertiert
-    und werden im DTA unter der Lizenz CC BY-SA 4.0 zur Nachnutzung
-    bereit gestellt.
+    Kooperation zwischen Google und der Bayerischen Staatsbibliothek
+    zur Digitalisierung der urheberrechtsfreien Altbestände der BSB.
+    Die Daten wurden angereichert, nach TEI konvertiert und werden im
+    DTA unter der Lizenz CC BY-SA 4.0 zur Nachnutzung bereit gestellt.
   format:
     data:
       - TEI 
@@ -34,8 +33,8 @@ corpus:
     - Schriftstellerinnen
     - Sophie Tieck
   urls:
-    landingPage: https://www.deutschestextarchiv.de/sammlungen/tieck
-    searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=tieck
+    landingPage: https://www.deutschestextarchiv.de/sammlungen/sophie_tieck
+    searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=sophie_tieck
   association:
     institution:
       name: Berlin-Brandenburgische Akademie der Wissenschaften
