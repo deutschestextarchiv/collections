@@ -3,7 +3,7 @@
 use 5.012;
 use warnings;
 
-use File::Basename 'basename';
+use File::Basename 'fileparse';
 use File::Path 'make_path';
 use Getopt::Long;
 use JSON::PP;
@@ -45,9 +45,13 @@ my $i = 0;
 
 FILE:
   foreach my $file ( @ARGV ) {
-    my $base = basename $file, '.yml';
+    my ($base, $dir, $suffix) = fileparse $file, '.yml';
+    my ($src) = $dir =~ m{([^/]+)/$};
+
     say STDERR "$base: processing ...";
     my $yaml = $ypp->load_file( $file );
+
+    $yaml->{src} = $src;
 
     next unless exists $yaml->{dstar};
     my $corpus = $yaml->{dstar}{corpus};

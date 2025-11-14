@@ -21,7 +21,29 @@ This repository provides:
 - [`textplus`](textplus): contains a reduced collection registry-description as basis for discussion within Text+
 - [`schemata`](schemata): contains schema files as well as script for validating
 
-<!--
-## Presentation
-- *Deutsches Textarchiv (DTA)/Collections*:  https://deutschestextarchiv.de/collections/
--->
+## HOWTO
+
+Validate datasets:
+
+```bash
+schemata/validate-against-schema.pl --schema=schemata/dta.yml dta/*.yml dwds/*.yml
+```
+
+Publish dataset for https://www.deutschestextarchiv.de/textplus/:
+
+```bash
+schemata/generate-and-publish-datasets.sh
+```
+
+Publish landing pages for https://www.deutschestextarchiv.de/sammlungen/:
+
+```bash
+make -C landing-pages landing-pages && make -C landing-pages publish
+```
+
+Publish box listing for https://www.dwds.de/collections/:
+
+```bash
+perl schemata/compile-catalog.pl dta/*.yml dwds/*.yml > presentation/catalog.json
+rsync -av presentation/ kaskade:/var/www/collections
+```

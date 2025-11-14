@@ -1,0 +1,74 @@
+corpus:
+  title:
+    name: Korpus Sophie Tieck
+    shortname: Sophie-Tieck-Korpus
+  dstar:
+    corpus: sophie_tieck
+  data:
+    type: [ "text corpus" ]
+    text_plusCluster: [ "structured, historical texts" ]
+    text_plusDomain: [ collections ]
+  genre:
+    -
+      main: Belletristik
+  authority_control:
+    data: [ GND ]
+    metadata: [ GND ]
+  description: |
+    Textkorpus Sophie Tieck. Die Ausgangsdaten stammen aus der
+    Kooperation zwischen Google und der Bayerischen Staatsbibliothek
+    zur Digitalisierung der urheberrechtsfreien Altbestände der BSB.
+    Die Daten wurden angereichert, nach TEI konvertiert und werden im
+    DTA unter der Lizenz CC BY-SA 4.0 zur Nachnutzung bereit gestellt.
+  format:
+    data:
+      - TEI 
+    metadata:
+      - TEI
+  keywords:
+    - Deutsches Textarchiv
+    - DTA
+    - Romane
+    - Erzählungen
+    - Schriftstellerinnen
+    - Sophie Tieck
+  urls:
+    landingPage: https://www.deutschestextarchiv.de/sammlungen/sophie_tieck
+    searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=sophie_tieck
+  association:
+    institution:
+      name: Berlin-Brandenburgische Akademie der Wissenschaften
+      shortname: BBAW
+      url: https://www.bbaw.de/
+    infrastructure:
+      name: Digitales Wörterbuch der deutschen Sprache
+      url: https://www.dwds.de/
+    editors:
+      -
+        name: Deutsches Textarchiv (DTA)
+        roles: [ annotator, curator, quality-control, IT, support ]
+  availability:
+    name: CC BY-SA 4.0
+    desc: Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  project:
+    name: Deutsches Textarchiv (DTA)
+    url: https://www.deutschestextarchiv.de
+    authors:
+      -
+        name: Deutsches Textarchiv (DTA)
+        email: redaktion@deutschestextarchiv.de
+  timeCoverage:
+    start: 1795
+    end: 1847
+  languages:
+    -
+      full: German
+      iso: deu
+  facsimile: false
+  transcription: [ ocr ]
+  annotationLevel:
+  status: wip
+  relations:
+    internal:
+      is_part_of: dtaxl
