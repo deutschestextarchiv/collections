@@ -1,0 +1,92 @@
+title:
+  name: Korpus Wilhelm von Humboldt: Schriften
+  shortname: W. v. Humboldt: Schriften
+dstar:
+  corpus: wvh-schriften 
+genre:
+  -
+    main: Wissenschaft
+    sub: Philosophie
+description: |
+  Das Korpus „Wilhelm von Humboldt Schriften“ erschließt erstmals das
+  Gesamtwerk Wilhelm von Humboldts in einer digitalen, TEI-basierten Edition.
+  Es beruht auf der historisch-kritischen Ausgabe von Albert Leitzmann
+  (1903–1920), deren Texte, Anmerkungen und editorische Struktur vollständig
+  digital abgebildet werden.
+
+  Ziel des Projekts ist es, Humboldts sprachphilosophische,
+  bildungstheoretische und kulturhistorische Texte dauerhaft frei zugänglich zu
+  machen und somit ihr kulturelles Erbe zu sichern. Alle Daten werden als Open
+  Access über GitHub und Zenodo veröffentlicht.
+
+  Diese unabhängige Edition befindet sich im Aufbau und wird fortlaufend
+  erweitert.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Wilhelm von Humboldt
+  - Weimarer Klassik
+  - Bildungstheorie
+  - Sprachphilosophie
+  - Kulturgeschichte
+  - Antike-Rezeption
+  - 18.–19. Jh. 
+urls:
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/wvh-schriften
+  searchPage: https://www.dwds.de/r/?corpus=wvh-schriften
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+      roles: [ quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Wilhelm von Humboldt: Schriften
+  url: https://www.wvh-schriften.de/ 
+  authors:
+    -
+      name: Silvia Berigüete Pastor 
+      email: kontakt@wvh-schriften.de
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+timeCoverage:
+  start:
+  end:
+languages:
+  -
+    full: German
+    iso: deu
+facsimile: false 
+transcription: [ manually ]
+annotationLevel:
+status: wip
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality: geschrieben
+disciplines: [ Sprachwissenschaften, Geschichtswissenschaften, Kulturwissenschaften, Literaturwissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl
