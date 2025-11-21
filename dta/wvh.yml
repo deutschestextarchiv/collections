@@ -1,17 +1,17 @@
 title:
-  name: Korpus Wilhelm von Humboldt: Schriften
-  shortname: W. v. Humboldt: Schriften
+  name: 'Korpus Wilhelm von Humboldt: Schriften'
+  shortname: 'W. v. Humboldt: Schriften'
 dstar:
-  corpus: wvh-schriften 
+  corpus: wvh-schriften
 genre:
   -
     main: Wissenschaft
     sub: Philosophie
 description: |
-  Das Korpus „Wilhelm von Humboldt Schriften“ erschließt erstmals das
+  Das Korpus „Wilhelm von Humboldt: Schriften“ erschließt erstmals das
   Gesamtwerk Wilhelm von Humboldts in einer digitalen, TEI-basierten Edition.
-  Es beruht auf der historisch-kritischen Ausgabe von Albert Leitzmann
-  (1903–1920), deren Texte, Anmerkungen und editorische Struktur vollständig
+  Es beruht auf der historisch-kritischen Ausgabe (1903–1920) von Albert
+  Leitzmann, deren Texte, Anmerkungen und editorische Struktur vollständig
   digital abgebildet werden.
 
   Ziel des Projekts ist es, Humboldts sprachphilosophische,
@@ -36,7 +36,7 @@ keywords:
   - Sprachphilosophie
   - Kulturgeschichte
   - Antike-Rezeption
-  - 18.–19. Jh. 
+  - 18.–19. Jh.
 urls:
   landingPage: https://www.deutschestextarchiv.de/sammlungen/wvh-schriften
   searchPage: https://www.dwds.de/r/?corpus=wvh-schriften
@@ -55,29 +55,29 @@ association:
       email: redaktion@deutschestextarchiv.de
       roles: [ quality-control, IT, support ]
 availability:
-  name: CC BY-SA 4.0
-  url: https://creativecommons.org/licenses/by-sa/4.0/
+  name: CC BY-NC-SA 4.0
+  url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 project:
-  name: Wilhelm von Humboldt: Schriften
-  url: https://www.wvh-schriften.de/ 
+  name: 'Wilhelm von Humboldt: Schriften'
+  url: https://www.wvh-schriften.de/
   authors:
     -
-      name: Silvia Berigüete Pastor 
+      name: Silvia Berigüete Pastor
       email: kontakt@wvh-schriften.de
     -
       name: Deutsches Textarchiv (DTA)
       email: redaktion@deutschestextarchiv.de
 timeCoverage:
-  start:
-  end:
+  start: 1785
+  end: 1798
 languages:
   -
     full: German
     iso: deu
-facsimile: false 
+facsimile: false
 transcription: [ manually ]
 annotationLevel:
-status: wip
+status: public
 data:
   type: [ text corpus ]
   text_plusCluster: [ "structured, historical texts" ]
