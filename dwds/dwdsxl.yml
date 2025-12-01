@@ -61,3 +61,6 @@ annotationLevel:
 status: public
 disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissenschaften ]
 modality: geschrieben
+relations:
+  internal:
+    contains: [ adg, blogs, bundestag, bz, ddr, gesetze, kern, kern21, politische_reden, samisdat, spk, tsp, untertitel, wikibooks, wikipedia, wikivoyage ] 
