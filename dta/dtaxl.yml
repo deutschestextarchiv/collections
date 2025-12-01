@@ -72,4 +72,4 @@ disciplines: [ Geschichtswissenschaften, Sprachwissenschaften, Literaturwissensc
 modality: geschrieben
 relations:
   internal:
-    contains: [ avh-bern, bruedergemeine, dibilit, dingler, dsdk, dtae, dtak, gartenlaube, gei_digital, grenzboten, jean_paul, pitaval, reichstag, soldatenbriefe, textberg_hist ]
+    contains: [ aedit, augsburgerallgemein, avh-bern, avh, avhkv, blumenbach, boersenblatt, bruedergemeine, copadocs, dekude, dibilit, dibiphil, dingler, dsdk, dtae, dtak, ehd, epoetics, gei_digital, grenzboten, gutenberg_org, hab, jean_paul, lefevre, mkhz1, mkhz2, novellenschatz, nrhz, nschatz_deu, pitaval, psyleko, reichstag, rem, sanders-briefe, sbb-funeralschaften, soldatenbriefe, stimm-los, tdef, tevo, textberg_hist, wikisource, wvh-schriften ]
