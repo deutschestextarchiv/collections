@@ -83,18 +83,24 @@ my %out = (
         titel                  => $in->{title}{name}, # mandatory
         beschreibung           => $in->{description} =~ s/\R\R.*//rs, # mandatory, only first paragraph
         größe                  => sprintf('%d Dokumente, %d Tokens', $in->{numbers}{documents}, $in->{numbers}{tokens}), # mandatory
-        größe_objekte          => {
-            typ    => "Dokumente",
-            umfang => $in->{numbers}{documents},
-        },
-        größe_länge => {
-            typ    => "Token",
-            umfang => $in->{numbers}{tokens},
-        },
-        größe_ressource => {
-            typ    => undef,
-            umfang => undef,
-        },
+        größe_objekte          => [
+            {
+                typ    => "Dokumente",
+                umfang => $in->{numbers}{documents},
+            },
+        ],
+        größe_länge => [
+            {
+                typ    => "Token",
+                umfang => $in->{numbers}{tokens},
+            },
+        ],
+        größe_ressource => [
+            {
+                typ    => undef,
+                umfang => undef,
+            },
+        ],
         lizenz                 => $in->{availability}{name}, # mandatory
         'lizenz-url'           => $in->{availability}{url}, # mandatory
         modalität              => $in->{modality}, # mandatory
