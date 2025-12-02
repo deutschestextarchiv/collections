@@ -62,6 +62,14 @@ if ( !ref $in or ref $in ne 'HASH' or !keys %$in ) {
     exit;
 }
 
+my @part_of = ref $in->{relations}{internal}{is_part_of} eq 'ARRAY' ? @{$in->{relations}{internal}{is_part_of}}
+            : $in->{relations}{internal}{is_part_of}                ? $in->{relations}{internal}{is_part_of}
+            :                                                         ();
+
+my @contains = ref $in->{relations}{internal}{contains} eq 'ARRAY' ? @{$in->{relations}{internal}{contains}}
+             : $in->{relations}{internal}{contains}                ? $in->{relations}{internal}{contains}
+             :                                                       ();
+
 my ($funder, $funding_id);
 if ( ref $in->{project} eq 'ARRAY' ) {
     foreach my $x ( @{$in->{project}} ) {
@@ -150,6 +158,10 @@ my %out = (
         bezug                    => undef, # optional
         dateien_datenströme      => undef, # optional | ggf. Livelink zu Heimatorganisation
         technische_dokumentation => undef, # optional
+        enthält                  => @contains ? \@contains : undef,
+        teil_von                 => @part_of  > 1 ? \@part_of
+                                  : @part_of == 1 ? $part_of[0]
+                                  :                 undef,
     },
     organisatorische_angaben => {
         datenverantwortliche_person => { # optional
