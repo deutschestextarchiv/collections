@@ -41,7 +41,7 @@ Publish landing pages for https://www.deutschestextarchiv.de/sammlungen/:
 make -C landing-pages landing-pages && make -C landing-pages publish
 ```
 
-Publish box listing for https://www.dwds.de/collections/:
+Publish box listing for https://www.deutschestextarchiv.de/collections/:
 
 ```bash
 perl schemata/compile-catalog.pl dta/*.yml dwds/*.yml > presentation/catalog.json
