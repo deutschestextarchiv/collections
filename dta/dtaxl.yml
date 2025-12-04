@@ -73,5 +73,6 @@ modality: geschrieben
 relations:
   internal:
     contains: [ aedit, augsburgerallgemeine, avh-bern, avh, avhkv, blumenbach, boersenblatt, bruedergemeine, copadocs, dekude, dibilit, dibiphil, dingler, dsdk, dtae, dtak, ehd, epoetics, gei_digital, grenzboten, gutenberg_org, hab, jean_paul, lefevre, mkhz1, mkhz2, novellenschatz, nrhz, nschatz_deu, pitaval, psyleko, reichstag, rem, sanders-briefe, sbb-funeralschaften, soldatenbriefe, stimm-los, tdef, tevo, textberg_hist, wikisource, wvh-schriften ]
-fcs_endpoint: https://clarin.bbaw.de/fcs/dtaxl
-fcs_ressource-id: http://hdl.handle.net/21.11120/0000-000F-D5EB-8
+fcs:
+  endpoint: https://clarin.bbaw.de/fcs/dtaxl
+  resource-id: http://hdl.handle.net/21.11120/0000-000F-D5EB-8
