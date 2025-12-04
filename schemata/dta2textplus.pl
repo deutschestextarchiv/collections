@@ -158,10 +158,12 @@ my %out = (
         bezug                    => undef, # optional
         dateien_datenströme      => undef, # optional | ggf. Livelink zu Heimatorganisation
         technische_dokumentation => undef, # optional
-        enthält                  => @contains ? \@contains : undef,
-        teil_von                 => @part_of  > 1 ? \@part_of
+        enthält                  => @contains ? \@contains : undef,  # optional
+        teil_von                 => @part_of  > 1 ? \@part_of        # optional
                                   : @part_of == 1 ? $part_of[0]
                                   :                 undef,
+        fcs_endpoint             => $in->{fcs}{endpoint},      # optional
+        'fcs_resource-id'        => $in->{fcs}{'resource-id'}, # optional
     },
     organisatorische_angaben => {
         datenverantwortliche_person => { # optional
