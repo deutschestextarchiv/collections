@@ -64,3 +64,5 @@ modality: geschrieben
 relations:
   internal:
     contains: [ adg, blogs, bundestag, bz, ddr, gesetze, kern, kern21, politische_reden, samisdat, spk, tsp, untertitel, wikibooks, wikipedia, wikivoyage ] 
+fcs_endpoint: https://clarin.bbaw.de/fcs/dwdsxl
+fcs_ressource-id: http://hdl.handle.net/21.11120/0000-000F-D5E7-C
