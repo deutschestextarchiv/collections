@@ -127,6 +127,18 @@
     facsimile:
       description: Facsimile availability.
       type: boolean
+    fcs:
+      description: Integration into Text+ Federated Content Search
+      type: object
+      additionalProperties: false
+      properties:
+        endpoint:
+          description: endpoint URI
+          type: string
+          format: uri
+        resource-id:
+          description: unique identifier (e.g. Handle PID)
+          type: string
     format:
       description: Format and derivates for data and metadata.
       type: object
