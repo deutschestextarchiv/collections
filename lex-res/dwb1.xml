@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextPlusLexicalResourceProfile xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468 schema.xsd">
+  <textplus_bib>
+    <textplus_title xml:lang="deu">Deutsches Wörterbuch von Jacob Grimm und Wilhelm Grimm</textplus_title>
+    <textplus_title xml:lang="eng">Deutsches Wörterbuch by Jacob Grimm and Wilhelm Grimm</textplus_title>
+
+    <textplus_description xml:lang="deu">Das Deutsche Wörterbuch von Jacob Grimm und Wilhelm Grimm (¹DWB) ist das umfangreichste jemals gedruckte Wörterbuch des Deutschen. Es wurde über einen Zeitraum von mehr als 100 Jahren publiziert. Die erste Lieferung (A – Allverein) von Band 1 erschien 1852, der erste Band wurde 1854 vollendet. Die letzte Lieferung (Band XIV,I,II, widrig – wiking, Druckjahr 1960) erschien Anfang 1961. Die 32 Teilbände des Gesamtwerkes umfassen 67.744 Druckspalten und enthalten etwa 330.000 Stichwörter in alphabetischer Ordnung. Ein Quellenverzeichnis ergänzte das Gesamtwerk 1971. Das ¹DWB zeichnet die Wortgeschichte eines Wortes vom ersten schriftlich dokumentierten Auftreten bis zur Bearbeitung im jeweiligen Band aus einem Quellenbestand von ca. 25.000 verschiedenen Quellen nach.</textplus_description>
+    <textplus_description xml:lang="eng">The Deutsches Wörterbuch by Jacob Grimm and Wilhelm Grimm (¹DWB) is the most comprehensive dictionary of the German language ever printed. It was published over a period of more than 100 years. The first instalment (A – Allverein) of volume 1 appeared in 1852, and the first volume was completed in 1854. The last instalment (Volume XIV,I,II, widrig – wiking, printed in 1960) appeared in early 1961. The 32 volumes of the complete work comprise 67,744 printed columns and contain approximately 330,000 lemmata in alphabetical order. A list of sources was added to the complete work in 1971. The DWB traces the history of a word from its first documented appearance in writing to its treatment in the respective volume from a source collection of approximately 25,000 different sources.</textplus_description>
+
+    <textplus_bib_institution>
+      <textplus_bib_institution_name xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften</textplus_bib_institution_name>
+      <textplus_bib_institution_name xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities</textplus_bib_institution_name>
+      <textplus_bib_institution_pid>https://www.wikidata.org/wiki/Q219989</textplus_bib_institution_pid>
+    </textplus_bib_institution>
+
+    <textplus_creator>
+      <textplus_creator_name>Jacob Grimm</textplus_creator_name>
+      <textplus_creator_name>Wilhelm Grimm</textplus_creator_name>
+      <textplus_creator_name>Rudolf Hildebrand</textplus_creator_name>
+      <textplus_creator_name>Moritz Heyne</textplus_creator_name>
+      <textplus_creator_name>Matthias von Lexer</textplus_creator_name>
+    </textplus_creator>
+  </textplus_bib>
+
+  <textplus_adm>
+    <textplus_metadata_id>https://d-nb.info/gnd/4136492-2</textplus_metadata_id>
+    <textplus_metadata_timestamp>2026-01-22T16:00:00CET</textplus_metadata_timestamp>
+    <textplus_metadata_creator>https://orcid.org/0000-0002-1096-3957</textplus_metadata_creator>
+  </textplus_adm>
+
+  <textplus_lcy>
+    <textplus_lifecycle_version>1971</textplus_lifecycle_version>
+    <textplus_lifecycle_available>2011</textplus_lifecycle_available>
+  </textplus_lcy>
+
+  <textplus_jur>
+    <textplus_licence>https://www.dwds.de/d/nutzungsbedingungen</textplus_licence>
+    <textplus_licence_holder>https://www.bbaw.de/</textplus_licence_holder>
+  </textplus_jur>
+
+  <textplus_lex>
+    <textplus_type>dict_mono</textplus_type>
+
+    <textplus_description_language>deu</textplus_description_language>
+
+    <textplus_field_type>baseform</textplus_field_type>
+    <textplus_field_type>citation</textplus_field_type>
+    <textplus_field_type>definition</textplus_field_type>
+    <textplus_field_type>etymology</textplus_field_type>
+    <textplus_field_type>gender</textplus_field_type>
+    <textplus_field_type>number</textplus_field_type>
+    <textplus_field_type>pos</textplus_field_type>
+
+    <textplus_modality>writing</textplus_modality>
+
+    <textplus_language_region>Deutschland</textplus_language_region>
+
+    <textplus_language_period>Deutsch in seiner Gesamtheit</textplus_language_period>
+
+    <!-- hier fehlt die Übersetzung, @xml:lang derzeit nach Schema nicht erlaubt -->
+    <textplus_lex_dialect>Standarddeutsch</textplus_lex_dialect>
+
+    <textplus_lex_size>322519</textplus_lex_size>
+
+    <textplus_object_language>
+      <ISO639>
+        <iso-639-3-code>deu</iso-639-3-code>
+      </ISO639>
+    </textplus_object_language>
+  </textplus_lex>
+  <textplus_tec>
+    <textplus_tech_data_format>application/tei+xml</textplus_tech_data_format>
+
+    <!--
+      in dictionary checkout:
+      find src -type f -name "*.xml" -print0 | xargs -0 stat -c "%s" | awk '{total += $1} END {print total}'
+    -->
+    <textplus_tech_data_size>582399752</textplus_tech_data_size>
+
+    <textplus_tech_end_point>
+      <textplus_tech_end_point_link>https://www.dwds.de/d/wb-1dwb</textplus_tech_end_point_link>
+      <textplus_tech_end_point_type>http</textplus_tech_end_point_type>
+    </textplus_tech_end_point>
+  </textplus_tec>
+
+  <textplus_geo/>
+</TextPlusLexicalResourceProfile>

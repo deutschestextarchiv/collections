@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextPlusLexicalResourceProfile xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468 schema.xsd">
+  <textplus_bib>
+    <textplus_title xml:lang="deu">Etymologisches Wörterbuch des Deutschen</textplus_title>
+    <textplus_title xml:lang="eng">Etymological Dictionary of the German Language</textplus_title>
+
+    <textplus_description xml:lang="deu">Das Etymologische Wörterbuch des Deutschen wurde in den 1980er Jahren an der Akademie der Wissenschaften der DDR von einer Gruppe von Lexikografinnen und Lexikografen unter der Leitung von Wolfgang Pfeifer erarbeitet. Es gibt Antwort auf Fragen nach Alter, Herkunft und Verwandtschaft der verzeichneten Wörter und enthält Informationen zur Bedeutung und vor allem zur Wortgeschichte von über 23.000 Lexemen. Diese sind in mehr als 9.000 Haupteinträgen und über 14.000 Untereinträgen organisiert. Der diskursive Stil, den Pfeifer und seine Kollegen bei der Herkunftsbeschreibung der Wörter verwenden, und die herausragende Qualität der Bedeutungsparaphrasen machen dieses Werk zu einem gut lesbaren und auch für den etymologischen Laien verständlichen Nachschlagewerk.</textplus_description>
+    <textplus_description xml:lang="eng">The Etymological Dictionary of the German Language was compiled in the 1980s at the Academy of Sciences of the GDR by a group of lexicographers led by Wolfgang Pfeifer. It answers questions about the age, origin and relationship of the words listed and contains information on the meaning and, above all, the history of over 23,000 lexemes. These are organised into more than 9,000 main entries and over 14,000 sub-entries. The discursive style used by Pfeifer and his colleagues in describing the origin of the words and the outstanding quality of the paraphrases of meanings make this work an easily readable reference work that is also understandable to those unfamiliar with etymology.</textplus_description>
+
+    <textplus_bib_institution>
+      <textplus_bib_institution_name xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften</textplus_bib_institution_name>
+      <textplus_bib_institution_name xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities</textplus_bib_institution_name>
+      <textplus_bib_institution_pid>https://www.wikidata.org/wiki/Q219989</textplus_bib_institution_pid>
+    </textplus_bib_institution>
+
+    <textplus_creator>
+      <textplus_creator_name>Wolfgang Pfeifer</textplus_creator_name>
+      <textplus_creator_name>Wilhelm Braun</textplus_creator_name>
+      <textplus_creator_name>Gunhild Ginschel</textplus_creator_name>
+      <textplus_creator_name>Gustav Hagen</textplus_creator_name>
+      <textplus_creator_name>Anna Huber</textplus_creator_name>
+      <textplus_creator_name>Klaus Müller</textplus_creator_name>
+      <textplus_creator_name>Heinrich Petermann</textplus_creator_name>
+      <textplus_creator_name>Gerlinde Pfeifer</textplus_creator_name>
+      <textplus_creator_name>Dorothee Schröter</textplus_creator_name>
+      <textplus_creator_name>Ulrich Schröter</textplus_creator_name>
+    </textplus_creator>
+  </textplus_bib>
+
+  <textplus_adm>
+    <textplus_metadata_id>hdl:21.11120/0000-0006-835D-E</textplus_metadata_id>
+    <textplus_metadata_timestamp>2026-01-22T16:00:00CET</textplus_metadata_timestamp>
+    <textplus_metadata_creator>https://orcid.org/0000-0002-1096-3957</textplus_metadata_creator>
+  </textplus_adm>
+
+  <textplus_lcy>
+    <textplus_lifecycle_version>etymwb-1.0.257</textplus_lifecycle_version>
+    <textplus_lifecycle_available>2011</textplus_lifecycle_available>
+  </textplus_lcy>
+
+  <textplus_jur>
+    <textplus_licence>https://www.dwds.de/d/nutzungsbedingungen</textplus_licence>
+    <textplus_licence_holder>https://www.bbaw.de/</textplus_licence_holder>
+  </textplus_jur>
+
+  <textplus_lex>
+    <textplus_type>dict_mono</textplus_type>
+
+    <textplus_description_language>deu</textplus_description_language>
+
+    <textplus_field_type>baseform</textplus_field_type>
+    <textplus_field_type>definition</textplus_field_type>
+    <textplus_field_type>etymology</textplus_field_type>
+    <textplus_field_type>gender</textplus_field_type>
+    <textplus_field_type>pos</textplus_field_type>
+
+    <textplus_modality>writing</textplus_modality>
+
+    <textplus_language_region>Deutschland</textplus_language_region>
+
+    <textplus_language_period>Gegenwartssprache</textplus_language_period>
+
+    <!-- hier fehlt die Übersetzung, @xml:lang derzeit nach Schema nicht erlaubt -->
+    <textplus_lex_dialect>Standarddeutsch</textplus_lex_dialect>
+
+    <textplus_lex_size>24478</textplus_lex_size>
+
+    <textplus_object_language>
+      <ISO639>
+        <iso-639-3-code>deu</iso-639-3-code>
+      </ISO639>
+    </textplus_object_language>
+  </textplus_lex>
+  <textplus_tec>
+    <textplus_tech_data_format>application/tei+xml</textplus_tech_data_format>
+
+    <!--
+      in dictionary checkout:
+      find src -type f -name "*.xml" -print0 | xargs -0 stat -c "%s" | awk '{total += $1} END {print total}'
+    -->
+    <textplus_tech_data_size>23604259</textplus_tech_data_size>
+
+    <textplus_tech_fcs_resource_id>hdl:21.11120/0000-0006-835D-E</textplus_tech_fcs_resource_id>
+
+    <textplus_tech_end_point>
+      <textplus_tech_end_point_link>https://www.dwds.de/d/wb-etymwb</textplus_tech_end_point_link>
+      <textplus_tech_end_point_type>http</textplus_tech_end_point_type>
+    </textplus_tech_end_point>
+  </textplus_tec>
+
+  <textplus_geo/>
+</TextPlusLexicalResourceProfile>

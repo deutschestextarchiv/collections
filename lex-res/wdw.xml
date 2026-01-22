@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextPlusLexicalResourceProfile xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468 schema.xsd">
+  <textplus_bib>
+    <textplus_title>WAHRIG Deutsches Wörterbuch</textplus_title>
+
+    <textplus_description xml:lang="deu">WAHRIG Deutsches Wörterbuch (WDW) wurde von dem Lexikografen Gerhard Wahrig erarbeitet und erschien 1966 in der 1. Auflage, damals noch unter dem Titel Das große deutsche Wörterbuch. Seit mehreren Jahrzehnten gilt dieses einsprachige Wörterbuch als bewährtes Standardwerk der deutschen Gegenwartssprache. Sowohl im In- als auch im Ausland dient es Muttersprachlerinnen und Muttersprachlern sowie Deutschlernenden gleichermaßen als wertvolle Orientierungshilfe im Umgang mit der deutschen Sprache. Nach dem Tod Gerhard Wahrigs im Jahre 1978 führte seine Tochter Renate Wahrig-Burfeind das lexikografische Werk des Vaters fort.</textplus_description>
+    <textplus_description xml:lang="eng">WAHRIG Deutsches Wörterbuch (WDW) was compiled by lexicographer Gerhard Wahrig and published in 1966 in its first edition, at that time still under the title “Das große deutsche Wörterbuch” (The Great German Dictionary). For several decades, this monolingual dictionary has been regarded as a proven standard work on contemporary German language. Both at home and abroad, it serves as a valuable guide to the German language for native speakers and learners alike. After Gerhard Wahrig’s death in 1978, his daughter Renate Wahrig-Burfeind continued her father’s lexicographical work.</textplus_description>
+
+    <textplus_bib_institution>
+      <textplus_bib_institution_name xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften</textplus_bib_institution_name>
+      <textplus_bib_institution_name xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities</textplus_bib_institution_name>
+      <textplus_bib_institution_pid>https://www.wikidata.org/wiki/Q219989</textplus_bib_institution_pid>
+    </textplus_bib_institution>
+    <textplus_creator>
+      <textplus_creator_name>Gerhard Wahrig</textplus_creator_name>
+      <textplus_creator_name>Ursula Hermann</textplus_creator_name>
+      <textplus_creator_name>Margarete Lawetzky</textplus_creator_name>
+      <textplus_creator_name>Renate Wahrig-Burfeind</textplus_creator_name>
+      <textplus_creator_name>Friedrich Gohlke</textplus_creator_name>
+      <textplus_creator_name>Christa Förster</textplus_creator_name>
+      <textplus_creator_name>Irmgard von Beckerath</textplus_creator_name>
+      <textplus_creator_name>Christhild Tschentscher</textplus_creator_name>
+      <textplus_creator_name>Gernot Hempelmann</textplus_creator_name>
+      <textplus_creator_name>Hans-Peter Wahrig</textplus_creator_name>
+      <textplus_creator_name>Ursula Hermann</textplus_creator_name>
+      <textplus_creator_name>Klaus Rüme</textplus_creator_name>
+      <textplus_creator_name>Norbert Raum</textplus_creator_name>
+      <textplus_creator_name>Sabine Krome</textplus_creator_name>
+      <textplus_creator_name>Gisela Benecke</textplus_creator_name>
+      <textplus_creator_name>Klaus Laabs</textplus_creator_name>
+      <textplus_creator_name>Elmar Stenzel</textplus_creator_name>
+      <textplus_creator_name>Stefan Grosser</textplus_creator_name>
+      <textplus_creator_name>Christiane Güth</textplus_creator_name>
+      <textplus_creator_name>Heiko Hartmann</textplus_creator_name>
+      <textplus_creator_name>Ulrike Hönsch</textplus_creator_name>
+      <textplus_creator_name>Oliver Mingers</textplus_creator_name>
+      <textplus_creator_name>Klaus Heller</textplus_creator_name>
+      <textplus_creator_name>Michael Müller</textplus_creator_name>
+      <textplus_creator_name>Jörn Stegmeier</textplus_creator_name>
+      <textplus_creator_name>Renate Fassoth</textplus_creator_name>
+      <textplus_creator_name>Andrea Rocha-Lieder</textplus_creator_name>
+      <textplus_creator_name>Bernhard Roll</textplus_creator_name>
+    </textplus_creator>
+  </textplus_bib>
+
+  <textplus_adm>
+    <textplus_metadata_id>https://d-nb.info/1021132845</textplus_metadata_id>
+    <textplus_metadata_timestamp>2026-01-22T16:00:00CET</textplus_metadata_timestamp>
+    <textplus_metadata_creator>https://orcid.org/0000-0002-1096-3957</textplus_metadata_creator>
+  </textplus_adm>
+
+  <textplus_lcy>
+    <textplus_lifecycle_version>2018</textplus_lifecycle_version>
+    <textplus_lifecycle_available>2025</textplus_lifecycle_available>
+  </textplus_lcy>
+
+  <textplus_jur>
+    <textplus_licence>https://www.dwds.de/d/nutzungsbedingungen</textplus_licence>
+    <textplus_licence_holder>https://www.bbaw.de/</textplus_licence_holder>
+  </textplus_jur>
+
+  <textplus_lex>
+    <textplus_type>dict_mono</textplus_type>
+
+    <textplus_description_language>deu</textplus_description_language>
+
+    <textplus_field_type>antonym</textplus_field_type>
+    <textplus_field_type>baseform</textplus_field_type>
+    <textplus_field_type>citation</textplus_field_type>
+    <textplus_field_type>definition</textplus_field_type>
+    <textplus_field_type>etymology</textplus_field_type>
+    <textplus_field_type>gender</textplus_field_type>
+    <textplus_field_type>hypernym</textplus_field_type>
+    <textplus_field_type>hyponym</textplus_field_type>
+    <textplus_field_type>number</textplus_field_type>
+    <textplus_field_type>phonetic</textplus_field_type>
+    <textplus_field_type>pos</textplus_field_type>
+    <textplus_field_type>segmentation</textplus_field_type>
+    <textplus_field_type>synonym</textplus_field_type>
+
+    <textplus_modality>writing</textplus_modality>
+
+    <textplus_language_region>Deutschland</textplus_language_region>
+
+    <textplus_language_period>Gegenwartssprache</textplus_language_period>
+
+    <!-- hier fehlt die Übersetzung, @xml:lang derzeit nach Schema nicht erlaubt -->
+    <textplus_lex_dialect>Standarddeutsch</textplus_lex_dialect>
+
+    <textplus_lex_size>113129</textplus_lex_size>
+
+    <textplus_object_language>
+      <ISO639>
+        <iso-639-3-code>deu</iso-639-3-code>
+      </ISO639>
+    </textplus_object_language>
+  </textplus_lex>
+  <textplus_tec>
+    <textplus_tech_data_format>text/xml</textplus_tech_data_format>
+
+    <!--
+      in dictionary checkout:
+      find sources/dictionary/orig -type f -name "*.XML" -print0 | xargs -0 stat -c "%s" | awk '{total += $1} END {print total}'
+    -->
+    <textplus_tech_data_size>53624359</textplus_tech_data_size>
+
+    <textplus_tech_end_point>
+      <textplus_tech_end_point_link>https://www.dwds.de/d/wdw</textplus_tech_end_point_link>
+      <textplus_tech_end_point_type>http</textplus_tech_end_point_type>
+    </textplus_tech_end_point>
+  </textplus_tec>
+
+  <textplus_geo/>
+</TextPlusLexicalResourceProfile>

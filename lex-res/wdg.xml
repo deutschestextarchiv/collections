@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextPlusLexicalResourceProfile xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468 schema.xsd">
+  <textplus_bib>
+    <textplus_title xml:lang="deu">Wörterbuch der deutschen Gegenwartssprache</textplus_title>
+    <textplus_title xml:lang="eng">Dictionary of the German Contemporary Language</textplus_title>
+
+    <textplus_description xml:lang="deu">Das Wörterbuch der deutschen Gegenwartssprache (WDG) entstand zwischen 1952 und 1977 an der Akademie der Wissenschaften in Berlin und erschien in sechs Bänden mit über 4.500 Seiten und rund 120.000 Stichwörtern. Es dokumentiert die deutsche Gegenwartssprache im weiteren Sinne, einschließlich der zeitgenössischen Bildungssprache sowie der noch gelesenen Literatur seit dem 18. Jahrhundert. Grundlage waren umfangreiche Quellen aus der gesamten deutschsprachigen Literatur bis in die 1970er Jahre. Bereits während seines Erscheinens prägte das WDG die Konzeption späterer gegenwartssprachlicher Wörterbücher.</textplus_description>
+    <textplus_description xml:lang="eng">The Dictionary of the German Contemporary Language (WDG) was compiled between 1952 and 1977 at the Academy of Sciences in Berlin and published in six volumes with over 4,500 pages and around 120,000 keywords. It documents contemporary German language in the broadest sense, including contemporary educational language and literature still read since the 18th century. It was based on extensive sources from all German-language literature up to the 1970s. Even during its publication, the WDG influenced the design of later contemporary language dictionaries.</textplus_description>
+
+    <textplus_bib_institution>
+      <textplus_bib_institution_name xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften</textplus_bib_institution_name>
+      <textplus_bib_institution_name xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities</textplus_bib_institution_name>
+      <textplus_bib_institution_pid>https://www.wikidata.org/wiki/Q219989</textplus_bib_institution_pid>
+    </textplus_bib_institution>
+
+    <textplus_creator>
+      <textplus_creator_name>Ruth Klappenbach</textplus_creator_name>
+      <textplus_creator_name>Wolfgang Steinitz</textplus_creator_name>
+      <textplus_creator_name>Ch. Blumrich</textplus_creator_name>
+      <textplus_creator_name>I. Dymke</textplus_creator_name>
+      <textplus_creator_name>W. Hartung</textplus_creator_name>
+      <textplus_creator_name>D. Herberg</textplus_creator_name>
+      <textplus_creator_name>H.-J. Ilsmann</textplus_creator_name>
+      <textplus_creator_name>G. Kempcke</textplus_creator_name>
+      <textplus_creator_name>K.-D. Ludwig</textplus_creator_name>
+      <textplus_creator_name>H. Malige-Klappenbach</textplus_creator_name>
+      <textplus_creator_name>E. Muhlak</textplus_creator_name>
+      <textplus_creator_name>J. Scharnhorst</textplus_creator_name>
+      <textplus_creator_name>R. Schnerrer</textplus_creator_name>
+      <textplus_creator_name>H. Sparmann</textplus_creator_name>
+      <textplus_creator_name>E. Tellenbach</textplus_creator_name>
+      <textplus_creator_name>E. Dückert</textplus_creator_name>
+      <textplus_creator_name>S. Ketzel</textplus_creator_name>
+      <textplus_creator_name>J. Schildt</textplus_creator_name>
+      <textplus_creator_name>M. Becker</textplus_creator_name>
+      <textplus_creator_name>J. Dresel</textplus_creator_name>
+      <textplus_creator_name>G. Ginschel</textplus_creator_name>
+      <textplus_creator_name>H. Käubler</textplus_creator_name>
+      <textplus_creator_name>H. Petermann</textplus_creator_name>
+      <textplus_creator_name>M. Richter</textplus_creator_name>
+      <textplus_creator_name>R. Schmidt</textplus_creator_name>
+      <textplus_creator_name>R. Baudusch</textplus_creator_name>
+      <textplus_creator_name>G. Hagen</textplus_creator_name>
+      <textplus_creator_name>E. Ising</textplus_creator_name>
+      <textplus_creator_name>E. Mager</textplus_creator_name>
+      <textplus_creator_name>V. de Ruiter</textplus_creator_name>
+      <textplus_creator_name>W. Wunderlich</textplus_creator_name>
+      <textplus_creator_name>K. Wunsch</textplus_creator_name>
+      <textplus_creator_name>H. B. Schumann</textplus_creator_name>
+    </textplus_creator>
+  </textplus_bib>
+
+  <textplus_adm>
+    <textplus_metadata_id>hdl:21.11120/0000-000B-241F-B</textplus_metadata_id>
+    <textplus_metadata_timestamp>2026-01-22T16:00:00CET</textplus_metadata_timestamp>
+    <textplus_metadata_creator>https://orcid.org/0000-0002-1096-3957</textplus_metadata_creator>
+  </textplus_adm>
+
+  <textplus_lcy>
+    <textplus_lifecycle_version>eWDG 2009</textplus_lifecycle_version>
+    <textplus_lifecycle_available>2003</textplus_lifecycle_available>
+  </textplus_lcy>
+
+  <textplus_jur>
+    <textplus_licence>https://www.dwds.de/d/nutzungsbedingungen</textplus_licence>
+    <textplus_licence_holder>https://www.bbaw.de/</textplus_licence_holder>
+  </textplus_jur>
+
+  <textplus_lex>
+    <textplus_type>dict_mono</textplus_type>
+
+    <textplus_description_language>deu</textplus_description_language>
+
+    <textplus_field_type>antonym</textplus_field_type>
+    <textplus_field_type>baseform</textplus_field_type>
+    <textplus_field_type>citation</textplus_field_type>
+    <textplus_field_type>definition</textplus_field_type>
+    <textplus_field_type>etymology</textplus_field_type>
+    <textplus_field_type>gender</textplus_field_type>
+    <textplus_field_type>hypernym</textplus_field_type>
+    <textplus_field_type>hyponym</textplus_field_type>
+    <textplus_field_type>number</textplus_field_type>
+    <textplus_field_type>phonetic</textplus_field_type>
+    <textplus_field_type>pos</textplus_field_type>
+    <textplus_field_type>synonym</textplus_field_type>
+
+    <textplus_modality>writing</textplus_modality>
+
+    <textplus_language_region>Deutschland</textplus_language_region>
+
+    <textplus_language_period>Gegenwartssprache</textplus_language_period>
+
+    <!-- hier fehlt die Übersetzung, @xml:lang derzeit nach Schema nicht erlaubt -->
+    <textplus_lex_dialect>Standarddeutsch</textplus_lex_dialect>
+
+    <textplus_lex_size>121530</textplus_lex_size>
+
+    <textplus_object_language>
+      <ISO639>
+        <iso-639-3-code>deu</iso-639-3-code>
+      </ISO639>
+    </textplus_object_language>
+  </textplus_lex>
+  <textplus_tec>
+    <textplus_tech_data_format>application/tei+xml</textplus_tech_data_format>
+
+    <!--
+      in dictionary checkout:
+      find src/xml -type f -name "*.xml" -print0 | xargs -0 stat -c "%s" | awk '{total += $1} END {print total}'
+    -->
+    <textplus_tech_data_size>152744688</textplus_tech_data_size>
+
+    <textplus_tech_fcs_resource_id>hdl:21.11120/0000-000B-241F-B</textplus_tech_fcs_resource_id>
+
+    <textplus_tech_end_point>
+      <textplus_tech_end_point_link>https://www.dwds.de/d/wb-wdg</textplus_tech_end_point_link>
+      <textplus_tech_end_point_type>http</textplus_tech_end_point_type>
+    </textplus_tech_end_point>
+  </textplus_tec>
+
+  <textplus_geo/>
+</TextPlusLexicalResourceProfile>

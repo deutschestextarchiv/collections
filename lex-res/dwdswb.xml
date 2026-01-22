@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextPlusLexicalResourceProfile xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468 schema.xsd">
+  <textplus_bib>
+    <textplus_title xml:lang="deu">Digitales Wörterbuch der deutschen Sprache</textplus_title>
+    <textplus_title xml:lang="eng">Digital Dictionary of the German Language</textplus_title>
+
+    <textplus_description xml:lang="deu">Das DWDS-Wörterbuch ist ein einsprachiges Bedeutungswörterbuch der deutschen Gegenwartssprache. Es umfasst Angaben zu Form (Rechtschreibung, Grammatik) und Bedeutung (Definitionen, Bedeutungsrelationen) sowie zum Gebrauch (authentische Verwendungsbeispiele) für ca. 270.000 Stichwörter. Es fußt auf dem lexikalischen Wissen aus drei gegenwartssprachlichen Großwörterbüchern der deutschen Sprache: dem sechsbändigen Wörterbuch der deutschen Gegenwartssprache (WDG, 1952–1977), welches durch Teilstrecken aus dem Großen Wörterbuch der deutschen Sprache (GWDS, 1999) und dem WAHRIG Deutsches Wörterbuch (WAHRIG, 2011/2018) ergänzt wird. Das Redaktionsteam des DWDS bringt diese Wörterbuchsubstanzen auf der Grundlage sehr großer Textkorpora auf den aktuellen Stand und ergänzt diese um Wörterbuchartikel für neue Wörter, die in den drei o. g. Großwörterbüchern nicht beschrieben wurden.</textplus_description>
+    <textplus_description xml:lang="eng">The DWDS dictionary is a monolingual dictionary of contemporary German. It provides information on form (spelling, grammar) and meaning (definitions, semantic relationships) as well as usage (authentic examples) for approximately 270,000 keywords. The DWDS dictionary is based on lexical knowledge from three major contemporary dictionaries of the German language: the six-volume “Wörterbuch der deutschen Gegenwartssprache” (WDG, 1952–1977), supplemented by sections from the “Großes Wörterbuch der deutschen Sprache” (GWDS, 1999) and the “WAHRIG Deutsches Wörterbuch” (WAHRIG, 2011/2018). The DWDS lexicographers update this dictionary content on the basis of very large text corpora and also add dictionary entries for new words that are not described in the three major dictionaries mentioned above.</textplus_description>
+
+    <textplus_bib_institution>
+      <textplus_bib_institution_name xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften</textplus_bib_institution_name>
+      <textplus_bib_institution_name xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities</textplus_bib_institution_name>
+      <textplus_bib_institution_pid>https://www.wikidata.org/wiki/Q219989</textplus_bib_institution_pid>
+    </textplus_bib_institution>
+
+    <!-- tbd -->
+    <textplus_creator>
+      <textplus_creator_name></textplus_creator_name>
+    </textplus_creator>
+  </textplus_bib>
+
+  <textplus_adm>
+    <textplus_metadata_id>hdl:21.11120/0000-000B-146F-3</textplus_metadata_id>
+    <textplus_metadata_timestamp>2026-01-22T16:00:00CET</textplus_metadata_timestamp>
+    <textplus_metadata_creator>https://orcid.org/0000-0002-1096-3957</textplus_metadata_creator>
+  </textplus_adm>
+
+  <textplus_lcy>
+    <textplus_lifecycle_version>20260122</textplus_lifecycle_version>
+    <textplus_lifecycle_available>2003</textplus_lifecycle_available>
+  </textplus_lcy>
+
+  <textplus_jur>
+    <textplus_licence>https://www.dwds.de/d/nutzungsbedingungen</textplus_licence>
+    <textplus_licence_holder>https://www.bbaw.de/</textplus_licence_holder>
+  </textplus_jur>
+
+  <textplus_lex>
+    <textplus_type>dict_mono</textplus_type>
+
+    <textplus_description_language>deu</textplus_description_language>
+
+    <textplus_field_type>antonym</textplus_field_type>
+    <textplus_field_type>baseform</textplus_field_type>
+    <textplus_field_type>citation</textplus_field_type>
+    <textplus_field_type>definition</textplus_field_type>
+    <textplus_field_type>etymology</textplus_field_type>
+    <textplus_field_type>frequency</textplus_field_type>
+    <textplus_field_type>gender</textplus_field_type>
+    <textplus_field_type>hypernym</textplus_field_type>
+    <textplus_field_type>hyponym</textplus_field_type>
+    <textplus_field_type>number</textplus_field_type>
+    <textplus_field_type>phonetic</textplus_field_type>
+    <textplus_field_type>pos</textplus_field_type>
+    <textplus_field_type>segmentation</textplus_field_type>
+    <textplus_field_type>synonym</textplus_field_type>
+
+    <textplus_modality>multimodal</textplus_modality>
+    <textplus_modality>writing</textplus_modality>
+
+    <textplus_language_region>Deutschland</textplus_language_region>
+
+    <textplus_language_period>Gegenwartssprache</textplus_language_period>
+
+    <!-- hier fehlt die Übersetzung, @xml:lang derzeit nach Schema nicht erlaubt -->
+    <textplus_lex_dialect>Standarddeutsch</textplus_lex_dialect>
+    <textplus_lex_dialect>regionale Varietäten</textplus_lex_dialect>
+
+    <textplus_lex_size>270000</textplus_lex_size>
+
+    <textplus_object_language>
+      <ISO639>
+        <iso-639-3-code>deu</iso-639-3-code>
+      </ISO639>
+    </textplus_object_language>
+  </textplus_lex>
+  <textplus_tec>
+    <textplus_tech_data_format>text/xml</textplus_tech_data_format>
+
+    <!--
+      in dictionary checkout:
+      find . -type f -name "*.xml" -exec grep -lZ 'Status="Red-f"' {} + | xargs -0 stat -c "%s" | awk '{total += $1} END {print total}'
+    -->
+    <textplus_tech_data_size>1289470564</textplus_tech_data_size>
+
+    <textplus_tech_fcs_resource_id>hdl:21.11120/0000-000B-146F-3</textplus_tech_fcs_resource_id>
+
+    <textplus_tech_end_point>
+      <textplus_tech_end_point_link>https://www.dwds.de/search/wb/sru</textplus_tech_end_point_link>
+      <textplus_tech_end_point_type>fcs</textplus_tech_end_point_type>
+    </textplus_tech_end_point>
+
+    <textplus_tech_end_point>
+      <textplus_tech_end_point_link>https://www.dwds.de/</textplus_tech_end_point_link>
+      <textplus_tech_end_point_type>http</textplus_tech_end_point_type>
+    </textplus_tech_end_point>
+
+    <textplus_tech_end_point>
+      <textplus_tech_end_point_link>https://www.dwds.de/search.xml</textplus_tech_end_point_link>
+      <textplus_tech_end_point_type>openSearch</textplus_tech_end_point_type>
+    </textplus_tech_end_point>
+
+    <textplus_tech_end_point>
+      <textplus_tech_end_point_link>https://www.dwds.de/search/wb/sru</textplus_tech_end_point_link>
+      <textplus_tech_end_point_type>sru</textplus_tech_end_point_type>
+    </textplus_tech_end_point>
+  </textplus_tec>
+
+  <textplus_geo/>
+</TextPlusLexicalResourceProfile>
