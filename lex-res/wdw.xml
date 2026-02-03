@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TextPlusLexicalResourceProfile xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468 schema.xsd">
+<TextPlusLexicalResourceProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1747312582468/xsd"
+  xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468">
   <textplus_bib>
     <textplus_title>WAHRIG Deutsches Wörterbuch</textplus_title>
 
@@ -13,32 +15,91 @@
     </textplus_bib_institution>
     <textplus_creator>
       <textplus_creator_name>Gerhard Wahrig</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/104535164</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Ursula Hermann</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Margarete Lawetzky</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Renate Wahrig-Burfeind</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/120856611</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Friedrich Gohlke</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Christa Förster</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Irmgard von Beckerath</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Christhild Tschentscher</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/1145971571</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Gernot Hempelmann</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Hans-Peter Wahrig</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/1237694531</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Ursula Hermann</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Klaus Rüme</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Norbert Raum</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Sabine Krome</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/1144661706</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Gisela Benecke</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Klaus Laabs</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Elmar Stenzel</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Stefan Grosser</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Christiane Güth</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Heiko Hartmann</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Ulrike Hönsch</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Oliver Mingers</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Klaus Heller</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Michael Müller</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Jörn Stegmeier</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Renate Fassoth</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Andrea Rocha-Lieder</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Bernhard Roll</textplus_creator_name>
     </textplus_creator>
   </textplus_bib>
@@ -51,7 +112,7 @@
 
   <textplus_lcy>
     <textplus_lifecycle_version>2018</textplus_lifecycle_version>
-    <textplus_lifecycle_available>2025</textplus_lifecycle_available>
+    <textplus_lifecycle_available>2025-04-25</textplus_lifecycle_available>
   </textplus_lcy>
 
   <textplus_jur>
@@ -83,8 +144,8 @@
 
     <textplus_language_period>Gegenwartssprache</textplus_language_period>
 
-    <!-- hier fehlt die Übersetzung, @xml:lang derzeit nach Schema nicht erlaubt -->
-    <textplus_lex_dialect>Standarddeutsch</textplus_lex_dialect>
+    <textplus_lex_dialect xml:lang="deu">Standarddeutsch</textplus_lex_dialect>
+    <textplus_lex_dialect xml:lang="eng">standard German</textplus_lex_dialect>
 
     <textplus_lex_size>113129</textplus_lex_size>
 
@@ -108,6 +169,4 @@
       <textplus_tech_end_point_type>http</textplus_tech_end_point_type>
     </textplus_tech_end_point>
   </textplus_tec>
-
-  <textplus_geo/>
 </TextPlusLexicalResourceProfile>

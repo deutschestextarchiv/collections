@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TextPlusLexicalResourceProfile xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468 schema.xsd">
+<TextPlusLexicalResourceProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1747312582468/xsd"
+  xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468">
   <textplus_bib>
     <textplus_title xml:lang="deu">Etymologisches Wörterbuch des Deutschen</textplus_title>
     <textplus_title xml:lang="eng">Etymological Dictionary of the German Language</textplus_title>
@@ -15,14 +17,34 @@
 
     <textplus_creator>
       <textplus_creator_name>Wolfgang Pfeifer</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/131537024</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Wilhelm Braun</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Gunhild Ginschel</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/105313570X</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Gustav Hagen</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Anna Huber</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Klaus Müller</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Heinrich Petermann</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Gerlinde Pfeifer</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Dorothee Schröter</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Ulrich Schröter</textplus_creator_name>
     </textplus_creator>
   </textplus_bib>
@@ -35,7 +57,7 @@
 
   <textplus_lcy>
     <textplus_lifecycle_version>etymwb-1.0.257</textplus_lifecycle_version>
-    <textplus_lifecycle_available>2011</textplus_lifecycle_available>
+    <textplus_lifecycle_available>2011-01-01</textplus_lifecycle_available>
   </textplus_lcy>
 
   <textplus_jur>
@@ -59,8 +81,8 @@
 
     <textplus_language_period>Gegenwartssprache</textplus_language_period>
 
-    <!-- hier fehlt die Übersetzung, @xml:lang derzeit nach Schema nicht erlaubt -->
-    <textplus_lex_dialect>Standarddeutsch</textplus_lex_dialect>
+    <textplus_lex_dialect xml:lang="deu">Standarddeutsch</textplus_lex_dialect>
+    <textplus_lex_dialect xml:lang="eng">standard German</textplus_lex_dialect>
 
     <textplus_lex_size>24478</textplus_lex_size>
 
@@ -86,6 +108,4 @@
       <textplus_tech_end_point_type>http</textplus_tech_end_point_type>
     </textplus_tech_end_point>
   </textplus_tec>
-
-  <textplus_geo/>
 </TextPlusLexicalResourceProfile>

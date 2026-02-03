@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TextPlusLexicalResourceProfile xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468 schema.xsd">
+<TextPlusLexicalResourceProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1747312582468/xsd"
+  xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468">
   <textplus_bib>
     <textplus_title xml:lang="deu">Deutsches Wörterbuch von Jacob Grimm und Wilhelm Grimm, Neubearbeitung</textplus_title>
     <textplus_title xml:lang="eng">Deutsches Wörterbuch by Jacob Grimm and Wilhelm Grimm, New Edition</textplus_title>
@@ -15,69 +17,206 @@
 
     <textplus_creator>
       <textplus_creator_name>Theodor Frings</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/118693662</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Hans Neumann</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Joachim Dückert</textplus_creator_name>
+      <textplus_creator_pid>http://d-nb.info/gnd/170238083</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Wilhelm Braun</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Anna Huber</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Gerlinde Pfeifer</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Heinrich Petermann</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Marlis Günther</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Christina Grimm</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Christiane Unger</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Lutz Sattler</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Norbert Schrader</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/14258410X</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Marco Scheider</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Manfred Bierwisch</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/122575776</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Hartmut Schmidt</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Jörg Schröder</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Harry Fröhlich</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Peter Schmitt</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Martin Weiss</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Sylvia Porwollik</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Anita Rettner</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Ursula Seriot</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Regina Störmer</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Susanne Wind</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Wolfgang Klein</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/132525909</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Elke Gehweiler</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Yvonne Luther</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Carola Redzich</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Michael Solf</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Rüdiger Schmitt</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Andrea Bambek</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Wiebke Blanck</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Julia Dippel</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Sabine Elsner-Petri</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Nathalie Exo</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Christiane Gante</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Thomas Habel</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Volker Harm</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/107071724X</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Anke Hartmann</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Andrea Katzmann</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Nathalie Mederake</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/109816492X</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Kerstin Meyer-Hinrichs</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Frank Michaelis</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/1142076903</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Anna Osterhus</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Hans-Joachim Particke</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Daniel Schmidt-Brücken</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Matthias Schulz</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Ulrike Stöwer</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Frank-Michael Wohlers</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Christiane Ritter</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Michael Schlaefer</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Rolf Bergmann</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Karl Stackmann</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Andreas Gardt</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/112032877</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Kirstin Casemir</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>H. Albrand</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>A. Lenz</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>H.-G. Maak</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>A. Miehe</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>G. Peperkorn</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>H. Rahnenführer</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>B. Vielsmeier</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>H. Schabram</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>S. Elsner-Petri</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Ch. Schlaps</textplus_creator_name>
     </textplus_creator>
   </textplus_bib>
@@ -90,7 +229,7 @@
 
   <textplus_lcy>
     <textplus_lifecycle_version>2016</textplus_lifecycle_version>
-    <textplus_lifecycle_available>2020</textplus_lifecycle_available>
+    <textplus_lifecycle_available>2020-01-01</textplus_lifecycle_available>
   </textplus_lcy>
 
   <textplus_jur>
@@ -116,8 +255,8 @@
 
     <textplus_language_period>Deutsch in seiner Gesamtheit</textplus_language_period>
 
-    <!-- hier fehlt die Übersetzung, @xml:lang derzeit nach Schema nicht erlaubt -->
-    <textplus_lex_dialect>Standarddeutsch</textplus_lex_dialect>
+    <textplus_lex_dialect xml:lang="deu">Standarddeutsch</textplus_lex_dialect>
+    <textplus_lex_dialect xml:lang="eng">standard German</textplus_lex_dialect>
 
     <textplus_lex_size>51354</textplus_lex_size>
 
@@ -141,6 +280,4 @@
       <textplus_tech_end_point_type>http</textplus_tech_end_point_type>
     </textplus_tech_end_point>
   </textplus_tec>
-
-  <textplus_geo/>
 </TextPlusLexicalResourceProfile>

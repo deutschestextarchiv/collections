@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TextPlusLexicalResourceProfile xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468 schema.xsd">
+<TextPlusLexicalResourceProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1747312582468/xsd"
+  xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468">
   <textplus_bib>
     <textplus_title xml:lang="deu">Deutsches Wörterbuch von Jacob Grimm und Wilhelm Grimm</textplus_title>
     <textplus_title xml:lang="eng">Deutsches Wörterbuch by Jacob Grimm and Wilhelm Grimm</textplus_title>
@@ -15,10 +17,23 @@
 
     <textplus_creator>
       <textplus_creator_name>Jacob Grimm</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/118542257</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Wilhelm Grimm</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/118542265</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Rudolf Hildebrand</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/118774425</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Moritz Heyne</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/116793465</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Matthias von Lexer</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/119057328</textplus_creator_pid>
     </textplus_creator>
   </textplus_bib>
 
@@ -30,7 +45,7 @@
 
   <textplus_lcy>
     <textplus_lifecycle_version>1971</textplus_lifecycle_version>
-    <textplus_lifecycle_available>2011</textplus_lifecycle_available>
+    <textplus_lifecycle_available>2011-01-01</textplus_lifecycle_available>
   </textplus_lcy>
 
   <textplus_jur>
@@ -56,8 +71,8 @@
 
     <textplus_language_period>Deutsch in seiner Gesamtheit</textplus_language_period>
 
-    <!-- hier fehlt die Übersetzung, @xml:lang derzeit nach Schema nicht erlaubt -->
-    <textplus_lex_dialect>Standarddeutsch</textplus_lex_dialect>
+    <textplus_lex_dialect xml:lang="deu">Standarddeutsch</textplus_lex_dialect>
+    <textplus_lex_dialect xml:lang="eng">standard German</textplus_lex_dialect>
 
     <textplus_lex_size>322519</textplus_lex_size>
 
@@ -81,6 +96,4 @@
       <textplus_tech_end_point_type>http</textplus_tech_end_point_type>
     </textplus_tech_end_point>
   </textplus_tec>
-
-  <textplus_geo/>
 </TextPlusLexicalResourceProfile>

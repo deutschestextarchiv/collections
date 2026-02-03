@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TextPlusLexicalResourceProfile xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468 schema.xsd">
+<TextPlusLexicalResourceProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1747312582468/xsd"
+  xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468">
   <textplus_bib>
     <textplus_title xml:lang="deu">Wörterbuch der deutschen Gegenwartssprache</textplus_title>
     <textplus_title xml:lang="eng">Dictionary of the German Contemporary Language</textplus_title>
@@ -15,37 +17,103 @@
 
     <textplus_creator>
       <textplus_creator_name>Ruth Klappenbach</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/118777262</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Wolfgang Steinitz</textplus_creator_name>
+      <textplus_creator_pid>https://d-nb.info/gnd/118798626</textplus_creator_pid>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>Ch. Blumrich</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>I. Dymke</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>W. Hartung</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>D. Herberg</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>H.-J. Ilsmann</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>G. Kempcke</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>K.-D. Ludwig</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>H. Malige-Klappenbach</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>E. Muhlak</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>J. Scharnhorst</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>R. Schnerrer</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>H. Sparmann</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>E. Tellenbach</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>E. Dückert</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>S. Ketzel</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>J. Schildt</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>M. Becker</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>J. Dresel</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>G. Ginschel</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>H. Käubler</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>H. Petermann</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>M. Richter</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>R. Schmidt</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>R. Baudusch</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>G. Hagen</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>E. Ising</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>E. Mager</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>V. de Ruiter</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>W. Wunderlich</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>K. Wunsch</textplus_creator_name>
+    </textplus_creator>
+    <textplus_creator>
       <textplus_creator_name>H. B. Schumann</textplus_creator_name>
     </textplus_creator>
   </textplus_bib>
@@ -58,7 +126,7 @@
 
   <textplus_lcy>
     <textplus_lifecycle_version>eWDG 2009</textplus_lifecycle_version>
-    <textplus_lifecycle_available>2003</textplus_lifecycle_available>
+    <textplus_lifecycle_available>2003-01-01</textplus_lifecycle_available>
   </textplus_lcy>
 
   <textplus_jur>
@@ -89,8 +157,8 @@
 
     <textplus_language_period>Gegenwartssprache</textplus_language_period>
 
-    <!-- hier fehlt die Übersetzung, @xml:lang derzeit nach Schema nicht erlaubt -->
-    <textplus_lex_dialect>Standarddeutsch</textplus_lex_dialect>
+    <textplus_lex_dialect xml:lang="deu">Standarddeutsch</textplus_lex_dialect>
+    <textplus_lex_dialect xml:lang="eng">standard German</textplus_lex_dialect>
 
     <textplus_lex_size>121530</textplus_lex_size>
 
@@ -116,6 +184,4 @@
       <textplus_tech_end_point_type>http</textplus_tech_end_point_type>
     </textplus_tech_end_point>
   </textplus_tec>
-
-  <textplus_geo/>
 </TextPlusLexicalResourceProfile>
