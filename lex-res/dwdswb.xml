@@ -39,8 +39,6 @@
   <textplus_lex>
     <textplus_type>dict_mono</textplus_type>
 
-    <textplus_description_language>deu</textplus_description_language>
-
     <textplus_field_type>antonym</textplus_field_type>
     <textplus_field_type>citation</textplus_field_type>
     <textplus_field_type>definition</textplus_field_type>
@@ -74,7 +72,7 @@
     </textplus_object_language>
   </textplus_lex>
   <textplus_tec>
-    <textplus_tech_data_format>text/xml</textplus_tech_data_format>
+    <textplus_tech_data_format>application/xml</textplus_tech_data_format>
 
     <!--
       in dictionary checkout:

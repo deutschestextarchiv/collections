@@ -68,8 +68,6 @@
   <textplus_lex>
     <textplus_type>dict_mono</textplus_type>
 
-    <textplus_description_language>deu</textplus_description_language>
-
     <textplus_field_type>definition</textplus_field_type>
     <textplus_field_type>etymology</textplus_field_type>
     <textplus_field_type>gender</textplus_field_type>
