@@ -89,6 +89,12 @@
         <iso-639-3-code>deu</iso-639-3-code>
       </ISO639>
     </textplus_object_language>
+
+    <textplus_description_language>
+      <ISO639>
+        <iso-639-3-code>deu</iso-639-3-code>
+      </ISO639>
+    </textplus_description_language>
   </textplus_lex>
   <textplus_tec>
     <textplus_tech_data_format>application/tei+xml</textplus_tech_data_format>
