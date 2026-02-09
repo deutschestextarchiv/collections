@@ -47,6 +47,7 @@
     <textplus_field_type>gender</textplus_field_type>
     <textplus_field_type>hypernym</textplus_field_type>
     <textplus_field_type>hyponym</textplus_field_type>
+    <textplus_field_type>lemma</textplus_field_type>
     <textplus_field_type>number</textplus_field_type>
     <textplus_field_type>phonetic</textplus_field_type>
     <textplus_field_type>pos</textplus_field_type>

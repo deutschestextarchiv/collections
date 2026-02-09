@@ -60,6 +60,7 @@
     <textplus_field_type>definition</textplus_field_type>
     <textplus_field_type>etymology</textplus_field_type>
     <textplus_field_type>gender</textplus_field_type>
+    <textplus_field_type>lemma</textplus_field_type>
     <textplus_field_type>number</textplus_field_type>
     <textplus_field_type>pos</textplus_field_type>
 
