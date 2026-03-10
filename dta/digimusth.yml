@@ -1,0 +1,87 @@
+title:
+  name: DigiMusTh-Korpus
+  shortname: DigiMusTh 
+dstar:
+  corpus: digimusth 
+genre:
+  -
+    main: Wissenschaft
+    sub: Musikwissenschaft 
+description:
+  Die Sammlung DigiMusTh enthält 11 deutschsprachige, musiktheoretische Texte
+  aus dem 19. Jahrhundert. Sie entstand in einem Text+ Kooperationsprojekt an
+  der Julius-Maximilians-Universität Würzburg unter der Leitung von Prof. Dr.
+  Fabian C. Moss.
+
+  Alle Texte der Sammlung sind kodiert nach TEI P5 – orientiert am
+  Basisformat des Deutschen Textarchivs (DTABf) – und werden unter einer CC
+  BY-SA Lizenz zur Nachnutzung bereit gestellt.
+format:
+  data:
+    - DTABf
+    - TCF
+  metadata:
+    - DTABf
+    - CMDI
+    - DC
+keywords:
+  - Musiktheorie
+  - 19. Jh.
+  - Text+
+urls:
+  landingPage: https://www.deutschestextarchiv.de/sammlungen/digimusth
+  searchPage: https://www.dwds.de/r/?corpus=dtaxl&sc=digimusth
+association:
+  institution:
+    name: Berlin-Brandenburgische Akademie der Wissenschaften
+    shortname: BBAW
+    url: https://www.bbaw.de/
+  infrastructure:
+    name: Digitales Wörterbuch der deutschen Sprache
+    shortname: DWDS
+    url: https://www.dwds.de/
+  editors:
+    -
+      name: Deutsches Textarchiv (DTA)
+      email: redaktion@deutschestextarchiv.de
+      roles: [ annotator, curator, quality-control, IT, support ]
+availability:
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+project:
+  name: Aufbau einer offenen digitalen Sammlung historischer musiktheoretischer
+    Texte aus dem deutschsprachigen Raum anhand von Beispielen aus dem 19.
+    Jahrhundert. 
+  shortname: DigiMusTh 
+  url: https://fabianmoss.github.io/digimusth/
+  funding:
+    name: Text+
+    url: https://text-plus.org/
+  authors:
+    -
+      name: Prof. Dr. Fabian C. Moss 
+      email: fabian.moss@uni-wuerzburg.de 
+      roles: [ project lead ]
+timeCoverage:
+  start: 1852
+  end: 1905
+languages:
+  -
+    full: German
+    iso: deu
+facsimile: false
+transcription: [ corrected ocr ]
+annotationLevel:
+status: public
+data:
+  type: [ text corpus ]
+  text_plusCluster: [ "structured, historical texts" ]
+  text_plusDomain: [ collections ]
+authority_control:
+  data:
+  metadata:
+modality: geschrieben
+disciplines: [ Musikwissenschaften, Geschichtswissenschaften ]
+relations:
+  internal:
+    is_part_of: dtaxl
