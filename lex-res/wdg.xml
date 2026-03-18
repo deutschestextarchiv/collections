@@ -2,6 +2,12 @@
 <TextPlusLexicalResourceProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1747312582468/xsd"
   xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1747312582468">
+  <textplus_adm>
+    <textplus_metadata_id>hdl:21.11120/0000-000B-241F-B</textplus_metadata_id>
+    <textplus_metadata_timestamp>2026-01-22T16:00:00CET</textplus_metadata_timestamp>
+    <textplus_metadata_creator>https://orcid.org/0000-0002-1096-3957</textplus_metadata_creator>
+  </textplus_adm>
+
   <textplus_bib>
     <textplus_title xml:lang="deu">Wörterbuch der deutschen Gegenwartssprache</textplus_title>
     <textplus_title xml:lang="eng">Dictionary of the German Contemporary Language</textplus_title>
@@ -118,21 +124,15 @@
     </textplus_creator>
   </textplus_bib>
 
-  <textplus_adm>
-    <textplus_metadata_id>hdl:21.11120/0000-000B-241F-B</textplus_metadata_id>
-    <textplus_metadata_timestamp>2026-01-22T16:00:00CET</textplus_metadata_timestamp>
-    <textplus_metadata_creator>https://orcid.org/0000-0002-1096-3957</textplus_metadata_creator>
-  </textplus_adm>
+  <textplus_jur>
+    <textplus_licence>https://www.dwds.de/d/nutzungsbedingungen</textplus_licence>
+    <textplus_licence_holder>https://www.bbaw.de/</textplus_licence_holder>
+  </textplus_jur>
 
   <textplus_lcy>
     <textplus_lifecycle_version>eWDG 2009</textplus_lifecycle_version>
     <textplus_lifecycle_available>2003-01-01</textplus_lifecycle_available>
   </textplus_lcy>
-
-  <textplus_jur>
-    <textplus_licence>https://www.dwds.de/d/nutzungsbedingungen</textplus_licence>
-    <textplus_licence_holder>https://www.bbaw.de/</textplus_licence_holder>
-  </textplus_jur>
 
   <textplus_lex>
     <textplus_type>dict_mono</textplus_type>
