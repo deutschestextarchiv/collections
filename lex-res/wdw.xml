@@ -160,18 +160,25 @@
       </ISO639>
     </textplus_description_language>
   </textplus_lex>
-  <textplus_tec>
-    <textplus_tech_data_format>application/xml</textplus_tech_data_format>
 
-    <!--
-      in dictionary checkout:
-      find sources/dictionary/orig -type f -name "*.XML" -print0 | xargs -0 stat -c "%s" | awk '{total += $1} END {print total}'
-    -->
-    <textplus_tech_data_size>53624359</textplus_tech_data_size>
+  <textplus_tec>
+    <textplus_tech_landing_page>https://www.dwds.de/d/wdw</textplus_tech_landing_page>
 
     <textplus_tech_end_point>
       <textplus_tech_end_point_link>https://www.dwds.de/d/wdw</textplus_tech_end_point_link>
       <textplus_tech_end_point_type>http</textplus_tech_end_point_type>
     </textplus_tech_end_point>
+
+    <textplus_tech_files>
+      <textplus_tech_file>
+        <textplus_tech_filename>dictionary.zip</textplus_tech_filename>
+        <!--
+          in dictionary checkout:
+          find sources/dictionary/orig -type f -name "*.XML" -print0 | xargs -0 stat -c "%s" | awk '{total += $1} END {print total}'
+        -->
+        <textplus_tech_data_size>53624359</textplus_tech_data_size>
+        <textplus_tech_data_format>application/xml</textplus_tech_data_format>
+      </textplus_tech_file>
+    </textplus_tech_files>
   </textplus_tec>
 </TextPlusLexicalResourceProfile>
