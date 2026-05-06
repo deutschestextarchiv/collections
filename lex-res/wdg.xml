@@ -16,8 +16,8 @@
     <textplus_description xml:lang="eng">The Dictionary of the German Contemporary Language (WDG) was compiled between 1952 and 1977 at the Academy of Sciences in Berlin and published in six volumes with over 4,500 pages and around 120,000 keywords. It documents contemporary German language in the broadest sense, including contemporary educational language and literature still read since the 18th century. It was based on extensive sources from all German-language literature up to the 1970s. Even during its publication, the WDG influenced the design of later contemporary language dictionaries.</textplus_description>
 
     <textplus_bib_institution>
-      <textplus_bib_institution_name xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften</textplus_bib_institution_name>
-      <textplus_bib_institution_name xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities</textplus_bib_institution_name>
+      <textplus_bib_institution_name xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</textplus_bib_institution_name>
+      <textplus_bib_institution_name xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</textplus_bib_institution_name>
       <textplus_bib_institution_pid>https://www.wikidata.org/wiki/Q219989</textplus_bib_institution_pid>
     </textplus_bib_institution>
 

@@ -16,8 +16,8 @@
     <textplus_description xml:lang="eng">Since 1961, two working groups in Berlin (until 2013) and Göttingen (until 2016) have been working on a new edition of Jacob Grimm’s and Wilhelm Grimm’s German Dictionary (²DWB). Within this project, the oldest parts of the dictionary, letters A–F, were edited. The first instalment was published in 1965. The new edition is not a ‘supplement’ to the corresponding parts of the first edition, but is a separate, new dictionary with approximately 60,000 keywords in approximately 32,000 articles, based on a source corpus that has been significantly expanded compared to the first edition.</textplus_description>
 
     <textplus_bib_institution>
-      <textplus_bib_institution_name xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften</textplus_bib_institution_name>
-      <textplus_bib_institution_name xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities</textplus_bib_institution_name>
+      <textplus_bib_institution_name xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</textplus_bib_institution_name>
+      <textplus_bib_institution_name xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</textplus_bib_institution_name>
       <textplus_bib_institution_pid>https://www.wikidata.org/wiki/Q219989</textplus_bib_institution_pid>
     </textplus_bib_institution>
 

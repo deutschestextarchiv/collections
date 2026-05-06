@@ -16,8 +16,8 @@
     <textplus_description xml:lang="eng">The Etymological Dictionary of the German Language was compiled in the 1980s at the Academy of Sciences of the GDR by a group of lexicographers led by Wolfgang Pfeifer. It answers questions about the age, origin and relationship of the words listed and contains information on the meaning and, above all, the history of over 23,000 lexemes. These are organised into more than 9,000 main entries and over 14,000 sub-entries. The discursive style used by Pfeifer and his colleagues in describing the origin of the words and the outstanding quality of the paraphrases of meanings make this work an easily readable reference work that is also understandable to those unfamiliar with etymology.</textplus_description>
 
     <textplus_bib_institution>
-      <textplus_bib_institution_name xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften</textplus_bib_institution_name>
-      <textplus_bib_institution_name xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities</textplus_bib_institution_name>
+      <textplus_bib_institution_name xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</textplus_bib_institution_name>
+      <textplus_bib_institution_name xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</textplus_bib_institution_name>
       <textplus_bib_institution_pid>https://www.wikidata.org/wiki/Q219989</textplus_bib_institution_pid>
     </textplus_bib_institution>
 
