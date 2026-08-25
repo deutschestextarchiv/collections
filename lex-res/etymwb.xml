@@ -108,6 +108,16 @@
       <textplus_tech_end_point_type>http</textplus_tech_end_point_type>
     </textplus_tech_end_point>
 
+    <textplus_tech_end_point>
+      <textplus_tech_end_point_link>https://www.dwds.de/search/wb/sru</textplus_tech_end_point_link>
+      <textplus_tech_end_point_type>fcs</textplus_tech_end_point_type>
+    </textplus_tech_end_point>
+
+    <textplus_tech_end_point>
+      <textplus_tech_end_point_link>https://www.dwds.de/search/wb/sru</textplus_tech_end_point_link>
+      <textplus_tech_end_point_type>sru</textplus_tech_end_point_type>
+    </textplus_tech_end_point>
+
     <textplus_tech_files>
       <textplus_tech_file>
         <textplus_tech_filename>dictionary.zip</textplus_tech_filename>

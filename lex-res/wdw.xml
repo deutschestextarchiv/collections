@@ -164,9 +164,21 @@
   <textplus_tec>
     <textplus_tech_landing_page>https://www.dwds.de/d/wdw</textplus_tech_landing_page>
 
+    <textplus_tech_fcs_resource_id>https://www.dwds.de/ns/lexfcs/wdw</textplus_tech_fcs_resource_id>
+
     <textplus_tech_end_point>
       <textplus_tech_end_point_link>https://www.dwds.de/d/wdw</textplus_tech_end_point_link>
       <textplus_tech_end_point_type>http</textplus_tech_end_point_type>
+    </textplus_tech_end_point>
+
+    <textplus_tech_end_point>
+      <textplus_tech_end_point_link>https://www.dwds.de/search/wb/sru</textplus_tech_end_point_link>
+      <textplus_tech_end_point_type>fcs</textplus_tech_end_point_type>
+    </textplus_tech_end_point>
+
+    <textplus_tech_end_point>
+      <textplus_tech_end_point_link>https://www.dwds.de/search/wb/sru</textplus_tech_end_point_link>
+      <textplus_tech_end_point_type>sru</textplus_tech_end_point_type>
     </textplus_tech_end_point>
 
     <textplus_tech_files>
